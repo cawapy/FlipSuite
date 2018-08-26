@@ -1,0 +1,349 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Eigene~Bauteile:FP2800A CN2
+U 1 1 5B82C6BE
+P 2350 1450
+F 0 "CN2" V 2272 3741 60  0000 L CNN
+F 1 "FP2800A" V 2378 3741 60  0000 L CNN
+F 2 "Housings_DIP:DIP-40_W15.24mm_Socket" H 2300 1550 60  0001 C CNN
+F 3 "" H 2300 1550 60  0001 C CNN
+	1    2350 1450
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x30_Odd_Even CN1
+U 1 1 5B82C747
+P 5550 4500
+F 0 "CN1" V 5600 6100 50  0000 C CNN
+F 1 "Conn_02x30_Odd_Even" V 5600 6800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x30_Pitch2.54mm" H 5550 4500 50  0001 C CNN
+F 3 "~" H 5550 4500 50  0001 C CNN
+	1    5550 4500
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eigene~Bauteile:FP2800A CN3
+U 1 1 5B82C7AE
+P 8500 1450
+F 0 "CN3" V 8422 3741 60  0000 L CNN
+F 1 "FP2800A" V 8528 3741 60  0000 L CNN
+F 2 "Housings_DIP:DIP-40_W15.24mm_Socket" H 8450 1550 60  0001 C CNN
+F 3 "" H 8450 1550 60  0001 C CNN
+	1    8500 1450
+	0    1    1    0   
+$EndComp
+NoConn ~ 6150 4700
+NoConn ~ 6250 4700
+NoConn ~ 6350 4700
+NoConn ~ 6450 4700
+NoConn ~ 6550 4700
+NoConn ~ 6650 4700
+NoConn ~ 6750 4700
+NoConn ~ 6850 4700
+NoConn ~ 6950 4700
+NoConn ~ 7050 4700
+NoConn ~ 7050 4200
+NoConn ~ 6950 4200
+NoConn ~ 6850 4200
+NoConn ~ 6750 4200
+NoConn ~ 6650 4200
+NoConn ~ 6550 4200
+NoConn ~ 6450 4200
+NoConn ~ 6350 4200
+NoConn ~ 6250 4200
+NoConn ~ 6150 4200
+Wire Wire Line
+	4050 4900 4150 4900
+Wire Wire Line
+	4150 4900 4150 4700
+Wire Wire Line
+	4050 2250 4050 4900
+Wire Wire Line
+	3950 4050 4150 4050
+Wire Wire Line
+	4150 4050 4150 4200
+Wire Wire Line
+	3950 2250 3950 4050
+Wire Wire Line
+	3850 2250 3850 4950
+Wire Wire Line
+	3850 4950 4250 4950
+Wire Wire Line
+	4250 4950 4250 4700
+Wire Wire Line
+	3750 2250 3750 4000
+Wire Wire Line
+	3750 4000 4250 4000
+Wire Wire Line
+	4250 4000 4250 4200
+Wire Wire Line
+	3650 2250 3650 5000
+Wire Wire Line
+	3650 5000 4350 5000
+Wire Wire Line
+	4350 5000 4350 4700
+Wire Wire Line
+	3550 2250 3550 3950
+Wire Wire Line
+	3550 3950 4350 3950
+Wire Wire Line
+	4350 3950 4350 4200
+Wire Wire Line
+	3450 2250 3450 5050
+Wire Wire Line
+	3450 5050 4450 5050
+Wire Wire Line
+	4450 5050 4450 4700
+Wire Wire Line
+	3250 2250 3250 3850
+Wire Wire Line
+	3250 3850 4450 3850
+Wire Wire Line
+	4450 3850 4450 4200
+Wire Wire Line
+	3150 2250 3150 5150
+Wire Wire Line
+	3150 5150 4550 5150
+Wire Wire Line
+	4550 5150 4550 4700
+Wire Wire Line
+	3050 2250 3050 3800
+Wire Wire Line
+	3050 3800 4550 3800
+Wire Wire Line
+	4550 3800 4550 4200
+Wire Wire Line
+	2950 2250 2950 5200
+Wire Wire Line
+	2950 5200 4650 5200
+Wire Wire Line
+	4650 5200 4650 4700
+Wire Wire Line
+	2850 2250 2850 3750
+Wire Wire Line
+	2850 3750 4650 3750
+Wire Wire Line
+	4650 3750 4650 4200
+Wire Wire Line
+	2750 2250 2750 5250
+Wire Wire Line
+	2750 5250 4750 5250
+Wire Wire Line
+	4750 5250 4750 4700
+Wire Wire Line
+	2650 2250 2650 3700
+Wire Wire Line
+	2650 3700 4750 3700
+Wire Wire Line
+	4750 3700 4750 4200
+Wire Wire Line
+	2450 2250 2450 5350
+Wire Wire Line
+	2450 5350 5150 5350
+Wire Wire Line
+	5150 5350 5150 4700
+Wire Wire Line
+	2350 2250 2350 3600
+Wire Wire Line
+	2350 3600 5150 3600
+Wire Wire Line
+	5150 3600 5150 4200
+Wire Wire Line
+	2250 2250 2250 5400
+Wire Wire Line
+	2250 5400 5250 5400
+Wire Wire Line
+	5250 5400 5250 4700
+Wire Wire Line
+	2150 2250 2150 3550
+Wire Wire Line
+	2150 3550 5250 3550
+Wire Wire Line
+	5250 3550 5250 4200
+Wire Wire Line
+	2050 2250 2050 5450
+Wire Wire Line
+	2050 5450 5350 5450
+Wire Wire Line
+	5350 5450 5350 4700
+Wire Wire Line
+	1950 2250 1950 3500
+Wire Wire Line
+	1950 3500 5350 3500
+Wire Wire Line
+	5350 3500 5350 4200
+Wire Wire Line
+	1850 2250 1850 5500
+Wire Wire Line
+	1850 5500 5450 5500
+Wire Wire Line
+	5450 5500 5450 4700
+Wire Wire Line
+	1650 2250 1650 3400
+Wire Wire Line
+	1650 3400 5450 3400
+Wire Wire Line
+	5450 3400 5450 4200
+Wire Wire Line
+	1550 2250 1550 5600
+Wire Wire Line
+	1550 5600 5550 5600
+Wire Wire Line
+	5550 5600 5550 4700
+Wire Wire Line
+	1450 2250 1450 3350
+Wire Wire Line
+	1450 3350 5550 3350
+Wire Wire Line
+	5550 3350 5550 4200
+Wire Wire Line
+	1350 2250 1350 5650
+Wire Wire Line
+	1350 5650 5650 5650
+Wire Wire Line
+	5650 5650 5650 4700
+Wire Wire Line
+	1250 2250 1250 3300
+Wire Wire Line
+	1250 3300 5650 3300
+Wire Wire Line
+	5650 3300 5650 4200
+Wire Wire Line
+	1150 2250 1150 5700
+Wire Wire Line
+	1150 5700 5750 5700
+Wire Wire Line
+	5750 5700 5750 4700
+Wire Wire Line
+	1050 2250 1050 3250
+Wire Wire Line
+	1050 3250 5750 3250
+Wire Wire Line
+	5750 3250 5750 4200
+Wire Wire Line
+	4850 4700 4850 5250
+Wire Wire Line
+	4850 5250 10200 5250
+Wire Wire Line
+	10200 5250 10200 2250
+Wire Wire Line
+	4850 4200 4850 3700
+Wire Wire Line
+	4850 3700 10100 3700
+Wire Wire Line
+	10100 3700 10100 2250
+Wire Wire Line
+	4950 4700 4950 5200
+Wire Wire Line
+	4950 5200 10000 5200
+Wire Wire Line
+	10000 5200 10000 2250
+Wire Wire Line
+	4950 4200 4950 3750
+Wire Wire Line
+	4950 3750 9900 3750
+Wire Wire Line
+	9900 3750 9900 2250
+Wire Wire Line
+	5050 4700 5050 5150
+Wire Wire Line
+	5050 5150 9800 5150
+Wire Wire Line
+	9800 5150 9800 2250
+Wire Wire Line
+	9700 2250 9700 3800
+Wire Wire Line
+	9700 3800 5050 3800
+Wire Wire Line
+	5050 3800 5050 4200
+Wire Wire Line
+	5850 4700 5850 5050
+Wire Wire Line
+	5850 5050 8600 5050
+Wire Wire Line
+	8600 5050 8600 2250
+Wire Wire Line
+	8500 2250 8500 3850
+Wire Wire Line
+	8500 3850 5850 3850
+Wire Wire Line
+	5850 3850 5850 4200
+Wire Wire Line
+	5950 4700 5950 5000
+Wire Wire Line
+	5950 5000 8400 5000
+Wire Wire Line
+	8400 5000 8400 2250
+Wire Wire Line
+	8300 2250 8300 3900
+Wire Wire Line
+	8300 3900 5950 3900
+Wire Wire Line
+	5950 3900 5950 4200
+Wire Wire Line
+	6050 4700 6050 4950
+Wire Wire Line
+	6050 4950 8200 4950
+Wire Wire Line
+	8200 4950 8200 2250
+Wire Wire Line
+	8100 2250 8100 3950
+Wire Wire Line
+	8100 3950 6050 3950
+Wire Wire Line
+	6050 3950 6050 4200
+NoConn ~ 600  1650
+NoConn ~ 600  1200
+NoConn ~ 3050 600 
+NoConn ~ 3250 600 
+NoConn ~ 3450 600 
+NoConn ~ 3550 600 
+NoConn ~ 3750 600 
+NoConn ~ 3850 600 
+NoConn ~ 3950 600 
+NoConn ~ 4600 1150
+NoConn ~ 4600 1550
+NoConn ~ 4250 2250
+NoConn ~ 6750 1200
+NoConn ~ 6750 1650
+NoConn ~ 7200 2250
+NoConn ~ 7300 2250
+NoConn ~ 7400 2250
+NoConn ~ 7500 2250
+NoConn ~ 7600 2250
+NoConn ~ 7700 2250
+NoConn ~ 7800 2250
+NoConn ~ 8000 2250
+NoConn ~ 8800 2250
+NoConn ~ 8900 2250
+NoConn ~ 9000 2250
+NoConn ~ 9100 2250
+NoConn ~ 9200 2250
+NoConn ~ 9300 2250
+NoConn ~ 9400 2250
+NoConn ~ 9600 2250
+NoConn ~ 10400 2250
+NoConn ~ 10750 1550
+NoConn ~ 10750 1150
+NoConn ~ 10100 600 
+NoConn ~ 10000 600 
+NoConn ~ 9900 600 
+NoConn ~ 9700 600 
+NoConn ~ 9600 600 
+NoConn ~ 9400 600 
+NoConn ~ 9200 600 
+$EndSCHEMATC
