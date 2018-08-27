@@ -24,13 +24,13 @@
     (40 Dwgs.User user)
     (41 Cmts.User user)
     (42 Eco1.User user)
-    (43 Eco2.User user hide)
+    (43 Eco2.User user)
     (44 Edge.Cuts user)
-    (45 Margin user hide)
-    (46 B.CrtYd user hide)
-    (47 F.CrtYd user hide)
+    (45 Margin user)
+    (46 B.CrtYd user)
+    (47 F.CrtYd user)
     (48 B.Fab user)
-    (49 F.Fab user hide)
+    (49 F.Fab user)
   )
 
   (setup
@@ -59,7 +59,7 @@
     (pad_drill 1)
     (pad_to_mask_clearance 0.2)
     (aux_axis_origin 0 0)
-    (visible_elements 7FFE7FFF)
+    (visible_elements 7FFFFFFF)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -373,9 +373,19 @@
       (rotate (xyz 0 0 0))
     )
     (model ${KISYS3DMOD}/Housings_DIP.3dshapes/DIP-40_W15.24mm.wrl
-      (at (xyz 0 0 0))
+      (offset (xyz 0 0 3.5))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 0))
+    )
+    (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_1x20_Pitch2.54mm.wrl
+      (offset (xyz 0 -24.13 0))
+      (scale (xyz 1 1 0.4))
+      (rotate (xyz 0 0 90))
+    )
+    (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_1x20_Pitch2.54mm.wrl
+      (offset (xyz 15.24 -24.13 0))
+      (scale (xyz 1 1 0.4))
+      (rotate (xyz 0 0 90))
     )
   )
 
@@ -472,10 +482,15 @@
       (net 4 "Net-(CN2-Pad17)"))
     (pad 1 thru_hole circle (at 0 0) (size 1.6 1.6) (drill 0.8) (layers *.Cu *.Mask)
       (net 32 "Net-(CN2-Pad1)"))
-    (model ${KISYS3DMOD}/Housings_DIP.3dshapes/DIP-32_W15.24mm.wrl
-      (at (xyz 0 0 0))
+    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x16_Pitch2.54mm.step
+      (offset (xyz 0 0 -1.75))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 180 0))
+    )
+    (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x16_Pitch2.54mm.step
+      (offset (xyz 15.24 0 -1.75))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 0))
     )
   )
 
