@@ -95,17 +95,6 @@ Wire Wire Line
 	5200 2850 10050 2850
 Wire Wire Line
 	10050 2850 10050 2950
-$Comp
-L Connector_Generic_MountingPin:Conn_02x20_Counter_Clockwise_MountingPin CN2
-U 1 1 5B82A9C4
-P 9950 3150
-F 0 "CN2" V 9954 4129 50  0000 L CNN
-F 1 "Conn_02x20_Counter_Clockwise_MountingPin" V 10045 4129 50  0000 L CNN
-F 2 "Housings_DIP:DIP-40_W15.24mm" H 9950 3150 50  0001 C CNN
-F 3 "~" H 9950 3150 50  0001 C CNN
-	1    9950 3150
-	0    1    1    0   
-$EndComp
 Wire Wire Line
 	5200 3850 9450 3850
 Wire Wire Line
@@ -187,20 +176,10 @@ Wire Wire Line
 Wire Wire Line
 	5750 3050 5750 3500
 Wire Wire Line
-	5750 3500 10450 3500
-Wire Wire Line
 	10450 3500 10450 3450
-NoConn ~ 8950 2950
-NoConn ~ 9050 2950
-NoConn ~ 9150 2950
-NoConn ~ 9250 2950
 NoConn ~ 10250 2950
 NoConn ~ 10350 3450
 NoConn ~ 9350 3450
-NoConn ~ 9250 3450
-NoConn ~ 9150 3450
-NoConn ~ 9050 3450
-NoConn ~ 8950 3450
 Wire Wire Line
 	2900 1850 3200 1850
 Wire Wire Line
@@ -270,7 +249,6 @@ Wire Wire Line
 	2000 750  4100 750 
 Wire Wire Line
 	4100 750  4100 900 
-NoConn ~ 8750 3200
 $Comp
 L power:GND #PWR0101
 U 1 1 5B87C682
@@ -343,4 +321,17 @@ Text Label 2950 2250 0    50   ~ 0
 B1
 Text Label 2950 2450 0    50   ~ 0
 Enable
+$Comp
+L Connector_Generic:Conn_02x16_Counter_Clockwise CN2
+U 1 1 5B84E2DF
+P 10150 3150
+F 0 "CN2" V 10154 2263 50  0000 R CNN
+F 1 "Conn_02x16_Counter_Clockwise" V 10245 2263 50  0000 R CNN
+F 2 "Housings_DIP:DIP-32_W15.24mm" H 10150 3150 50  0001 C CNN
+F 3 "~" H 10150 3150 50  0001 C CNN
+	1    10150 3150
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5750 3500 10450 3500
 $EndSCHEMATC
