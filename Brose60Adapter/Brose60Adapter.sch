@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Flips 5"
+Date "2018-08-28"
+Rev "0.1"
+Comp "SRT"
+Comment1 "A-2UFP2832-FDMBR60"
+Comment2 "Zeilentreiber-Adapter für Brose 60 Pin Port und FP2800A-Ausgänge"
 Comment3 ""
 Comment4 ""
 $EndDescr
@@ -19,7 +19,7 @@ U 1 1 5B82C6BE
 P 2350 1450
 F 0 "CN2" V 2272 3741 60  0000 L CNN
 F 1 "FP2800A" V 2378 3741 60  0000 L CNN
-F 2 "Housings_DIP:DIP-40_W15.24mm_Socket" H 2300 1550 60  0001 C CNN
+F 2 "Own:DIP-32-from-40_W15.24mm" H 2300 1550 60  0001 C CNN
 F 3 "" H 2300 1550 60  0001 C CNN
 	1    2350 1450
 	0    1    1    0   
@@ -41,7 +41,7 @@ U 1 1 5B82C7AE
 P 8500 1450
 F 0 "CN3" V 8422 3741 60  0000 L CNN
 F 1 "FP2800A" V 8528 3741 60  0000 L CNN
-F 2 "Housings_DIP:DIP-40_W15.24mm_Socket" H 8450 1550 60  0001 C CNN
+F 2 "Own:DIP-32-from-40_W15.24mm" H 8450 1550 60  0001 C CNN
 F 3 "" H 8450 1550 60  0001 C CNN
 	1    8500 1450
 	0    1    1    0   
