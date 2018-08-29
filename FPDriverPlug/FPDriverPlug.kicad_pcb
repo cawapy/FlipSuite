@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 39)
+    (drawings 29)
     (tracks 55)
     (zones 0)
     (modules 3)
@@ -580,16 +580,6 @@
   (gr_arc (start 220.345 66.675) (end 220.345 64.77) (angle -90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 222.25 120.015) (end 218.44 120.015) (angle -90) (layer Edge.Cuts) (width 0.15))
   (gr_arc (start 235.585 120.015) (end 235.585 123.825) (angle -90) (layer Edge.Cuts) (width 0.15))
-  (gr_line (start 231.14 64.77) (end 236.22 64.77) (layer Eco2.User) (width 0.2))
-  (gr_line (start 220.345 64.77) (end 227.33 64.77) (layer Eco2.User) (width 0.2))
-  (gr_arc (start 229.235 64.77) (end 227.33 64.77) (angle -180) (layer Eco2.User) (width 0.2))
-  (gr_line (start 218.44 66.675) (end 218.44 118.11) (layer Eco2.User) (width 0.2))
-  (gr_arc (start 220.345 66.675) (end 220.345 64.77) (angle -90) (layer Eco2.User) (width 0.2))
-  (gr_line (start 239.395 120.015) (end 239.395 67.945) (layer Eco2.User) (width 0.2))
-  (gr_line (start 224.79 124.46) (end 234.95 124.46) (layer Eco2.User) (width 0.2))
-  (gr_arc (start 234.95 120.015) (end 234.95 124.46) (angle -90) (layer Eco2.User) (width 0.2))
-  (gr_arc (start 224.79 118.11) (end 218.44 118.11) (angle -90) (layer Eco2.User) (width 0.2))
-  (gr_arc (start 236.22 67.945) (end 239.395 67.945) (angle -90) (layer Eco2.User) (width 0.2))
 
   (segment (start 235.585 97.155) (end 237.49 98.425) (width 0.5) (layer B.Cu) (net 1) (tstamp 5B847DD6) (status C00000))
   (segment (start 235.585 99.695) (end 237.49 100.965) (width 0.5) (layer B.Cu) (net 2) (tstamp 5B847DD3) (status C00000))
