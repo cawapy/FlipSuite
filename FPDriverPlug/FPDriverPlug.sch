@@ -4,12 +4,12 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
-Comment2 ""
+Title "Flips 4"
+Date "2018-08-29"
+Rev "0.1"
+Comp "SRT"
+Comment1 "A-UFP2840-UFP2832-X"
+Comment2 "DIP32 with FP2800A output pins"
 Comment3 ""
 Comment4 ""
 $EndDescr

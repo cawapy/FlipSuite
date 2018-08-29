@@ -10,6 +10,15 @@
   )
 
   (page A4)
+  (title_block
+    (title "Flips 4")
+    (date 2018-08-29)
+    (rev 0.1)
+    (company SRT)
+    (comment 1 A-UFP2840-UFP2832-X)
+    (comment 2 "DIP32 with FP2800A output pins")
+  )
+
   (layers
     (0 F.Cu signal)
     (31 B.Cu signal)
