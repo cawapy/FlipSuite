@@ -82,11 +82,11 @@ Wire Wire Line
 	9250 2550 9450 2550
 NoConn ~ 10250 2550
 Text GLabel 1350 2200 0    50   Output ~ 0
-OE
+~OE
 Text GLabel 1350 2350 0    50   Output ~ 0
 SRCLK
 Text GLabel 1350 2500 0    50   Output ~ 0
-SRCLR
+~SRCLR
 Text GLabel 1350 2650 0    50   Output ~ 0
 RCLK
 $Comp
