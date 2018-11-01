@@ -647,8 +647,6 @@ Wire Wire Line
 	5200 3300 5300 3300
 Text Label 5200 2800 0    50   ~ 0
 XEN7
-Text Label 4300 2400 2    50   ~ 0
-DIN
 Text Label 4300 2600 2    50   ~ 0
 SRCLK
 Text Label 4300 2700 2    50   ~ 0
