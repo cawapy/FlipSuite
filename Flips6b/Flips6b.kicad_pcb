@@ -437,10 +437,10 @@
       (net 1 +5V))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 8 /ENABLE))
-    (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_2x04_Pitch2.54mm.wrl
-      (offset (xyz -1.269999980926514 -3.809999942779541 0))
+    (model ${KISYS3DMOD}/Connector_IDC.3dshapes/IDC-Header_2x04_P2.54mm_Horizontal.wrl
+      (offset (xyz -2.54 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 270))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -494,10 +494,10 @@
       (net 14 /XA2))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 15 /XA0))
-    (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_2x05_Pitch2.54mm.wrl
-      (offset (xyz -1.269999980926514 -5.079999923706055 0))
+    (model ${KISYS3DMOD}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.step
+      (offset (xyz -2.54 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 270))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -551,10 +551,10 @@
       (net 10 /XB1))
     (pad 10 thru_hole oval (at -2.54 10.16 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 9 /XB0))
-    (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_2x05_Pitch2.54mm.wrl
-      (offset (xyz -1.269999980926514 -5.079999923706055 0))
+    (model ${KISYS3DMOD}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.step
+      (offset (xyz -2.54 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 270))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -608,11 +608,6 @@
       (net 10 /XB1))
     (pad 10 thru_hole oval (at -2.54 10.16 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 9 /XB0))
-    (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_2x05_Pitch2.54mm.wrl
-      (offset (xyz -1.269999980926514 -5.079999923706055 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 270))
-    )
   )
 
   (module Socket_Strips:Socket_Strip_Straight_2x05_Pitch2.54mm (layer F.Cu) (tedit 5BDA48C4) (tstamp 5BDA240D)
@@ -665,11 +660,6 @@
       (net 14 /XA2))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 15 /XA0))
-    (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_2x05_Pitch2.54mm.wrl
-      (offset (xyz -1.269999980926514 -5.079999923706055 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 270))
-    )
   )
 
   (module Socket_Strips:Socket_Strip_Straight_2x05_Pitch2.54mm (layer F.Cu) (tedit 5BDA48CB) (tstamp 5BDA242C)
@@ -722,11 +712,6 @@
       (net 10 /XB1))
     (pad 10 thru_hole oval (at -2.54 10.16 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 9 /XB0))
-    (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_2x05_Pitch2.54mm.wrl
-      (offset (xyz -1.269999980926514 -5.079999923706055 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 270))
-    )
   )
 
   (module Socket_Strips:Socket_Strip_Straight_2x05_Pitch2.54mm (layer F.Cu) (tedit 5BDA489D) (tstamp 5BDA244B)
@@ -779,10 +764,10 @@
       (net 24 /YA2))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 25 /YA0))
-    (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_2x05_Pitch2.54mm.wrl
-      (offset (xyz -1.269999980926514 -5.079999923706055 0))
+    (model ${KISYS3DMOD}/Connector_IDC.3dshapes/IDC-Header_2x05_P2.54mm_Vertical.step
+      (offset (xyz -2.54 0 0))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 270))
+      (rotate (xyz 0 0 0))
     )
   )
 
@@ -836,11 +821,6 @@
       (net 24 /YA2))
     (pad 1 thru_hole circle (at 0 0 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 25 /YA0))
-    (model ${KISYS3DMOD}/Socket_Strips.3dshapes/Socket_Strip_Straight_2x05_Pitch2.54mm.wrl
-      (offset (xyz -1.269999980926514 -5.079999923706055 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 270))
-    )
   )
 
   (module Resistors_SMD:R_0805_HandSoldering (layer F.Cu) (tedit 5BDA4BFB) (tstamp 5BDA24B9)
@@ -1198,9 +1178,9 @@
   (gr_line (start 220.345 78.105) (end 229.235 78.105) (layer F.SilkS) (width 0.1))
   (gr_line (start 200.025 78.105) (end 208.915 78.105) (layer F.SilkS) (width 0.1))
   (gr_line (start 200.025 99.695) (end 208.915 99.695) (layer F.SilkS) (width 0.1))
-  (gr_line (start 180.975 99.695) (end 180.975 80.645) (layer F.SilkS) (width 0.2))
-  (gr_line (start 180.975 99.695) (end 172.085 99.695) (layer F.SilkS) (width 0.2))
-  (gr_line (start 180.975 80.645) (end 172.085 80.645) (layer F.SilkS) (width 0.2))
+  (gr_line (start 181.61 99.695) (end 181.61 80.645) (layer F.SilkS) (width 0.2))
+  (gr_line (start 181.61 99.695) (end 172.085 99.695) (layer F.SilkS) (width 0.2))
+  (gr_line (start 181.61 80.645) (end 172.085 80.645) (layer F.SilkS) (width 0.2))
   (gr_line (start 219.71 78.105) (end 209.55 78.105) (layer F.SilkS) (width 0.2))
   (gr_line (start 219.71 99.695) (end 219.71 78.105) (layer F.SilkS) (width 0.2))
   (gr_line (start 209.55 99.695) (end 219.71 99.695) (layer F.SilkS) (width 0.2))
