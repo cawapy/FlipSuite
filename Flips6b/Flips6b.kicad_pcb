@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 45)
+    (drawings 48)
     (tracks 454)
     (zones 0)
     (modules 23)
@@ -1161,6 +1161,15 @@
     )
   )
 
+  (gr_text SRT (at 256.54 72.39 90) (layer F.Paste) (tstamp 5BDB652E)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text SRT (at 256.54 72.39 90) (layer F.Mask)
+    (effects (font (size 1.5 1.5) (thickness 0.3)))
+  )
+  (gr_text "Flips 6b\nv0.1 / 2018-11-01 / SRT" (at 196.215 104.775) (layer F.SilkS)
+    (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
+  )
   (gr_text "Flips 6b" (at 259.715 72.39 90) (layer F.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.375) italic))
   )
