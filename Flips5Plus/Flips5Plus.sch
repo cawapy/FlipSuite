@@ -1,0 +1,512 @@
+EESchema Schematic File Version 4
+LIBS:Flips5Plus-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Flips 5"
+Date "2018-08-28"
+Rev "0.1"
+Comp "SRT"
+Comment1 "A-2UFP2832-FDMBR60"
+Comment2 "Zeilentreiber-Adapter für Brose 60 Pin Port und FP2800A-Ausgänge"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Eigene~Bauteile:FP2800A U1
+U 1 1 5B82C6BE
+P 2350 2250
+F 0 "U1" V 2200 4500 60  0000 L CNN
+F 1 "FP2800A" V 2300 4500 60  0000 L CNN
+F 2 "Housings_DIP:DIP-40_W15.24mm_Socket" H 2300 2350 60  0001 C CNN
+F 3 "" H 2300 2350 60  0001 C CNN
+	1    2350 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x30_Odd_Even CN1
+U 1 1 5B82C747
+P 5550 4500
+F 0 "CN1" V 5600 6100 50  0000 C CNN
+F 1 "Conn_02x30_Odd_Even" V 5600 6800 50  0000 C CNN
+F 2 "Socket_Strips:Socket_Strip_Straight_2x30_Pitch2.54mm" H 5550 4500 50  0001 C CNN
+F 3 "~" H 5550 4500 50  0001 C CNN
+	1    5550 4500
+	0    -1   -1   0   
+$EndComp
+NoConn ~ 6150 4700
+NoConn ~ 6250 4700
+NoConn ~ 6350 4700
+NoConn ~ 6450 4700
+NoConn ~ 6550 4700
+NoConn ~ 6650 4700
+NoConn ~ 6750 4700
+NoConn ~ 6850 4700
+NoConn ~ 6950 4700
+NoConn ~ 7050 4700
+NoConn ~ 7050 4200
+NoConn ~ 6950 4200
+NoConn ~ 6850 4200
+NoConn ~ 6750 4200
+NoConn ~ 6650 4200
+NoConn ~ 6550 4200
+NoConn ~ 6450 4200
+NoConn ~ 6350 4200
+NoConn ~ 6250 4200
+NoConn ~ 6150 4200
+Wire Wire Line
+	4050 4900 4150 4900
+Wire Wire Line
+	4150 4900 4150 4700
+Wire Wire Line
+	4050 3050 4050 4900
+Wire Wire Line
+	3950 4050 4150 4050
+Wire Wire Line
+	4150 4050 4150 4200
+Wire Wire Line
+	3950 3050 3950 4050
+Wire Wire Line
+	3850 3050 3850 4950
+Wire Wire Line
+	3850 4950 4250 4950
+Wire Wire Line
+	4250 4950 4250 4700
+Wire Wire Line
+	3750 3050 3750 4000
+Wire Wire Line
+	3750 4000 4250 4000
+Wire Wire Line
+	4250 4000 4250 4200
+Wire Wire Line
+	3650 3050 3650 5000
+Wire Wire Line
+	3650 5000 4350 5000
+Wire Wire Line
+	4350 5000 4350 4700
+Wire Wire Line
+	3550 3050 3550 3950
+Wire Wire Line
+	3550 3950 4350 3950
+Wire Wire Line
+	4350 3950 4350 4200
+Wire Wire Line
+	3450 3050 3450 5050
+Wire Wire Line
+	3450 5050 4450 5050
+Wire Wire Line
+	4450 5050 4450 4700
+Wire Wire Line
+	3250 3050 3250 3850
+Wire Wire Line
+	3250 3850 4450 3850
+Wire Wire Line
+	4450 3850 4450 4200
+Wire Wire Line
+	3150 3050 3150 5150
+Wire Wire Line
+	3150 5150 4550 5150
+Wire Wire Line
+	4550 5150 4550 4700
+Wire Wire Line
+	3050 3050 3050 3800
+Wire Wire Line
+	3050 3800 4550 3800
+Wire Wire Line
+	4550 3800 4550 4200
+Wire Wire Line
+	2950 3050 2950 5200
+Wire Wire Line
+	2950 5200 4650 5200
+Wire Wire Line
+	4650 5200 4650 4700
+Wire Wire Line
+	2850 3050 2850 3750
+Wire Wire Line
+	2850 3750 4650 3750
+Wire Wire Line
+	4650 3750 4650 4200
+Wire Wire Line
+	2750 3050 2750 5250
+Wire Wire Line
+	2750 5250 4750 5250
+Wire Wire Line
+	4750 5250 4750 4700
+Wire Wire Line
+	2650 3050 2650 3700
+Wire Wire Line
+	2650 3700 4750 3700
+Wire Wire Line
+	4750 3700 4750 4200
+Wire Wire Line
+	2450 3050 2450 5350
+Wire Wire Line
+	2450 5350 5150 5350
+Wire Wire Line
+	5150 5350 5150 4700
+Wire Wire Line
+	2350 3050 2350 3600
+Wire Wire Line
+	2350 3600 5150 3600
+Wire Wire Line
+	5150 3600 5150 4200
+Wire Wire Line
+	2250 3050 2250 5400
+Wire Wire Line
+	2250 5400 5250 5400
+Wire Wire Line
+	5250 5400 5250 4700
+Wire Wire Line
+	2150 3050 2150 3550
+Wire Wire Line
+	2150 3550 5250 3550
+Wire Wire Line
+	5250 3550 5250 4200
+Wire Wire Line
+	2050 3050 2050 5450
+Wire Wire Line
+	2050 5450 5350 5450
+Wire Wire Line
+	5350 5450 5350 4700
+Wire Wire Line
+	1950 3050 1950 3500
+Wire Wire Line
+	1950 3500 5350 3500
+Wire Wire Line
+	5350 3500 5350 4200
+Wire Wire Line
+	1850 3050 1850 5500
+Wire Wire Line
+	1850 5500 5450 5500
+Wire Wire Line
+	5450 5500 5450 4700
+Wire Wire Line
+	1650 3050 1650 3400
+Wire Wire Line
+	1650 3400 5450 3400
+Wire Wire Line
+	5450 3400 5450 4200
+Wire Wire Line
+	1550 3050 1550 5600
+Wire Wire Line
+	1550 5600 5550 5600
+Wire Wire Line
+	5550 5600 5550 4700
+Wire Wire Line
+	1450 3050 1450 3350
+Wire Wire Line
+	1450 3350 5550 3350
+Wire Wire Line
+	5550 3350 5550 4200
+Wire Wire Line
+	1350 3050 1350 5650
+Wire Wire Line
+	1350 5650 5650 5650
+Wire Wire Line
+	5650 5650 5650 4700
+Wire Wire Line
+	1250 3050 1250 3300
+Wire Wire Line
+	1250 3300 5650 3300
+Wire Wire Line
+	5650 3300 5650 4200
+Wire Wire Line
+	1150 3050 1150 5700
+Wire Wire Line
+	1150 5700 5750 5700
+Wire Wire Line
+	5750 5700 5750 4700
+Wire Wire Line
+	1050 3050 1050 3250
+Wire Wire Line
+	1050 3250 5750 3250
+Wire Wire Line
+	5750 3250 5750 4200
+Wire Wire Line
+	4850 4700 4850 5250
+Wire Wire Line
+	4850 5250 10200 5250
+Wire Wire Line
+	10200 5250 10200 3150
+Wire Wire Line
+	4850 4200 4850 3700
+Wire Wire Line
+	4850 3700 10100 3700
+Wire Wire Line
+	10100 3700 10100 3150
+Wire Wire Line
+	4950 4700 4950 5200
+Wire Wire Line
+	4950 5200 10000 5200
+Wire Wire Line
+	10000 5200 10000 3150
+Wire Wire Line
+	4950 4200 4950 3750
+Wire Wire Line
+	4950 3750 9900 3750
+Wire Wire Line
+	9900 3750 9900 3150
+Wire Wire Line
+	5050 4700 5050 5150
+Wire Wire Line
+	5050 5150 9800 5150
+Wire Wire Line
+	9800 5150 9800 3150
+Wire Wire Line
+	9700 3150 9700 3800
+Wire Wire Line
+	9700 3800 5050 3800
+Wire Wire Line
+	5050 3800 5050 4200
+Wire Wire Line
+	5850 4700 5850 5050
+Wire Wire Line
+	5850 5050 8600 5050
+Wire Wire Line
+	8600 5050 8600 3150
+Wire Wire Line
+	8500 3150 8500 3850
+Wire Wire Line
+	8500 3850 5850 3850
+Wire Wire Line
+	5850 3850 5850 4200
+Wire Wire Line
+	5950 4700 5950 5000
+Wire Wire Line
+	5950 5000 8400 5000
+Wire Wire Line
+	8400 5000 8400 3150
+Wire Wire Line
+	8300 3150 8300 3900
+Wire Wire Line
+	8300 3900 5950 3900
+Wire Wire Line
+	5950 3900 5950 4200
+Wire Wire Line
+	6050 4700 6050 4950
+Wire Wire Line
+	6050 4950 8200 4950
+Wire Wire Line
+	8200 4950 8200 3150
+Wire Wire Line
+	8100 3150 8100 3950
+Wire Wire Line
+	8100 3950 6050 3950
+Wire Wire Line
+	6050 3950 6050 4200
+NoConn ~ 4250 3050
+NoConn ~ 7200 3150
+NoConn ~ 7300 3150
+NoConn ~ 7400 3150
+NoConn ~ 7500 3150
+NoConn ~ 7600 3150
+NoConn ~ 7700 3150
+NoConn ~ 7800 3150
+NoConn ~ 8000 3150
+NoConn ~ 8800 3150
+NoConn ~ 8900 3150
+NoConn ~ 9000 3150
+NoConn ~ 9100 3150
+NoConn ~ 9200 3150
+NoConn ~ 9300 3150
+NoConn ~ 9400 3150
+NoConn ~ 9600 3150
+NoConn ~ 10400 3150
+$Comp
+L Eigene~Bauteile:UFP2810 CN2
+U 1 1 5BDC60AA
+P 5150 1050
+F 0 "CN2" H 5150 1517 50  0000 C CNN
+F 1 "UFP2810" H 5150 1426 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_2x05_Pitch2.54mm" H 5150 1050 50  0001 C CNN
+F 3 "" H 5150 1050 50  0001 C CNN
+	1    5150 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eigene~Bauteile:UFP2810 CN3
+U 1 1 5BDC60FA
+P 8200 1050
+F 0 "CN3" H 8200 1517 50  0000 C CNN
+F 1 "UFP2810" H 8200 1426 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_2x05_Pitch2.54mm" H 8200 1050 50  0001 C CNN
+F 3 "" H 8200 1050 50  0001 C CNN
+	1    8200 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eigene~Bauteile:FP2800A U2
+U 1 1 5B82C7AE
+P 8500 2350
+F 0 "U2" V 8350 4650 60  0000 L CNN
+F 1 "FP2800A" V 8450 4650 60  0000 L CNN
+F 2 "Housings_DIP:DIP-40_W15.24mm_Socket" H 8450 2450 60  0001 C CNN
+F 3 "" H 8450 2450 60  0001 C CNN
+	1    8500 2350
+	0    1    1    0   
+$EndComp
+Text Label 4800 850  2    50   ~ 0
+L.B1
+Text Label 4800 950  2    50   ~ 0
+L.EN
+Text Label 4800 1050 2    50   ~ 0
+L.HV
+Text Label 4800 1150 2    50   ~ 0
+L.VCC
+Text Label 4800 1250 2    50   ~ 0
+L.A0
+Text Label 5500 850  0    50   ~ 0
+L.B0
+Text Label 5500 950  0    50   ~ 0
+L.POL
+Text Label 5500 1050 0    50   ~ 0
+L.GND
+Text Label 5500 1150 0    50   ~ 0
+L.A1
+Text Label 5500 1250 0    50   ~ 0
+L.A2
+Text Label 3050 1400 1    50   ~ 0
+L.EN
+Text Label 3250 1400 1    50   ~ 0
+L.POL
+Text Label 3450 1400 1    50   ~ 0
+L.B1
+Text Label 3550 1400 1    50   ~ 0
+L.B0
+Text Label 3750 1400 1    50   ~ 0
+L.A2
+Text Label 3850 1400 1    50   ~ 0
+L.A1
+Text Label 3950 1400 1    50   ~ 0
+L.A0
+Text Label 9200 1500 1    50   ~ 0
+R.EN
+Text Label 9400 1500 1    50   ~ 0
+R.POL
+Text Label 9600 1500 1    50   ~ 0
+R.B1
+Text Label 9700 1500 1    50   ~ 0
+R.B0
+Text Label 9900 1500 1    50   ~ 0
+R.A2
+Text Label 10000 1500 1    50   ~ 0
+R.A1
+Text Label 10100 1500 1    50   ~ 0
+R.A0
+Text Label 600  2000 1    50   ~ 0
+L.GND
+Text Label 600  2450 1    50   ~ 0
+L.GND
+Text Label 4600 1950 0    50   ~ 0
+L.VCC
+Text Label 4600 2350 0    50   ~ 0
+L.HV
+Text Label 8550 850  0    50   ~ 0
+R.B0
+Text Label 8550 950  0    50   ~ 0
+R.POL
+Text Label 8550 1050 0    50   ~ 0
+R.GND
+Text Label 8550 1150 0    50   ~ 0
+R.A1
+Text Label 8550 1250 0    50   ~ 0
+R.A2
+Text Label 7850 850  2    50   ~ 0
+R.B1
+Text Label 7850 950  2    50   ~ 0
+R.EN
+Text Label 7850 1050 2    50   ~ 0
+R.HV
+Text Label 7850 1150 2    50   ~ 0
+R.VCC
+Text Label 7850 1250 2    50   ~ 0
+R.A0
+Text Label 6750 2100 2    50   ~ 0
+R.GND
+Text Label 6750 2550 2    50   ~ 0
+R.GND
+Text Label 10750 2450 0    50   ~ 0
+R.HV
+Text Label 10750 2050 0    50   ~ 0
+R.VCC
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5BDFAC1B
+P 1500 750
+F 0 "#FLG0101" H 1500 825 50  0001 C CNN
+F 1 "PWR_FLAG" V 1500 878 50  0000 L CNN
+F 2 "" H 1500 750 50  0001 C CNN
+F 3 "~" H 1500 750 50  0001 C CNN
+	1    1500 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5BDFAC46
+P 1500 850
+F 0 "#FLG0102" H 1500 925 50  0001 C CNN
+F 1 "PWR_FLAG" V 1500 978 50  0000 L CNN
+F 2 "" H 1500 850 50  0001 C CNN
+F 3 "~" H 1500 850 50  0001 C CNN
+	1    1500 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5BDFAC5B
+P 1500 950
+F 0 "#FLG0103" H 1500 1025 50  0001 C CNN
+F 1 "PWR_FLAG" V 1500 1078 50  0000 L CNN
+F 2 "" H 1500 950 50  0001 C CNN
+F 3 "~" H 1500 950 50  0001 C CNN
+	1    1500 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5BDFAC70
+P 2450 750
+F 0 "#FLG0104" H 2450 825 50  0001 C CNN
+F 1 "PWR_FLAG" V 2450 878 50  0000 L CNN
+F 2 "" H 2450 750 50  0001 C CNN
+F 3 "~" H 2450 750 50  0001 C CNN
+	1    2450 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5BDFAC85
+P 2450 850
+F 0 "#FLG0105" H 2450 925 50  0001 C CNN
+F 1 "PWR_FLAG" V 2450 978 50  0000 L CNN
+F 2 "" H 2450 850 50  0001 C CNN
+F 3 "~" H 2450 850 50  0001 C CNN
+	1    2450 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 5BDFAC9A
+P 2450 950
+F 0 "#FLG0106" H 2450 1025 50  0001 C CNN
+F 1 "PWR_FLAG" V 2450 1078 50  0000 L CNN
+F 2 "" H 2450 950 50  0001 C CNN
+F 3 "~" H 2450 950 50  0001 C CNN
+	1    2450 950 
+	0    -1   -1   0   
+$EndComp
+Text Label 1500 750  0    50   ~ 0
+L.GND
+Text Label 1500 850  0    50   ~ 0
+L.VCC
+Text Label 1500 950  0    50   ~ 0
+L.HV
+Text Label 2450 750  0    50   ~ 0
+R.GND
+Text Label 2450 850  0    50   ~ 0
+R.VCC
+Text Label 2450 950  0    50   ~ 0
+R.HV
+$EndSCHEMATC
