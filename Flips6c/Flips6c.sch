@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Flips6c-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -158,37 +159,17 @@ F 3 "" H 2300 1100 50  0001 C CNN
 	1    2300 1100
 	0    -1   -1   0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even CNY?
-U 1 1 5BD9F5B9
-P 8150 1400
-AR Path="/5BD797FD/5BD9F5B9" Ref="CNY?"  Part="1" 
-AR Path="/5BD82ACD/5BD9F5B9" Ref="CNY?"  Part="1" 
-AR Path="/5BD82ADC/5BD9F5B9" Ref="CNY?"  Part="1" 
-AR Path="/5BD82AE4/5BD9F5B9" Ref="CNY?"  Part="1" 
-AR Path="/5BD82AEC/5BD9F5B9" Ref="CNY?"  Part="1" 
-AR Path="/5BD82AF4/5BD9F5B9" Ref="CNY?"  Part="1" 
-AR Path="/5BD82AFC/5BD9F5B9" Ref="CNY?"  Part="1" 
-AR Path="/5BD82B04/5BD9F5B9" Ref="CNY?"  Part="1" 
-AR Path="/5BD9F5B9" Ref="CNY1"  Part="1" 
-F 0 "CNY1" H 8200 1817 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 8200 1726 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x05_Pitch2.54mm" H 8150 1400 50  0001 C CNN
-F 3 "~" H 8150 1400 50  0001 C CNN
-	1    8150 1400
-	1    0    0    -1  
-$EndComp
-Text Label 7950 1200 2    50   ~ 0
+Text Label 7750 1200 2    50   ~ 0
 YA.0
 Text Label 8450 1200 0    50   ~ 0
 YA.2
 Text Label 8450 1300 0    50   ~ 0
 YA.1
-Text Label 7950 1300 2    50   ~ 0
+Text Label 7750 1300 2    50   ~ 0
 VCC
-Text Label 7950 1400 2    50   ~ 0
+Text Label 7750 1400 2    50   ~ 0
 HV
-Text Label 7950 1600 2    50   ~ 0
+Text Label 7750 1600 2    50   ~ 0
 YB.1
 Text Label 8450 1600 0    50   ~ 0
 YB.0
@@ -196,7 +177,7 @@ Text Label 8450 1500 0    50   ~ 0
 YDAT
 Text Label 8450 1400 0    50   ~ 0
 GND
-Text Label 7950 1500 2    50   ~ 0
+Text Label 7750 1500 2    50   ~ 0
 YEN1
 $Comp
 L 74xx:74HCT595 U?
@@ -683,37 +664,17 @@ NoConn ~ 5200 3000
 NoConn ~ 5200 2900
 NoConn ~ 5200 2800
 NoConn ~ 5200 2700
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even CNX?
-U 1 1 5BDB67AB
-P 9550 1400
-AR Path="/5BD797FD/5BDB67AB" Ref="CNX?"  Part="1" 
-AR Path="/5BD82ACD/5BDB67AB" Ref="CNX?"  Part="1" 
-AR Path="/5BD82ADC/5BDB67AB" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AE4/5BDB67AB" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AEC/5BDB67AB" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AF4/5BDB67AB" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AFC/5BDB67AB" Ref="CNX?"  Part="1" 
-AR Path="/5BD82B04/5BDB67AB" Ref="CNX?"  Part="1" 
-AR Path="/5BDB67AB" Ref="CNX1"  Part="1" 
-F 0 "CNX1" H 9600 1817 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 9600 1726 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x05_Pitch2.54mm" H 9550 1400 50  0001 C CNN
-F 3 "~" H 9550 1400 50  0001 C CNN
-	1    9550 1400
-	1    0    0    -1  
-$EndComp
-Text Label 9350 1200 2    50   ~ 0
+Text Label 9150 1200 2    50   ~ 0
 XA.0
 Text Label 9850 1200 0    50   ~ 0
 XA.2
 Text Label 9850 1300 0    50   ~ 0
 XA.1
-Text Label 9350 1300 2    50   ~ 0
+Text Label 9150 1300 2    50   ~ 0
 VCC
-Text Label 9350 1400 2    50   ~ 0
+Text Label 9150 1400 2    50   ~ 0
 HV
-Text Label 9350 1600 2    50   ~ 0
+Text Label 9150 1600 2    50   ~ 0
 XB.1
 Text Label 9850 1600 0    50   ~ 0
 XB.0
@@ -721,39 +682,19 @@ Text Label 9850 1500 0    50   ~ 0
 XDAT
 Text Label 9850 1400 0    50   ~ 0
 GND
-Text Label 9350 1500 2    50   ~ 0
+Text Label 9150 1500 2    50   ~ 0
 XEN1
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even CNY?
-U 1 1 5BDB72B3
-P 8150 2300
-AR Path="/5BD797FD/5BDB72B3" Ref="CNY?"  Part="1" 
-AR Path="/5BD82ACD/5BDB72B3" Ref="CNY?"  Part="1" 
-AR Path="/5BD82ADC/5BDB72B3" Ref="CNY?"  Part="1" 
-AR Path="/5BD82AE4/5BDB72B3" Ref="CNY?"  Part="1" 
-AR Path="/5BD82AEC/5BDB72B3" Ref="CNY?"  Part="1" 
-AR Path="/5BD82AF4/5BDB72B3" Ref="CNY?"  Part="1" 
-AR Path="/5BD82AFC/5BDB72B3" Ref="CNY?"  Part="1" 
-AR Path="/5BD82B04/5BDB72B3" Ref="CNY?"  Part="1" 
-AR Path="/5BDB72B3" Ref="CNY2"  Part="1" 
-F 0 "CNY2" H 8200 2717 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 8200 2626 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x05_Pitch2.54mm" H 8150 2300 50  0001 C CNN
-F 3 "~" H 8150 2300 50  0001 C CNN
-	1    8150 2300
-	1    0    0    -1  
-$EndComp
-Text Label 7950 2100 2    50   ~ 0
+Text Label 7750 2100 2    50   ~ 0
 YA.0
 Text Label 8450 2100 0    50   ~ 0
 YA.2
 Text Label 8450 2200 0    50   ~ 0
 YA.1
-Text Label 7950 2200 2    50   ~ 0
+Text Label 7750 2200 2    50   ~ 0
 VCC
-Text Label 7950 2300 2    50   ~ 0
+Text Label 7750 2300 2    50   ~ 0
 HV
-Text Label 7950 2500 2    50   ~ 0
+Text Label 7750 2500 2    50   ~ 0
 YB.1
 Text Label 8450 2500 0    50   ~ 0
 YB.0
@@ -761,39 +702,19 @@ Text Label 8450 2400 0    50   ~ 0
 YDAT
 Text Label 8450 2300 0    50   ~ 0
 GND
-Text Label 7950 2400 2    50   ~ 0
+Text Label 7750 2400 2    50   ~ 0
 YEN2
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even CNX?
-U 1 1 5BDB72C4
-P 9550 2300
-AR Path="/5BD797FD/5BDB72C4" Ref="CNX?"  Part="1" 
-AR Path="/5BD82ACD/5BDB72C4" Ref="CNX?"  Part="1" 
-AR Path="/5BD82ADC/5BDB72C4" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AE4/5BDB72C4" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AEC/5BDB72C4" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AF4/5BDB72C4" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AFC/5BDB72C4" Ref="CNX?"  Part="1" 
-AR Path="/5BD82B04/5BDB72C4" Ref="CNX?"  Part="1" 
-AR Path="/5BDB72C4" Ref="CNX2"  Part="1" 
-F 0 "CNX2" H 9600 2717 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 9600 2626 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x05_Pitch2.54mm" H 9550 2300 50  0001 C CNN
-F 3 "~" H 9550 2300 50  0001 C CNN
-	1    9550 2300
-	1    0    0    -1  
-$EndComp
-Text Label 9350 2100 2    50   ~ 0
+Text Label 9150 2100 2    50   ~ 0
 XA.0
 Text Label 9850 2100 0    50   ~ 0
 XA.2
 Text Label 9850 2200 0    50   ~ 0
 XA.1
-Text Label 9350 2200 2    50   ~ 0
+Text Label 9150 2200 2    50   ~ 0
 VCC
-Text Label 9350 2300 2    50   ~ 0
+Text Label 9150 2300 2    50   ~ 0
 HV
-Text Label 9350 2500 2    50   ~ 0
+Text Label 9150 2500 2    50   ~ 0
 XB.1
 Text Label 9850 2500 0    50   ~ 0
 XB.0
@@ -801,39 +722,19 @@ Text Label 9850 2400 0    50   ~ 0
 XDAT
 Text Label 9850 2300 0    50   ~ 0
 GND
-Text Label 9350 2400 2    50   ~ 0
+Text Label 9150 2400 2    50   ~ 0
 XEN2
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even CNX?
-U 1 1 5BDB7E09
-P 9550 3200
-AR Path="/5BD797FD/5BDB7E09" Ref="CNX?"  Part="1" 
-AR Path="/5BD82ACD/5BDB7E09" Ref="CNX?"  Part="1" 
-AR Path="/5BD82ADC/5BDB7E09" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AE4/5BDB7E09" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AEC/5BDB7E09" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AF4/5BDB7E09" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AFC/5BDB7E09" Ref="CNX?"  Part="1" 
-AR Path="/5BD82B04/5BDB7E09" Ref="CNX?"  Part="1" 
-AR Path="/5BDB7E09" Ref="CNX3"  Part="1" 
-F 0 "CNX3" H 9600 3617 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 9600 3526 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x05_Pitch2.54mm" H 9550 3200 50  0001 C CNN
-F 3 "~" H 9550 3200 50  0001 C CNN
-	1    9550 3200
-	1    0    0    -1  
-$EndComp
-Text Label 9350 3000 2    50   ~ 0
+Text Label 9150 3000 2    50   ~ 0
 XA.0
 Text Label 9850 3000 0    50   ~ 0
 XA.2
 Text Label 9850 3100 0    50   ~ 0
 XA.1
-Text Label 9350 3100 2    50   ~ 0
+Text Label 9150 3100 2    50   ~ 0
 VCC
-Text Label 9350 3200 2    50   ~ 0
+Text Label 9150 3200 2    50   ~ 0
 HV
-Text Label 9350 3400 2    50   ~ 0
+Text Label 9150 3400 2    50   ~ 0
 XB.1
 Text Label 9850 3400 0    50   ~ 0
 XB.0
@@ -841,39 +742,19 @@ Text Label 9850 3300 0    50   ~ 0
 XDAT
 Text Label 9850 3200 0    50   ~ 0
 GND
-Text Label 9350 3300 2    50   ~ 0
+Text Label 9150 3300 2    50   ~ 0
 XEN3
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even CNX?
-U 1 1 5BDB7E2B
-P 9550 4100
-AR Path="/5BD797FD/5BDB7E2B" Ref="CNX?"  Part="1" 
-AR Path="/5BD82ACD/5BDB7E2B" Ref="CNX?"  Part="1" 
-AR Path="/5BD82ADC/5BDB7E2B" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AE4/5BDB7E2B" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AEC/5BDB7E2B" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AF4/5BDB7E2B" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AFC/5BDB7E2B" Ref="CNX?"  Part="1" 
-AR Path="/5BD82B04/5BDB7E2B" Ref="CNX?"  Part="1" 
-AR Path="/5BDB7E2B" Ref="CNX4"  Part="1" 
-F 0 "CNX4" H 9600 4517 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 9600 4426 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x05_Pitch2.54mm" H 9550 4100 50  0001 C CNN
-F 3 "~" H 9550 4100 50  0001 C CNN
-	1    9550 4100
-	1    0    0    -1  
-$EndComp
-Text Label 9350 3900 2    50   ~ 0
+Text Label 9150 3900 2    50   ~ 0
 XA.0
 Text Label 9850 3900 0    50   ~ 0
 XA.2
 Text Label 9850 4000 0    50   ~ 0
 XA.1
-Text Label 9350 4000 2    50   ~ 0
+Text Label 9150 4000 2    50   ~ 0
 VCC
-Text Label 9350 4100 2    50   ~ 0
+Text Label 9150 4100 2    50   ~ 0
 HV
-Text Label 9350 4300 2    50   ~ 0
+Text Label 9150 4300 2    50   ~ 0
 XB.1
 Text Label 9850 4300 0    50   ~ 0
 XB.0
@@ -881,39 +762,19 @@ Text Label 9850 4200 0    50   ~ 0
 XDAT
 Text Label 9850 4100 0    50   ~ 0
 GND
-Text Label 9350 4200 2    50   ~ 0
+Text Label 9150 4200 2    50   ~ 0
 XEN4
-$Comp
-L Connector_Generic:Conn_02x05_Odd_Even CNX?
-U 1 1 5BDB9479
-P 9550 5000
-AR Path="/5BD797FD/5BDB9479" Ref="CNX?"  Part="1" 
-AR Path="/5BD82ACD/5BDB9479" Ref="CNX?"  Part="1" 
-AR Path="/5BD82ADC/5BDB9479" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AE4/5BDB9479" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AEC/5BDB9479" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AF4/5BDB9479" Ref="CNX?"  Part="1" 
-AR Path="/5BD82AFC/5BDB9479" Ref="CNX?"  Part="1" 
-AR Path="/5BD82B04/5BDB9479" Ref="CNX?"  Part="1" 
-AR Path="/5BDB9479" Ref="CNX5"  Part="1" 
-F 0 "CNX5" H 9600 5417 50  0000 C CNN
-F 1 "Conn_02x05_Odd_Even" H 9600 5326 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x05_Pitch2.54mm" H 9550 5000 50  0001 C CNN
-F 3 "~" H 9550 5000 50  0001 C CNN
-	1    9550 5000
-	1    0    0    -1  
-$EndComp
-Text Label 9350 4800 2    50   ~ 0
+Text Label 9150 4800 2    50   ~ 0
 XA.0
 Text Label 9850 4800 0    50   ~ 0
 XA.2
 Text Label 9850 4900 0    50   ~ 0
 XA.1
-Text Label 9350 4900 2    50   ~ 0
+Text Label 9150 4900 2    50   ~ 0
 VCC
-Text Label 9350 5000 2    50   ~ 0
+Text Label 9150 5000 2    50   ~ 0
 HV
-Text Label 9350 5200 2    50   ~ 0
+Text Label 9150 5200 2    50   ~ 0
 XB.1
 Text Label 9850 5200 0    50   ~ 0
 XB.0
@@ -921,7 +782,7 @@ Text Label 9850 5100 0    50   ~ 0
 XDAT
 Text Label 9850 5000 0    50   ~ 0
 GND
-Text Label 9350 5100 2    50   ~ 0
+Text Label 9150 5100 2    50   ~ 0
 XEN5
 $Comp
 L power:+5V #PWR0101
@@ -940,4 +801,81 @@ Text Label 2750 3000 2    50   ~ 0
 ~OE
 Text Label 4300 3000 2    50   ~ 0
 ~OE
+$Comp
+L Eigene~Bauteile:UFP2810 CNY2
+U 1 1 5BE4125E
+P 8100 2300
+F 0 "CNY2" H 8100 1833 50  0000 C CNN
+F 1 "UFP2810" H 8100 1924 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_2x05_Pitch2.54mm" H 8100 2300 50  0001 C CNN
+F 3 "" H 8100 2300 50  0001 C CNN
+	1    8100 2300
+	1    0    0    1   
+$EndComp
+$Comp
+L Eigene~Bauteile:UFP2810 CNY1
+U 1 1 5BE4275F
+P 8100 1400
+F 0 "CNY1" H 8100 933 50  0000 C CNN
+F 1 "UFP2810" H 8100 1024 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_2x05_Pitch2.54mm" H 8100 1400 50  0001 C CNN
+F 3 "" H 8100 1400 50  0001 C CNN
+	1    8100 1400
+	1    0    0    1   
+$EndComp
+$Comp
+L Eigene~Bauteile:UFP2810 CNX1
+U 1 1 5BE433B8
+P 9500 1400
+F 0 "CNX1" H 9500 933 50  0000 C CNN
+F 1 "UFP2810" H 9500 1024 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_2x05_Pitch2.54mm" H 9500 1400 50  0001 C CNN
+F 3 "" H 9500 1400 50  0001 C CNN
+	1    9500 1400
+	1    0    0    1   
+$EndComp
+$Comp
+L Eigene~Bauteile:UFP2810 CNX2
+U 1 1 5BE433E6
+P 9500 2300
+F 0 "CNX2" H 9500 1833 50  0000 C CNN
+F 1 "UFP2810" H 9500 1924 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_2x05_Pitch2.54mm" H 9500 2300 50  0001 C CNN
+F 3 "" H 9500 2300 50  0001 C CNN
+	1    9500 2300
+	1    0    0    1   
+$EndComp
+$Comp
+L Eigene~Bauteile:UFP2810 CNX3
+U 1 1 5BE4342E
+P 9500 3200
+F 0 "CNX3" H 9500 2733 50  0000 C CNN
+F 1 "UFP2810" H 9500 2824 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_2x05_Pitch2.54mm" H 9500 3200 50  0001 C CNN
+F 3 "" H 9500 3200 50  0001 C CNN
+	1    9500 3200
+	1    0    0    1   
+$EndComp
+$Comp
+L Eigene~Bauteile:UFP2810 CNX4
+U 1 1 5BE43482
+P 9500 4100
+F 0 "CNX4" H 9500 3633 50  0000 C CNN
+F 1 "UFP2810" H 9500 3724 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_2x05_Pitch2.54mm" H 9500 4100 50  0001 C CNN
+F 3 "" H 9500 4100 50  0001 C CNN
+	1    9500 4100
+	1    0    0    1   
+$EndComp
+$Comp
+L Eigene~Bauteile:UFP2810 CNX5
+U 1 1 5BE4355C
+P 9500 5000
+F 0 "CNX5" H 9500 4533 50  0000 C CNN
+F 1 "UFP2810" H 9500 4624 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_2x05_Pitch2.54mm" H 9500 5000 50  0001 C CNN
+F 3 "" H 9500 5000 50  0001 C CNN
+	1    9500 5000
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
