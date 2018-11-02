@@ -83,16 +83,14 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x04_Odd_Even CN1
 U 1 1 5BD835DF
-P 3250 1100
-F 0 "CN1" H 3300 1417 50  0000 C CNN
-F 1 "Conn_02x04_Odd_Even" H 3300 1326 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x04_Pitch2.54mm" H 3250 1100 50  0001 C CNN
-F 3 "~" H 3250 1100 50  0001 C CNN
-	1    3250 1100
-	1    0    0    -1  
+P 3350 1100
+F 0 "CN1" H 3400 1417 50  0000 C CNN
+F 1 "Conn_02x04_Odd_Even" H 3400 1326 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x04_Pitch2.54mm" H 3350 1100 50  0001 C CNN
+F 3 "~" H 3350 1100 50  0001 C CNN
+	1    3350 1100
+	-1   0    0    -1  
 $EndComp
-Wire Wire Line
-	3050 1000 2700 1000
 $Comp
 L power:+12V #PWR014
 U 1 1 5BD84D2E
@@ -318,8 +316,6 @@ Text Label 3050 1000 2    50   ~ 0
 ~OE
 Text Label 3050 1100 2    50   ~ 0
 ~SRCLR
-Wire Wire Line
-	2600 1100 3050 1100
 Text Label 3050 1200 2    50   ~ 0
 SRCLK
 Text Label 3050 1300 2    50   ~ 0
@@ -878,4 +874,8 @@ F 3 "" H 9500 5000 50  0001 C CNN
 	1    9500 5000
 	1    0    0    1   
 $EndComp
+Wire Wire Line
+	2700 1000 3050 1000
+Wire Wire Line
+	2600 1100 3050 1100
 $EndSCHEMATC
