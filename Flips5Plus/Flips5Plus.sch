@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Flips5Plus-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -320,7 +319,7 @@ U 1 1 5BDC60AA
 P 5150 1050
 F 0 "CN2" H 5150 1517 50  0000 C CNN
 F 1 "UFP2810" H 5150 1426 50  0000 C CNN
-F 2 "Own:Pin_Header_Straight_Shrouded_2x05_Pitch2.54mm" H 5150 1050 50  0001 C CNN
+F 2 "Own:Pin_Header_Angle_Shrouded_2x05_Pitch2.54mm" H 5150 1050 50  0001 C CNN
 F 3 "" H 5150 1050 50  0001 C CNN
 	1    5150 1050
 	1    0    0    -1  
@@ -331,7 +330,7 @@ U 1 1 5BDC60FA
 P 8200 1050
 F 0 "CN3" H 8200 1517 50  0000 C CNN
 F 1 "UFP2810" H 8200 1426 50  0000 C CNN
-F 2 "Own:Pin_Header_Straight_Shrouded_2x05_Pitch2.54mm" H 8200 1050 50  0001 C CNN
+F 2 "Own:Pin_Header_Angle_Shrouded_2x05_Pitch2.54mm" H 8200 1050 50  0001 C CNN
 F 3 "" H 8200 1050 50  0001 C CNN
 	1    8200 1050
 	1    0    0    -1  
