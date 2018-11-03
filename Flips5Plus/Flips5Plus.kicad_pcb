@@ -2471,4 +2471,20 @@
       )
     )
   )
+  (zone (net 0) (net_name "") (layer F.Cu) (tstamp 0) (hatch edge 0.508)
+    (connect_pads (clearance 0.23))
+    (min_thickness 0.254)
+    (fill yes (arc_segments 16) (thermal_gap 0.508) (thermal_bridge_width 0.508))
+    (polygon
+      (pts
+        (xy 142 109.4) (xy 142.35 109.45) (xy 145.55 109.45) (xy 145.55 112.45) (xy 142 112.45)
+      )
+    )
+    (filled_polygon
+      (pts
+        (xy 142.332039 109.575724) (xy 142.35 109.577) (xy 145.423 109.577) (xy 145.423 112.323) (xy 142.127 112.323)
+        (xy 142.127 109.546433)
+      )
+    )
+  )
 )
