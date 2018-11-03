@@ -97,7 +97,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "Order/"))
+      (outputdirectory "Export/Plot"))
   )
 
   (net 0 "")
@@ -2039,7 +2039,7 @@
   (segment (start 116.84 147.32) (end 114.3 144.78) (width 0.25) (layer F.Cu) (net 60) (status 400000))
   (segment (start 114.3 144.78) (end 114.3 139.7) (width 0.25) (layer F.Cu) (net 60) (tstamp 5BDC4BB3) (status 800000))
 
-  (zone (net 45) (net_name /L.GND) (layer B.Cu) (tstamp 5BDE01F2) (hatch edge 0.508)
+  (zone (net 45) (net_name /L.GND) (layer B.Cu) (tstamp 5BDE0B66) (hatch edge 0.508)
     (connect_pads (clearance 0.23))
     (min_thickness 0.2)
     (fill yes (arc_segments 16) (thermal_gap 0.23) (thermal_bridge_width 0.508))
@@ -2254,7 +2254,7 @@
       )
     )
   )
-  (zone (net 56) (net_name /R.GND) (layer B.Cu) (tstamp 5BDE01EF) (hatch edge 0.508)
+  (zone (net 56) (net_name /R.GND) (layer B.Cu) (tstamp 5BDE0B63) (hatch edge 0.508)
     (connect_pads (clearance 0.23))
     (min_thickness 0.2)
     (fill yes (arc_segments 16) (thermal_gap 0.23) (thermal_bridge_width 0.508))
