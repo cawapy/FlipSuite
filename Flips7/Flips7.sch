@@ -1,0 +1,673 @@
+EESchema Schematic File Version 4
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title "Flips 7"
+Date "2018-08-28"
+Rev "0.1"
+Comp "SRT"
+Comment1 "A-2UFP2832-FDMBR60"
+Comment2 "Zeilentreiber-Adapter für Brose 60 Pin Port und FP2800A-Ausgänge"
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Eigene~Bauteile:FP2800A U1
+U 1 1 5B82C6BE
+P 2350 2250
+F 0 "U1" V 2200 4500 60  0000 L CNN
+F 1 "FP2800A" V 2300 4500 60  0000 L CNN
+F 2 "Housings_DIP:DIP-40_W15.24mm_Socket" H 2300 2350 60  0001 C CNN
+F 3 "" H 2300 2350 60  0001 C CNN
+	1    2350 2250
+	0    1    1    0   
+$EndComp
+NoConn ~ 4250 3050
+NoConn ~ 7200 3150
+NoConn ~ 7300 3150
+NoConn ~ 7400 3150
+NoConn ~ 7500 3150
+NoConn ~ 7600 3150
+NoConn ~ 7700 3150
+NoConn ~ 7800 3150
+NoConn ~ 8000 3150
+NoConn ~ 8800 3150
+NoConn ~ 8900 3150
+NoConn ~ 9000 3150
+NoConn ~ 9100 3150
+NoConn ~ 9200 3150
+NoConn ~ 9300 3150
+NoConn ~ 9400 3150
+NoConn ~ 9600 3150
+NoConn ~ 10400 3150
+$Comp
+L Eigene~Bauteile:UFP2810 CNY1
+U 1 1 5BDC60AA
+P 5150 1050
+F 0 "CNY1" H 5150 1517 50  0000 C CNN
+F 1 "UFP2810" H 5150 1426 50  0000 C CNN
+F 2 "Own:Pin_Header_Angle_Shrouded_2x05_Pitch2.54mm" H 5150 1050 50  0001 C CNN
+F 3 "" H 5150 1050 50  0001 C CNN
+	1    5150 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eigene~Bauteile:UFP2810 CNY2
+U 1 1 5BDC60FA
+P 8200 1050
+F 0 "CNY2" H 8200 1517 50  0000 C CNN
+F 1 "UFP2810" H 8200 1426 50  0000 C CNN
+F 2 "Own:Pin_Header_Angle_Shrouded_2x05_Pitch2.54mm" H 8200 1050 50  0001 C CNN
+F 3 "" H 8200 1050 50  0001 C CNN
+	1    8200 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eigene~Bauteile:FP2800A U2
+U 1 1 5B82C7AE
+P 8500 2350
+F 0 "U2" V 8350 4650 60  0000 L CNN
+F 1 "FP2800A" V 8450 4650 60  0000 L CNN
+F 2 "Housings_DIP:DIP-40_W15.24mm_Socket" H 8450 2450 60  0001 C CNN
+F 3 "" H 8450 2450 60  0001 C CNN
+	1    8500 2350
+	0    1    1    0   
+$EndComp
+Text Label 4800 850  2    50   ~ 0
+L.B1
+Text Label 4800 950  2    50   ~ 0
+L.EN
+Text Label 4800 1050 2    50   ~ 0
+L.HV
+Text Label 4800 1150 2    50   ~ 0
+L.VCC
+Text Label 4800 1250 2    50   ~ 0
+L.A0
+Text Label 5500 850  0    50   ~ 0
+L.B0
+Text Label 5500 950  0    50   ~ 0
+L.POL
+Text Label 5500 1050 0    50   ~ 0
+L.GND
+Text Label 5500 1150 0    50   ~ 0
+L.A1
+Text Label 5500 1250 0    50   ~ 0
+L.A2
+Text Label 3050 1400 1    50   ~ 0
+L.EN
+Text Label 3250 1400 1    50   ~ 0
+L.POL
+Text Label 3450 1400 1    50   ~ 0
+L.B1
+Text Label 3550 1400 1    50   ~ 0
+L.B0
+Text Label 3750 1400 1    50   ~ 0
+L.A2
+Text Label 3850 1400 1    50   ~ 0
+L.A1
+Text Label 3950 1400 1    50   ~ 0
+L.A0
+Text Label 9200 1500 1    50   ~ 0
+R.EN
+Text Label 9400 1500 1    50   ~ 0
+R.POL
+Text Label 9600 1500 1    50   ~ 0
+R.B1
+Text Label 9700 1500 1    50   ~ 0
+R.B0
+Text Label 9900 1500 1    50   ~ 0
+R.A2
+Text Label 10000 1500 1    50   ~ 0
+R.A1
+Text Label 10100 1500 1    50   ~ 0
+R.A0
+Text Label 600  2000 1    50   ~ 0
+L.GND
+Text Label 600  2450 1    50   ~ 0
+L.GND
+Text Label 4600 1950 0    50   ~ 0
+L.VCC
+Text Label 4600 2350 0    50   ~ 0
+L.HV
+Text Label 8550 850  0    50   ~ 0
+R.B0
+Text Label 8550 950  0    50   ~ 0
+R.POL
+Text Label 8550 1050 0    50   ~ 0
+R.GND
+Text Label 8550 1150 0    50   ~ 0
+R.A1
+Text Label 8550 1250 0    50   ~ 0
+R.A2
+Text Label 7850 850  2    50   ~ 0
+R.B1
+Text Label 7850 950  2    50   ~ 0
+R.EN
+Text Label 7850 1050 2    50   ~ 0
+R.HV
+Text Label 7850 1150 2    50   ~ 0
+R.VCC
+Text Label 7850 1250 2    50   ~ 0
+R.A0
+Text Label 6750 2100 2    50   ~ 0
+R.GND
+Text Label 6750 2550 2    50   ~ 0
+R.GND
+Text Label 10750 2450 0    50   ~ 0
+R.HV
+Text Label 10750 2050 0    50   ~ 0
+R.VCC
+$Comp
+L power:PWR_FLAG #FLG0101
+U 1 1 5BDFAC1B
+P 1500 750
+F 0 "#FLG0101" H 1500 825 50  0001 C CNN
+F 1 "PWR_FLAG" V 1500 878 50  0000 L CNN
+F 2 "" H 1500 750 50  0001 C CNN
+F 3 "~" H 1500 750 50  0001 C CNN
+	1    1500 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0102
+U 1 1 5BDFAC46
+P 1500 850
+F 0 "#FLG0102" H 1500 925 50  0001 C CNN
+F 1 "PWR_FLAG" V 1500 978 50  0000 L CNN
+F 2 "" H 1500 850 50  0001 C CNN
+F 3 "~" H 1500 850 50  0001 C CNN
+	1    1500 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0103
+U 1 1 5BDFAC5B
+P 1500 950
+F 0 "#FLG0103" H 1500 1025 50  0001 C CNN
+F 1 "PWR_FLAG" V 1500 1078 50  0000 L CNN
+F 2 "" H 1500 950 50  0001 C CNN
+F 3 "~" H 1500 950 50  0001 C CNN
+	1    1500 950 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0104
+U 1 1 5BDFAC70
+P 2450 750
+F 0 "#FLG0104" H 2450 825 50  0001 C CNN
+F 1 "PWR_FLAG" V 2450 878 50  0000 L CNN
+F 2 "" H 2450 750 50  0001 C CNN
+F 3 "~" H 2450 750 50  0001 C CNN
+	1    2450 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0105
+U 1 1 5BDFAC85
+P 2450 850
+F 0 "#FLG0105" H 2450 925 50  0001 C CNN
+F 1 "PWR_FLAG" V 2450 978 50  0000 L CNN
+F 2 "" H 2450 850 50  0001 C CNN
+F 3 "~" H 2450 850 50  0001 C CNN
+	1    2450 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG0106
+U 1 1 5BDFAC9A
+P 2450 950
+F 0 "#FLG0106" H 2450 1025 50  0001 C CNN
+F 1 "PWR_FLAG" V 2450 1078 50  0000 L CNN
+F 2 "" H 2450 950 50  0001 C CNN
+F 3 "~" H 2450 950 50  0001 C CNN
+	1    2450 950 
+	0    -1   -1   0   
+$EndComp
+Text Label 1500 750  0    50   ~ 0
+L.GND
+Text Label 1500 850  0    50   ~ 0
+L.VCC
+Text Label 1500 950  0    50   ~ 0
+L.HV
+Text Label 2450 750  0    50   ~ 0
+R.GND
+Text Label 2450 850  0    50   ~ 0
+R.VCC
+Text Label 2450 950  0    50   ~ 0
+R.HV
+$Comp
+L Device:C_Small C1
+U 1 1 5BDFBE59
+P 4600 1750
+F 0 "C1" H 4692 1796 50  0000 L CNN
+F 1 "0U1" H 4692 1705 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4600 1750 50  0001 C CNN
+F 3 "~" H 4600 1750 50  0001 C CNN
+	1    4600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5BDFBEF6
+P 10750 1850
+F 0 "C2" H 10658 1804 50  0000 R CNN
+F 1 "0U1" H 10658 1895 50  0000 R CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10750 1850 50  0001 C CNN
+F 3 "~" H 10750 1850 50  0001 C CNN
+	1    10750 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10750 1700 10750 1750
+Wire Wire Line
+	10750 1950 10750 2050
+Wire Wire Line
+	4600 1850 4600 1950
+Wire Wire Line
+	4600 1600 4600 1650
+Text Label 4600 1600 0    50   ~ 0
+L.GND
+Text Label 10750 1700 0    50   ~ 0
+R.GND
+Text Label 4050 3050 3    50   ~ 0
+YS01
+Text Label 3950 3050 3    50   ~ 0
+YS02
+Text Label 3850 3050 3    50   ~ 0
+YS03
+Text Label 3750 3050 3    50   ~ 0
+YS04
+Text Label 3650 3050 3    50   ~ 0
+YS05
+Text Label 3550 3050 3    50   ~ 0
+YS06
+Text Label 3450 3050 3    50   ~ 0
+YS07
+Text Label 3250 3050 3    50   ~ 0
+YS08
+Text Label 3150 3050 3    50   ~ 0
+YS09
+Text Label 3050 3050 3    50   ~ 0
+YS10
+Text Label 2950 3050 3    50   ~ 0
+YS11
+Text Label 2850 3050 3    50   ~ 0
+YS12
+Text Label 2750 3050 3    50   ~ 0
+YS13
+Text Label 2650 3050 3    50   ~ 0
+YS14
+Text Label 2450 3050 3    50   ~ 0
+YR01
+Text Label 2350 3050 3    50   ~ 0
+YR02
+Text Label 2250 3050 3    50   ~ 0
+YR03
+Text Label 2150 3050 3    50   ~ 0
+YR04
+Text Label 2050 3050 3    50   ~ 0
+YR05
+Text Label 1950 3050 3    50   ~ 0
+YR06
+Text Label 1850 3050 3    50   ~ 0
+YR07
+Text Label 1650 3050 3    50   ~ 0
+YR08
+Text Label 1550 3050 3    50   ~ 0
+YR09
+Text Label 1450 3050 3    50   ~ 0
+YR10
+Text Label 1350 3050 3    50   ~ 0
+YR11
+Text Label 1250 3050 3    50   ~ 0
+YR12
+Text Label 1150 3050 3    50   ~ 0
+YR13
+Text Label 1050 3050 3    50   ~ 0
+YR14
+Text Label 10200 3150 3    50   ~ 0
+YS15
+Text Label 10100 3150 3    50   ~ 0
+YS16
+NoConn ~ 9700 3150
+NoConn ~ 9800 3150
+NoConn ~ 9900 3150
+NoConn ~ 10000 3150
+Text Label 8600 3150 3    50   ~ 0
+YR15
+Text Label 8500 3150 3    50   ~ 0
+YR16
+NoConn ~ 8100 3150
+NoConn ~ 8200 3150
+NoConn ~ 8300 3150
+NoConn ~ 8400 3150
+$Comp
+L Eigene~Bauteile:UFP2810 CNX1
+U 1 1 5BE4BE22
+P 2250 5200
+F 0 "CNX1" H 2250 5667 50  0000 C CNN
+F 1 "UFP2810" H 2250 5576 50  0000 C CNN
+F 2 "Own:Pin_Header_Angle_Shrouded_2x05_Pitch2.54mm" H 2250 5200 50  0001 C CNN
+F 3 "" H 2250 5200 50  0001 C CNN
+	1    2250 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eigene~Bauteile:FP2800A U3
+U 1 1 5BE4BE29
+P 2550 6500
+F 0 "U3" V 2400 8800 60  0000 L CNN
+F 1 "FP2800A" V 2500 8800 60  0000 L CNN
+F 2 "Housings_DIP:DIP-40_W15.24mm_Socket" H 2500 6600 60  0001 C CNN
+F 3 "" H 2500 6600 60  0001 C CNN
+	1    2550 6500
+	0    1    1    0   
+$EndComp
+Text Label 3250 5650 1    50   ~ 0
+X.EN
+Text Label 3450 5650 1    50   ~ 0
+X.POL
+Text Label 3650 5650 1    50   ~ 0
+X.B1
+Text Label 3750 5650 1    50   ~ 0
+X.B0
+Text Label 3950 5650 1    50   ~ 0
+X.A2
+Text Label 4050 5650 1    50   ~ 0
+X.A1
+Text Label 4150 5650 1    50   ~ 0
+X.A0
+Text Label 2600 5000 0    50   ~ 0
+X.B0
+Text Label 2600 5100 0    50   ~ 0
+X.POL
+Text Label 2600 5200 0    50   ~ 0
+X.GND
+Text Label 2600 5300 0    50   ~ 0
+X.A1
+Text Label 2600 5400 0    50   ~ 0
+X.A2
+Text Label 1900 5000 2    50   ~ 0
+X.B1
+Text Label 1900 5100 2    50   ~ 0
+X.EN
+Text Label 1900 5200 2    50   ~ 0
+X.HV
+Text Label 1900 5300 2    50   ~ 0
+X.VCC
+Text Label 1900 5400 2    50   ~ 0
+X.A0
+Text Label 800  6250 2    50   ~ 0
+X.GND
+Text Label 800  6700 2    50   ~ 0
+X.GND
+Text Label 4800 6600 0    50   ~ 0
+X.HV
+Text Label 4800 6200 0    50   ~ 0
+X.VCC
+$Comp
+L Device:C_Small C3
+U 1 1 5BE4BE45
+P 4800 6000
+F 0 "C3" H 4708 5954 50  0000 R CNN
+F 1 "0U1" H 4708 6045 50  0000 R CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4800 6000 50  0001 C CNN
+F 3 "~" H 4800 6000 50  0001 C CNN
+	1    4800 6000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4800 5850 4800 5900
+Wire Wire Line
+	4800 6100 4800 6200
+Text Label 4800 5850 0    50   ~ 0
+X.GND
+Text Label 4250 7300 3    50   ~ 0
+X01
+Text Label 4150 7300 3    50   ~ 0
+X02
+Text Label 4050 7300 3    50   ~ 0
+X03
+Text Label 3950 7300 3    50   ~ 0
+X04
+Text Label 3850 7300 3    50   ~ 0
+X05
+Text Label 3750 7300 3    50   ~ 0
+X06
+Text Label 3650 7300 3    50   ~ 0
+X07
+Text Label 3450 7300 3    50   ~ 0
+X08
+Text Label 3350 7300 3    50   ~ 0
+X09
+Text Label 3250 7300 3    50   ~ 0
+X10
+Text Label 3150 7300 3    50   ~ 0
+X11
+Text Label 3050 7300 3    50   ~ 0
+X12
+Text Label 2950 7300 3    50   ~ 0
+X13
+Text Label 2850 7300 3    50   ~ 0
+X14
+Text Label 2650 7300 3    50   ~ 0
+X15
+Text Label 2550 7300 3    50   ~ 0
+X16
+Text Label 2450 7300 3    50   ~ 0
+X17
+Text Label 2350 7300 3    50   ~ 0
+X18
+Text Label 2250 7300 3    50   ~ 0
+X19
+Text Label 2150 7300 3    50   ~ 0
+X20
+Text Label 2050 7300 3    50   ~ 0
+X21
+Text Label 1850 7300 3    50   ~ 0
+X22
+Text Label 1750 7300 3    50   ~ 0
+X23
+Text Label 1650 7300 3    50   ~ 0
+X24
+Text Label 1550 7300 3    50   ~ 0
+X25
+Text Label 1450 7300 3    50   ~ 0
+X26
+Text Label 1350 7300 3    50   ~ 0
+X27
+Text Label 1250 7300 3    50   ~ 0
+X28
+NoConn ~ 4450 7300
+$Comp
+L power:PWR_FLAG #FLG01
+U 1 1 5BE4CDC2
+P 3400 750
+F 0 "#FLG01" H 3400 825 50  0001 C CNN
+F 1 "PWR_FLAG" V 3400 878 50  0000 L CNN
+F 2 "" H 3400 750 50  0001 C CNN
+F 3 "~" H 3400 750 50  0001 C CNN
+	1    3400 750 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG02
+U 1 1 5BE4CDC8
+P 3400 850
+F 0 "#FLG02" H 3400 925 50  0001 C CNN
+F 1 "PWR_FLAG" V 3400 978 50  0000 L CNN
+F 2 "" H 3400 850 50  0001 C CNN
+F 3 "~" H 3400 850 50  0001 C CNN
+	1    3400 850 
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:PWR_FLAG #FLG03
+U 1 1 5BE4CDCE
+P 3400 950
+F 0 "#FLG03" H 3400 1025 50  0001 C CNN
+F 1 "PWR_FLAG" V 3400 1078 50  0000 L CNN
+F 2 "" H 3400 950 50  0001 C CNN
+F 3 "~" H 3400 950 50  0001 C CNN
+	1    3400 950 
+	0    -1   -1   0   
+$EndComp
+Text Label 3400 750  0    50   ~ 0
+X.GND
+Text Label 3400 850  0    50   ~ 0
+X.VCC
+Text Label 3400 950  0    50   ~ 0
+X.HV
+$Comp
+L Connector_Generic:Conn_02x30_Top_Bottom BOARD1
+U 1 1 5BE4D1FF
+P 7250 5000
+F 0 "BOARD1" H 7300 6617 50  0000 C CNN
+F 1 "Conn_02x30_Top_Bottom" H 7300 6526 50  0000 C CNN
+F 2 "IDC_Numbering_Pin_Header_Straight_2x30_Pitch2.54mm" H 7250 5000 50  0001 C CNN
+F 3 "~" H 7250 5000 50  0001 C CNN
+	1    7250 5000
+	0    -1   1    0   
+$EndComp
+Text Label 5850 4800 1    50   ~ 0
+X11
+Text Label 5950 4800 1    50   ~ 0
+YS07
+Text Label 6050 4800 1    50   ~ 0
+YR07
+Text Label 6150 4800 1    50   ~ 0
+X12
+Text Label 6250 4800 1    50   ~ 0
+YS06
+Text Label 6350 4800 1    50   ~ 0
+YR06
+Text Label 6450 4800 1    50   ~ 0
+X13
+Text Label 6550 4800 1    50   ~ 0
+YS03
+Text Label 6650 4800 1    50   ~ 0
+YR03
+Text Label 6750 4800 1    50   ~ 0
+X14
+Text Label 6850 4800 1    50   ~ 0
+YS02
+Text Label 6950 4800 1    50   ~ 0
+X10
+Text Label 7050 4800 1    50   ~ 0
+YR02
+Text Label 7150 4800 1    50   ~ 0
+YR14
+Text Label 7250 4800 1    50   ~ 0
+YS14
+Text Label 7350 4800 1    50   ~ 0
+X15
+Text Label 7450 4800 1    50   ~ 0
+YS01
+Text Label 7550 4800 1    50   ~ 0
+YR01
+Text Label 7650 4800 1    50   ~ 0
+X16
+Text Label 7750 4800 1    50   ~ 0
+YS04
+Text Label 7850 4800 1    50   ~ 0
+YR04
+Text Label 7950 4800 1    50   ~ 0
+X17
+Text Label 8050 4800 1    50   ~ 0
+YS05
+Text Label 8150 4800 1    50   ~ 0
+YR05
+Text Label 8250 4800 1    50   ~ 0
+X18
+Text Label 8350 4800 1    50   ~ 0
+YS08
+Text Label 8450 4800 1    50   ~ 0
+YR08
+Text Label 8550 4800 1    50   ~ 0
+X19
+Text Label 8650 4800 1    50   ~ 0
+YS09
+Text Label 8750 4800 1    50   ~ 0
+YR09
+Text Label 5850 5300 3    50   ~ 0
+YS12
+Text Label 5950 5300 3    50   ~ 0
+YR12
+Text Label 6050 5300 3    50   ~ 0
+X03
+Text Label 6150 5300 3    50   ~ 0
+X02
+Text Label 6250 5300 3    50   ~ 0
+X01
+Text Label 6350 5300 3    50   ~ 0
+X09
+Text Label 6450 5300 3    50   ~ 0
+YR13
+Text Label 6550 5300 3    50   ~ 0
+YS13
+Text Label 6650 5300 3    50   ~ 0
+X08
+Text Label 6750 5300 3    50   ~ 0
+X07
+Text Label 6850 5300 3    50   ~ 0
+X06
+Text Label 6950 5300 3    50   ~ 0
+X05
+Text Label 7050 5300 3    50   ~ 0
+YS10
+Text Label 7150 5300 3    50   ~ 0
+X04_NC
+Text Label 7250 5300 3    50   ~ 0
+YR10
+Text Label 7350 5300 3    50   ~ 0
+X25
+Text Label 7450 5300 3    50   ~ 0
+X24
+Text Label 7550 5300 3    50   ~ 0
+X23
+Text Label 7650 5300 3    50   ~ 0
+YS16
+Text Label 7750 5300 3    50   ~ 0
+X22
+Text Label 7850 5300 3    50   ~ 0
+YR16
+Text Label 7950 5300 3    50   ~ 0
+YR15
+Text Label 8050 5300 3    50   ~ 0
+YS15
+Text Label 8150 5300 3    50   ~ 0
+X28
+Text Label 8250 5300 3    50   ~ 0
+X27_X04
+Text Label 8350 5300 3    50   ~ 0
+X26
+Text Label 8450 5300 3    50   ~ 0
+X21
+Text Label 8550 5300 3    50   ~ 0
+YR11
+Text Label 8650 5300 3    50   ~ 0
+X20
+Text Label 8750 5300 3    50   ~ 0
+YS11
+$Comp
+L Eigene~Bauteile:Jumper_Cross JP1
+U 1 1 5BE4F443
+P 6150 6500
+F 0 "JP1" H 6250 6400 50  0000 L CNN
+F 1 "Jumper_Cross" H 6250 6300 50  0000 L CNN
+F 2 "Own:Cross_Jumper_2x2_2.54mm" H 6150 6500 50  0001 C CNN
+F 3 "" H 6150 6500 50  0001 C CNN
+	1    6150 6500
+	1    0    0    -1  
+$EndComp
+Text Label 5800 6500 2    50   ~ 0
+X27
+Text Label 6500 6500 0    50   ~ 0
+X04
+Text Label 6150 6850 2    50   ~ 0
+X04_NC
+Text Label 6150 6150 0    50   ~ 0
+X27_X04
+$EndSCHEMATC
