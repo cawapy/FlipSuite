@@ -310,7 +310,7 @@
     )
   )
 
-  (module Housings_DIP:DIP-40_W15.24mm_Socket (layer F.Cu) (tedit 5BDD8BA4) (tstamp 5B829DB5)
+  (module Housings_DIP:DIP-40_W15.24mm_Socket (layer F.Cu) (tedit 5BDEEE4F) (tstamp 5B829DB5)
     (at 220.345 66.675)
     (descr "40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket")
     (tags "THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket")
@@ -318,7 +318,7 @@
     (fp_text reference U1 (at 8.255 1.905) (layer F.SilkS) hide
       (effects (font (size 1 1) (thickness 0.15)))
     )
-    (fp_text value FP2800A (at 8.255 3.81) (layer F.Fab)
+    (fp_text value FP2800A (at 7.239 2.921) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text user %R (at 8.89 -9.525) (layer F.Fab)
@@ -1296,7 +1296,7 @@
   (gr_line (start 218.44 66.675) (end 218.44 121.92) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 239.395 121.92) (end 239.395 66.675) (angle 90) (layer Edge.Cuts) (width 0.15))
   (gr_line (start 220.345 123.825) (end 237.49 123.825) (angle 90) (layer Edge.Cuts) (width 0.15))
-  (gr_text "SRT Flips 4 V1.0 2018-11-03\ngithub.com/cawapy/FlipSuite" (at 226.06 67.31 90) (layer B.SilkS)
+  (gr_text "SRT Flips 4 V1.0 2018-11-03\ngithub.com/cawapy/FlipSuite\nRemote\nFP2800" (at 228.6 67.31 90) (layer B.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left mirror))
   )
   (dimension 20.955 (width 0.3) (layer Dwgs.User)
