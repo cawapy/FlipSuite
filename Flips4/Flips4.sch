@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Flips4-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -297,7 +298,7 @@ L Device:R_Small R1
 U 1 1 5BD706E4
 P 1750 2800
 F 0 "R1" H 1809 2846 50  0000 L CNN
-F 1 "10K/OPT" H 1809 2755 50  0000 L CNN
+F 1 "10K" H 1809 2755 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 1750 2800 50  0001 C CNN
 F 3 "~" H 1750 2800 50  0001 C CNN
 	1    1750 2800
@@ -333,7 +334,7 @@ $EndComp
 Wire Wire Line
 	1750 650  1750 1200
 Wire Wire Line
-	1500 750  4100 750 
+	1500 750  3200 750 
 Wire Wire Line
 	1750 2450 3550 2450
 Wire Wire Line
@@ -403,4 +404,29 @@ $EndComp
 Connection ~ 1750 3050
 Wire Wire Line
 	1750 3050 1750 3100
+$Comp
+L Device:C_Small C1
+U 1 1 5BDF79E5
+P 3200 850
+F 0 "C1" H 3292 896 50  0000 L CNN
+F 1 "0U1" H 3292 805 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 3200 850 50  0001 C CNN
+F 3 "~" H 3200 850 50  0001 C CNN
+	1    3200 850 
+	1    0    0    -1  
+$EndComp
+Connection ~ 3200 750 
+Wire Wire Line
+	3200 750  4100 750 
+$Comp
+L power:GND #PWR0104
+U 1 1 5BDF7A5C
+P 3200 950
+F 0 "#PWR0104" H 3200 700 50  0001 C CNN
+F 1 "GND" H 3205 777 50  0000 C CNN
+F 2 "" H 3200 950 50  0001 C CNN
+F 3 "" H 3200 950 50  0001 C CNN
+	1    3200 950 
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC

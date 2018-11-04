@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Flips5Plus-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -508,4 +509,38 @@ Text Label 2450 850  0    50   ~ 0
 R.VCC
 Text Label 2450 950  0    50   ~ 0
 R.HV
+$Comp
+L Device:C_Small C1
+U 1 1 5BDFBE59
+P 4600 1750
+F 0 "C1" H 4692 1796 50  0000 L CNN
+F 1 "0U1" H 4692 1705 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 4600 1750 50  0001 C CNN
+F 3 "~" H 4600 1750 50  0001 C CNN
+	1    4600 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5BDFBEF6
+P 10750 1850
+F 0 "C2" H 10658 1804 50  0000 R CNN
+F 1 "0U1" H 10658 1895 50  0000 R CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 10750 1850 50  0001 C CNN
+F 3 "~" H 10750 1850 50  0001 C CNN
+	1    10750 1850
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	10750 1700 10750 1750
+Wire Wire Line
+	10750 1950 10750 2050
+Wire Wire Line
+	4600 1850 4600 1950
+Wire Wire Line
+	4600 1600 4600 1650
+Text Label 4600 1600 0    50   ~ 0
+L.GND
+Text Label 10750 1700 0    50   ~ 0
+R.GND
 $EndSCHEMATC
