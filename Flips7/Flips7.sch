@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Flips7-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -523,133 +524,133 @@ X.HV
 $Comp
 L Connector_Generic:Conn_02x30_Top_Bottom BOARD1
 U 1 1 5BE4D1FF
-P 7250 5000
-F 0 "BOARD1" H 7300 6617 50  0000 C CNN
-F 1 "Conn_02x30_Top_Bottom" H 7300 6526 50  0000 C CNN
-F 2 "IDC_Numbering_Pin_Header_Straight_2x30_Pitch2.54mm" H 7250 5000 50  0001 C CNN
-F 3 "~" H 7250 5000 50  0001 C CNN
-	1    7250 5000
+P 6000 4200
+F 0 "BOARD1" H 6050 5817 50  0000 C CNN
+F 1 "Conn_02x30_Top_Bottom" H 6050 5726 50  0000 C CNN
+F 2 "IDC_Numbering_Pin_Header_Straight_2x30_Pitch2.54mm" H 6000 4200 50  0001 C CNN
+F 3 "~" H 6000 4200 50  0001 C CNN
+	1    6000 4200
 	0    -1   1    0   
 $EndComp
-Text Label 5850 4800 1    50   ~ 0
+Text Label 4600 4000 1    50   ~ 0
 X11
-Text Label 5950 4800 1    50   ~ 0
+Text Label 4700 4000 1    50   ~ 0
 YS07
-Text Label 6050 4800 1    50   ~ 0
+Text Label 4800 4000 1    50   ~ 0
 YR07
-Text Label 6150 4800 1    50   ~ 0
+Text Label 4900 4000 1    50   ~ 0
 X12
-Text Label 6250 4800 1    50   ~ 0
+Text Label 5000 4000 1    50   ~ 0
 YS06
-Text Label 6350 4800 1    50   ~ 0
+Text Label 5100 4000 1    50   ~ 0
 YR06
-Text Label 6450 4800 1    50   ~ 0
+Text Label 5200 4000 1    50   ~ 0
 X13
-Text Label 6550 4800 1    50   ~ 0
+Text Label 5300 4000 1    50   ~ 0
 YS03
-Text Label 6650 4800 1    50   ~ 0
+Text Label 5400 4000 1    50   ~ 0
 YR03
-Text Label 6750 4800 1    50   ~ 0
+Text Label 5500 4000 1    50   ~ 0
 X14
-Text Label 6850 4800 1    50   ~ 0
+Text Label 5600 4000 1    50   ~ 0
 YS02
-Text Label 6950 4800 1    50   ~ 0
+Text Label 5700 4000 1    50   ~ 0
 X10
-Text Label 7050 4800 1    50   ~ 0
+Text Label 5800 4000 1    50   ~ 0
 YR02
-Text Label 7150 4800 1    50   ~ 0
+Text Label 5900 4000 1    50   ~ 0
 YR14
-Text Label 7250 4800 1    50   ~ 0
+Text Label 6000 4000 1    50   ~ 0
 YS14
-Text Label 7350 4800 1    50   ~ 0
+Text Label 6100 4000 1    50   ~ 0
 X15
-Text Label 7450 4800 1    50   ~ 0
+Text Label 6200 4000 1    50   ~ 0
 YS01
-Text Label 7550 4800 1    50   ~ 0
+Text Label 6300 4000 1    50   ~ 0
 YR01
-Text Label 7650 4800 1    50   ~ 0
+Text Label 6400 4000 1    50   ~ 0
 X16
-Text Label 7750 4800 1    50   ~ 0
+Text Label 6500 4000 1    50   ~ 0
 YS04
-Text Label 7850 4800 1    50   ~ 0
+Text Label 6600 4000 1    50   ~ 0
 YR04
-Text Label 7950 4800 1    50   ~ 0
+Text Label 6700 4000 1    50   ~ 0
 X17
-Text Label 8050 4800 1    50   ~ 0
+Text Label 6800 4000 1    50   ~ 0
 YS05
-Text Label 8150 4800 1    50   ~ 0
+Text Label 6900 4000 1    50   ~ 0
 YR05
-Text Label 8250 4800 1    50   ~ 0
+Text Label 7000 4000 1    50   ~ 0
 X18
-Text Label 8350 4800 1    50   ~ 0
+Text Label 7100 4000 1    50   ~ 0
 YS08
-Text Label 8450 4800 1    50   ~ 0
+Text Label 7200 4000 1    50   ~ 0
 YR08
-Text Label 8550 4800 1    50   ~ 0
+Text Label 7300 4000 1    50   ~ 0
 X19
-Text Label 8650 4800 1    50   ~ 0
+Text Label 7400 4000 1    50   ~ 0
 YS09
-Text Label 8750 4800 1    50   ~ 0
+Text Label 7500 4000 1    50   ~ 0
 YR09
-Text Label 5850 5300 3    50   ~ 0
+Text Label 4600 4500 3    50   ~ 0
 YS12
-Text Label 5950 5300 3    50   ~ 0
+Text Label 4700 4500 3    50   ~ 0
 YR12
-Text Label 6050 5300 3    50   ~ 0
+Text Label 4800 4500 3    50   ~ 0
 X03
-Text Label 6150 5300 3    50   ~ 0
+Text Label 4900 4500 3    50   ~ 0
 X02
-Text Label 6250 5300 3    50   ~ 0
+Text Label 5000 4500 3    50   ~ 0
 X01
-Text Label 6350 5300 3    50   ~ 0
+Text Label 5100 4500 3    50   ~ 0
 X09
-Text Label 6450 5300 3    50   ~ 0
+Text Label 5200 4500 3    50   ~ 0
 YR13
-Text Label 6550 5300 3    50   ~ 0
+Text Label 5300 4500 3    50   ~ 0
 YS13
-Text Label 6650 5300 3    50   ~ 0
+Text Label 5400 4500 3    50   ~ 0
 X08
-Text Label 6750 5300 3    50   ~ 0
+Text Label 5500 4500 3    50   ~ 0
 X07
-Text Label 6850 5300 3    50   ~ 0
+Text Label 5600 4500 3    50   ~ 0
 X06
-Text Label 6950 5300 3    50   ~ 0
+Text Label 5700 4500 3    50   ~ 0
 X05
-Text Label 7050 5300 3    50   ~ 0
+Text Label 5800 4500 3    50   ~ 0
 YS10
-Text Label 7150 5300 3    50   ~ 0
+Text Label 5900 4500 3    50   ~ 0
 X04_NC
-Text Label 7250 5300 3    50   ~ 0
+Text Label 6000 4500 3    50   ~ 0
 YR10
-Text Label 7350 5300 3    50   ~ 0
+Text Label 6100 4500 3    50   ~ 0
 X25
-Text Label 7450 5300 3    50   ~ 0
+Text Label 6200 4500 3    50   ~ 0
 X24
-Text Label 7550 5300 3    50   ~ 0
+Text Label 6300 4500 3    50   ~ 0
 X23
-Text Label 7650 5300 3    50   ~ 0
+Text Label 6400 4500 3    50   ~ 0
 YS16
-Text Label 7750 5300 3    50   ~ 0
+Text Label 6500 4500 3    50   ~ 0
 X22
-Text Label 7850 5300 3    50   ~ 0
+Text Label 6600 4500 3    50   ~ 0
 YR16
-Text Label 7950 5300 3    50   ~ 0
+Text Label 6700 4500 3    50   ~ 0
 YR15
-Text Label 8050 5300 3    50   ~ 0
+Text Label 6800 4500 3    50   ~ 0
 YS15
-Text Label 8150 5300 3    50   ~ 0
+Text Label 6900 4500 3    50   ~ 0
 X28
-Text Label 8250 5300 3    50   ~ 0
+Text Label 7000 4500 3    50   ~ 0
 X27_X04
-Text Label 8350 5300 3    50   ~ 0
+Text Label 7100 4500 3    50   ~ 0
 X26
-Text Label 8450 5300 3    50   ~ 0
+Text Label 7200 4500 3    50   ~ 0
 X21
-Text Label 8550 5300 3    50   ~ 0
+Text Label 7300 4500 3    50   ~ 0
 YR11
-Text Label 8650 5300 3    50   ~ 0
+Text Label 7400 4500 3    50   ~ 0
 X20
-Text Label 8750 5300 3    50   ~ 0
+Text Label 7500 4500 3    50   ~ 0
 YS11
 $Comp
 L Eigene~Bauteile:Jumper_Cross JP1
@@ -670,4 +671,154 @@ Text Label 6150 6850 2    50   ~ 0
 X04_NC
 Text Label 6150 6150 0    50   ~ 0
 X27_X04
+Text Label 8300 4100 2    50   ~ 0
+YS01
+Text Label 8300 4200 2    50   ~ 0
+YS02
+Text Label 8300 4300 2    50   ~ 0
+YS03
+Text Label 8300 4400 2    50   ~ 0
+YS04
+Text Label 8300 4500 2    50   ~ 0
+YS05
+Text Label 8300 4600 2    50   ~ 0
+YS06
+Text Label 8300 4700 2    50   ~ 0
+YS07
+Text Label 8300 4800 2    50   ~ 0
+YS08
+Text Label 8300 4900 2    50   ~ 0
+YS09
+Text Label 8300 5000 2    50   ~ 0
+YS10
+Text Label 8300 5100 2    50   ~ 0
+YS11
+Text Label 8300 5200 2    50   ~ 0
+YS12
+Text Label 8300 5300 2    50   ~ 0
+YS13
+Text Label 8300 5400 2    50   ~ 0
+YS14
+Text Label 8800 4100 0    50   ~ 0
+YR01
+Text Label 8800 4200 0    50   ~ 0
+YR02
+Text Label 8800 4300 0    50   ~ 0
+YR03
+Text Label 8800 4400 0    50   ~ 0
+YR04
+Text Label 8800 4500 0    50   ~ 0
+YR05
+Text Label 8800 4600 0    50   ~ 0
+YR06
+Text Label 8800 4700 0    50   ~ 0
+YR07
+Text Label 8800 4800 0    50   ~ 0
+YR08
+Text Label 8800 4900 0    50   ~ 0
+YR09
+Text Label 8800 5000 0    50   ~ 0
+YR10
+Text Label 8800 5100 0    50   ~ 0
+YR11
+Text Label 8800 5200 0    50   ~ 0
+YR12
+Text Label 8800 5300 0    50   ~ 0
+YR13
+Text Label 8800 5400 0    50   ~ 0
+YR14
+Text Label 8300 5500 2    50   ~ 0
+YS15
+Text Label 8300 5600 2    50   ~ 0
+YS16
+Text Label 8800 5500 0    50   ~ 0
+YR15
+Text Label 8800 5600 0    50   ~ 0
+YR16
+Text Label 9500 4100 2    50   ~ 0
+YS01
+Text Label 9500 4200 2    50   ~ 0
+YS02
+Text Label 9500 4300 2    50   ~ 0
+YS03
+Text Label 9500 4400 2    50   ~ 0
+YS04
+Text Label 9500 4500 2    50   ~ 0
+YS05
+Text Label 9500 4600 2    50   ~ 0
+YS06
+Text Label 9500 4700 2    50   ~ 0
+YS07
+Text Label 9500 4800 2    50   ~ 0
+YS08
+Text Label 9500 4900 2    50   ~ 0
+YS09
+Text Label 9500 5000 2    50   ~ 0
+YS10
+Text Label 9500 5100 2    50   ~ 0
+YS11
+Text Label 9500 5200 2    50   ~ 0
+YS12
+Text Label 9500 5300 2    50   ~ 0
+YS13
+Text Label 9500 5400 2    50   ~ 0
+YS14
+Text Label 10000 4100 0    50   ~ 0
+YR01
+Text Label 10000 4200 0    50   ~ 0
+YR02
+Text Label 10000 4300 0    50   ~ 0
+YR03
+Text Label 10000 4400 0    50   ~ 0
+YR04
+Text Label 10000 4500 0    50   ~ 0
+YR05
+Text Label 10000 4600 0    50   ~ 0
+YR06
+Text Label 10000 4700 0    50   ~ 0
+YR07
+Text Label 10000 4800 0    50   ~ 0
+YR08
+Text Label 10000 4900 0    50   ~ 0
+YR09
+Text Label 10000 5000 0    50   ~ 0
+YR10
+Text Label 10000 5100 0    50   ~ 0
+YR11
+Text Label 10000 5200 0    50   ~ 0
+YR12
+Text Label 10000 5300 0    50   ~ 0
+YR13
+Text Label 10000 5400 0    50   ~ 0
+YR14
+Text Label 9500 5500 2    50   ~ 0
+YS15
+Text Label 9500 5600 2    50   ~ 0
+YS16
+Text Label 10000 5500 0    50   ~ 0
+YR15
+Text Label 10000 5600 0    50   ~ 0
+YR16
+$Comp
+L Connector_Generic:Conn_02x16_Odd_Even CN1
+U 1 1 5BE0CD77
+P 8500 4800
+F 0 "CN1" H 8550 5717 50  0000 C CNN
+F 1 "Conn_02x16_Odd_Even" H 8550 5626 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x16_Pitch2.54mm" H 8500 4800 50  0001 C CNN
+F 3 "~" H 8500 4800 50  0001 C CNN
+	1    8500 4800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x16_Odd_Even CN2
+U 1 1 5BE0CDEE
+P 9700 4800
+F 0 "CN2" H 9750 5717 50  0000 C CNN
+F 1 "Conn_02x16_Odd_Even" H 9750 5626 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_2x16_Pitch2.54mm" H 9700 4800 50  0001 C CNN
+F 3 "~" H 9700 4800 50  0001 C CNN
+	1    9700 4800
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
