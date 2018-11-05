@@ -326,7 +326,7 @@ U 1 1 5BDC8CDE
 P 2450 1950
 F 0 "CN1" H 2450 1400 50  0000 C CNN
 F 1 "UFP2810" H 2450 1500 50  0000 C CNN
-F 2 "Own:Pin_Header_Angle_Shrouded_2x05_Pitch2.54mm" H 2450 1950 50  0001 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_2x05_Pitch2.54mm" H 2450 1950 50  0001 C CNN
 F 3 "" H 2450 1950 50  0001 C CNN
 	1    2450 1950
 	1    0    0    1   
