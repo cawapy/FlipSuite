@@ -1,4 +1,5 @@
 EESchema Schematic File Version 4
+LIBS:Flips5X-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -658,14 +659,6 @@ Text Label 6900 5400 1    50   ~ 0
 X28
 NoConn ~ 6600 5400
 NoConn ~ 7600 5400
-NoConn ~ 7700 5400
-NoConn ~ 7800 5400
-NoConn ~ 7900 5400
-NoConn ~ 8000 5400
-NoConn ~ 8000 5900
-NoConn ~ 7900 5900
-NoConn ~ 7800 5900
-NoConn ~ 7700 5900
 NoConn ~ 6700 5900
 $Comp
 L power:PWR_FLAG #FLG0107
@@ -708,14 +701,16 @@ Text Label 4050 4450 0    50   ~ 0
 X.HV
 NoConn ~ 6100 5900
 $Comp
-L Connector_Generic:Conn_02x20_Odd_Even CNX2
-U 1 1 5BED29D7
-P 7000 5700
-F 0 "CNX2" V 7096 6679 50  0000 L CNN
-F 1 "Conn_02x20_Odd_Even" V 7005 6679 50  0000 L CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x20_Pitch2.54mm" H 7000 5700 50  0001 C CNN
-F 3 "~" H 7000 5700 50  0001 C CNN
-	1    7000 5700
+L Connector_Generic:Conn_02x17_Odd_Even BRD1
+U 1 1 5BE36D58
+P 6900 5700
+F 0 "BRD1" V 6996 6579 50  0000 L CNN
+F 1 "Conn_02x17_Odd_Even" V 6905 6579 50  0000 L CNN
+F 2 "Own:Pin_Header_Angle_Shrouded_2x17_Pitch2.54mm_ConvNumbering" H 6900 5700 50  0001 C CNN
+F 3 "~" H 6900 5700 50  0001 C CNN
+	1    6900 5700
 	0    -1   -1   0   
 $EndComp
+NoConn ~ 7700 5900
+NoConn ~ 7700 5400
 $EndSCHEMATC
