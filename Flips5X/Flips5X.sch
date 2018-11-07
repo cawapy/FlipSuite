@@ -25,17 +25,6 @@ F 3 "" H 2300 2350 60  0001 C CNN
 	1    2350 2250
 	0    1    1    0   
 $EndComp
-$Comp
-L Connector_Generic:Conn_02x30_Odd_Even CN1
-U 1 1 5B82C747
-P 5850 2100
-F 0 "CN1" V 5500 1300 50  0000 C CNN
-F 1 "Conn_02x30_Odd_Even" V 6300 1050 50  0000 C CNN
-F 2 "Socket_Strips:Socket_Strip_Straight_2x30_Pitch2.54mm" H 5850 2100 50  0001 C CNN
-F 3 "~" H 5850 2100 50  0001 C CNN
-	1    5850 2100
-	-1   0    0    1   
-$EndComp
 NoConn ~ 6050 1500
 NoConn ~ 6050 1400
 NoConn ~ 6050 1300
@@ -713,4 +702,74 @@ F 3 "~" H 6900 5700 50  0001 C CNN
 $EndComp
 NoConn ~ 7700 5900
 NoConn ~ 7700 5400
+$Comp
+L Connector_Generic:Conn_02x17_Odd_Even BRD2
+U 1 1 5BE3715E
+P 7250 4350
+F 0 "BRD2" V 7254 5229 50  0000 L CNN
+F 1 "Conn_02x17_Odd_Even" V 7345 5229 50  0000 L CNN
+F 2 "Own:Pin_Header_Angle_Shrouded_2x17_Pitch2.54mm_ConvNumbering" H 7250 4350 50  0001 C CNN
+F 3 "~" H 7250 4350 50  0001 C CNN
+	1    7250 4350
+	0    -1   1    0   
+$EndComp
+Text Label 6550 4150 1    50   ~ 0
+SY1
+Text Label 6750 4150 1    50   ~ 0
+SY3
+Text Label 7150 4150 1    50   ~ 0
+SY7
+Text Label 6650 4150 1    50   ~ 0
+SY2
+Text Label 6850 4150 1    50   ~ 0
+SY4
+Text Label 6550 4650 3    50   ~ 0
+RY1
+Text Label 6650 4650 3    50   ~ 0
+RY2
+Text Label 6850 4650 3    50   ~ 0
+RY4
+Text Label 7050 4650 3    50   ~ 0
+RY6
+Text Label 6950 4150 1    50   ~ 0
+SY5
+Text Label 7050 4150 1    50   ~ 0
+SY6
+Text Label 6750 4650 3    50   ~ 0
+RY3
+Text Label 6950 4650 3    50   ~ 0
+RY5
+Text Label 7150 4650 3    50   ~ 0
+RY7
+NoConn ~ 6450 4150
+NoConn ~ 6450 4650
+NoConn ~ 7250 4650
+NoConn ~ 7350 4650
+NoConn ~ 7450 4650
+NoConn ~ 7550 4650
+NoConn ~ 7650 4650
+NoConn ~ 7750 4650
+NoConn ~ 7850 4650
+NoConn ~ 7950 4650
+NoConn ~ 8050 4650
+NoConn ~ 8050 4150
+NoConn ~ 7950 4150
+NoConn ~ 7850 4150
+NoConn ~ 7750 4150
+NoConn ~ 7650 4150
+NoConn ~ 7550 4150
+NoConn ~ 7450 4150
+NoConn ~ 7350 4150
+NoConn ~ 7250 4150
+$Comp
+L Connector_Generic:Conn_02x30_Odd_Even CN1
+U 1 1 5B82C747
+P 5850 2100
+F 0 "CN1" V 5500 1300 50  0000 C CNN
+F 1 "Conn_02x30_Odd_Even" V 6300 1050 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_2x30_Pitch2.54mm_ConvNumbering" H 5850 2100 50  0001 C CNN
+F 3 "~" H 5850 2100 50  0001 C CNN
+	1    5850 2100
+	-1   0    0    1   
+$EndComp
 $EndSCHEMATC
