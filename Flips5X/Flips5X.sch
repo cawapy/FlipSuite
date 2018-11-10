@@ -97,89 +97,89 @@ F 3 "" H 8450 2450 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 4200 750  2    50   ~ 0
-L.B1
+Y1.B1
 Text Label 4200 850  2    50   ~ 0
-L.EN
+Y1.EN
 Text Label 4200 950  2    50   ~ 0
-L.HV
+Y1.HV
 Text Label 4200 1050 2    50   ~ 0
-L.VCC
+Y1.VCC
 Text Label 4200 1150 2    50   ~ 0
-L.A0
+Y1.A0
 Text Label 4900 750  0    50   ~ 0
-L.B0
+Y1.B0
 Text Label 4900 850  0    50   ~ 0
-L.POL
+Y1.POL
 Text Label 4900 950  0    50   ~ 0
-L.GND
+Y1.GND
 Text Label 4900 1050 0    50   ~ 0
-L.A1
+Y1.A1
 Text Label 4900 1150 0    50   ~ 0
-L.A2
+Y1.A2
 Text Label 3050 1400 1    50   ~ 0
-L.EN
+Y1.EN
 Text Label 3250 1400 1    50   ~ 0
-L.POL
+Y1.POL
 Text Label 3450 1400 1    50   ~ 0
-L.B1
+Y1.B1
 Text Label 3550 1400 1    50   ~ 0
-L.B0
+Y1.B0
 Text Label 3750 1400 1    50   ~ 0
-L.A2
+Y1.A2
 Text Label 3850 1400 1    50   ~ 0
-L.A1
+Y1.A1
 Text Label 3950 1400 1    50   ~ 0
-L.A0
+Y1.A0
 Text Label 9200 1500 1    50   ~ 0
-R.EN
+Y2.EN
 Text Label 9400 1500 1    50   ~ 0
-R.POL
+Y2.POL
 Text Label 9600 1500 1    50   ~ 0
-R.B1
+Y2.B1
 Text Label 9700 1500 1    50   ~ 0
-R.B0
+Y2.B0
 Text Label 9900 1500 1    50   ~ 0
-R.A2
+Y2.A2
 Text Label 10000 1500 1    50   ~ 0
-R.A1
+Y2.A1
 Text Label 10100 1500 1    50   ~ 0
-R.A0
+Y2.A0
 Text Label 600  2000 1    50   ~ 0
-L.GND
+Y1.GND
 Text Label 600  2450 1    50   ~ 0
-L.GND
+Y1.GND
 Text Label 4600 1950 0    50   ~ 0
-L.VCC
+Y1.VCC
 Text Label 4600 2350 0    50   ~ 0
-L.HV
+Y1.HV
 Text Label 8550 850  0    50   ~ 0
-R.B0
+Y2.B0
 Text Label 8550 950  0    50   ~ 0
-R.POL
+Y2.POL
 Text Label 8550 1050 0    50   ~ 0
-R.GND
+Y2.GND
 Text Label 8550 1150 0    50   ~ 0
-R.A1
+Y2.A1
 Text Label 8550 1250 0    50   ~ 0
-R.A2
+Y2.A2
 Text Label 7850 850  2    50   ~ 0
-R.B1
+Y2.B1
 Text Label 7850 950  2    50   ~ 0
-R.EN
+Y2.EN
 Text Label 7850 1050 2    50   ~ 0
-R.HV
+Y2.HV
 Text Label 7850 1150 2    50   ~ 0
-R.VCC
+Y2.VCC
 Text Label 7850 1250 2    50   ~ 0
-R.A0
+Y2.A0
 Text Label 6750 2100 2    50   ~ 0
-R.GND
+Y2.GND
 Text Label 6750 2550 2    50   ~ 0
-R.GND
+Y2.GND
 Text Label 10750 2450 0    50   ~ 0
-R.HV
+Y2.HV
 Text Label 10750 2050 0    50   ~ 0
-R.VCC
+Y2.VCC
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5BDFAC1B
@@ -247,17 +247,17 @@ F 3 "~" H 2450 950 50  0001 C CNN
 	0    -1   -1   0   
 $EndComp
 Text Label 1500 750  0    50   ~ 0
-L.GND
+Y1.GND
 Text Label 1500 850  0    50   ~ 0
-L.VCC
+Y1.VCC
 Text Label 1500 950  0    50   ~ 0
-L.HV
+Y1.HV
 Text Label 2450 750  0    50   ~ 0
-R.GND
+Y2.GND
 Text Label 2450 850  0    50   ~ 0
-R.VCC
+Y2.VCC
 Text Label 2450 950  0    50   ~ 0
-R.HV
+Y2.HV
 $Comp
 L Device:C_Small C1
 U 1 1 5BDFBE59
@@ -289,9 +289,9 @@ Wire Wire Line
 Wire Wire Line
 	4600 1600 4600 1650
 Text Label 4600 1600 0    50   ~ 0
-L.GND
+Y1.GND
 Text Label 10750 1700 0    50   ~ 0
-R.GND
+Y2.GND
 Text Label 4050 3050 3    50   ~ 0
 SY1
 Text Label 3950 3050 3    50   ~ 0
@@ -799,9 +799,9 @@ F 3 "~" H 3350 900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 3250 900  2    50   ~ 0
-L.EN
+Y1.EN
 Text Label 3450 900  0    50   ~ 0
-L.GND
+Y1.GND
 $Comp
 L Device:R_Small R2
 U 1 1 5BE6D847
@@ -814,7 +814,7 @@ F 3 "~" H 9750 900 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 9650 900  2    50   ~ 0
-R.EN
+Y2.EN
 Text Label 9850 900  0    50   ~ 0
-R.GND
+Y2.GND
 $EndSCHEMATC
