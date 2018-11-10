@@ -64,10 +64,10 @@ NoConn ~ 9400 3150
 NoConn ~ 9600 3150
 NoConn ~ 10400 3150
 $Comp
-L Eigene~Bauteile:UFP2810 CN2
+L Eigene~Bauteile:UFP2810 CNY1
 U 1 1 5BDC60AA
 P 4550 950
-F 0 "CN2" H 4550 1417 50  0000 C CNN
+F 0 "CNY1" H 4550 1417 50  0000 C CNN
 F 1 "UFP2810" H 4550 1326 50  0000 C CNN
 F 2 "Own:Pin_Header_Angle_Shrouded_2x05_Pitch2.54mm" H 4550 950 50  0001 C CNN
 F 3 "" H 4550 950 50  0001 C CNN
@@ -75,10 +75,10 @@ F 3 "" H 4550 950 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Eigene~Bauteile:UFP2810 CN3
+L Eigene~Bauteile:UFP2810 CNY2
 U 1 1 5BDC60FA
 P 8200 1050
-F 0 "CN3" H 8200 1517 50  0000 C CNN
+F 0 "CNY2" H 8200 1517 50  0000 C CNN
 F 1 "UFP2810" H 8200 1426 50  0000 C CNN
 F 2 "Own:Pin_Header_Angle_Shrouded_2x05_Pitch2.54mm" H 8200 1050 50  0001 C CNN
 F 3 "" H 8200 1050 50  0001 C CNN
@@ -690,10 +690,10 @@ Text Label 4050 4450 0    50   ~ 0
 X.HV
 NoConn ~ 6100 5900
 $Comp
-L Connector_Generic:Conn_02x17_Odd_Even BRD1
+L Connector_Generic:Conn_02x17_Odd_Even BRDB1
 U 1 1 5BE36D58
 P 6900 5700
-F 0 "BRD1" V 6996 6579 50  0000 L CNN
+F 0 "BRDB1" V 6996 6579 50  0000 L CNN
 F 1 "Conn_02x17_Odd_Even" V 6905 6579 50  0000 L CNN
 F 2 "Own:Pin_Header_Angle_Shrouded_2x17_Pitch2.54mm_ConvNumbering" H 6900 5700 50  0001 C CNN
 F 3 "~" H 6900 5700 50  0001 C CNN
@@ -703,10 +703,10 @@ $EndComp
 NoConn ~ 7700 5900
 NoConn ~ 7700 5400
 $Comp
-L Connector_Generic:Conn_02x17_Odd_Even BRD2
+L Connector_Generic:Conn_02x17_Odd_Even BRDA2
 U 1 1 5BE3715E
 P 7250 4350
-F 0 "BRD2" V 7254 5229 50  0000 L CNN
+F 0 "BRDA2" V 7254 5229 50  0000 L CNN
 F 1 "Conn_02x17_Odd_Even" V 7345 5229 50  0000 L CNN
 F 2 "Own:Pin_Header_Angle_Shrouded_2x17_Pitch2.54mm_ConvNumbering" H 7250 4350 50  0001 C CNN
 F 3 "~" H 7250 4350 50  0001 C CNN
@@ -762,10 +762,10 @@ NoConn ~ 7450 4150
 NoConn ~ 7350 4150
 NoConn ~ 7250 4150
 $Comp
-L Connector_Generic:Conn_02x30_Odd_Even CN1
+L Connector_Generic:Conn_02x30_Odd_Even BRDA1
 U 1 1 5B82C747
 P 5850 2100
-F 0 "CN1" V 5500 1300 50  0000 C CNN
+F 0 "BRDA1" V 5500 1300 50  0000 C CNN
 F 1 "Conn_02x30_Odd_Even" V 6300 1050 50  0000 C CNN
 F 2 "Own:Pin_Header_Straight_Shrouded_2x30_Pitch2.54mm_ConvNumbering" H 5850 2100 50  0001 C CNN
 F 3 "~" H 5850 2100 50  0001 C CNN
