@@ -692,13 +692,13 @@ NoConn ~ 6100 5900
 $Comp
 L Connector_Generic:Conn_02x17_Odd_Even BRDB1
 U 1 1 5BE36D58
-P 6900 5700
-F 0 "BRDB1" V 6996 6579 50  0000 L CNN
-F 1 "Conn_02x17_Odd_Even" V 6905 6579 50  0000 L CNN
-F 2 "Own:Pin_Header_Angle_Shrouded_2x17_Pitch2.54mm_ConvNumbering" H 6900 5700 50  0001 C CNN
-F 3 "~" H 6900 5700 50  0001 C CNN
-	1    6900 5700
-	0    -1   -1   0   
+P 6900 5600
+F 0 "BRDB1" V 6996 6479 50  0000 L CNN
+F 1 "Conn_02x17_Odd_Even" V 6905 6479 50  0000 L CNN
+F 2 "Own:Pin_Header_Angle_Shrouded_2x17_Pitch2.54mm_ConvNumbering" H 6900 5600 50  0001 C CNN
+F 3 "~" H 6900 5600 50  0001 C CNN
+	1    6900 5600
+	0    -1   1    0   
 $EndComp
 NoConn ~ 7700 5900
 NoConn ~ 7700 5400
