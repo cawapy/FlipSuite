@@ -772,4 +772,49 @@ F 3 "~" H 5850 2100 50  0001 C CNN
 	1    5850 2100
 	-1   0    0    1   
 $EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5BE6D4AB
+P 1250 4500
+F 0 "R3" V 1054 4500 50  0000 C CNN
+F 1 "10k" V 1145 4500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 1250 4500 50  0001 C CNN
+F 3 "~" H 1250 4500 50  0001 C CNN
+	1    1250 4500
+	0    1    1    0   
+$EndComp
+Text Label 1150 4500 2    50   ~ 0
+X.EN
+Text Label 1350 4500 0    50   ~ 0
+X.GND
+$Comp
+L Device:R_Small R1
+U 1 1 5BE6D68F
+P 3350 900
+F 0 "R1" V 3154 900 50  0000 C CNN
+F 1 "10k" V 3245 900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 3350 900 50  0001 C CNN
+F 3 "~" H 3350 900 50  0001 C CNN
+	1    3350 900 
+	0    1    1    0   
+$EndComp
+Text Label 3250 900  2    50   ~ 0
+L.EN
+Text Label 3450 900  0    50   ~ 0
+L.GND
+$Comp
+L Device:R_Small R2
+U 1 1 5BE6D847
+P 9750 900
+F 0 "R2" V 9554 900 50  0000 C CNN
+F 1 "10k" V 9645 900 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805_HandSoldering" H 9750 900 50  0001 C CNN
+F 3 "~" H 9750 900 50  0001 C CNN
+	1    9750 900 
+	0    1    1    0   
+$EndComp
+Text Label 9650 900  2    50   ~ 0
+R.EN
+Text Label 9850 900  0    50   ~ 0
+R.GND
 $EndSCHEMATC
