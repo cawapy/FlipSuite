@@ -659,7 +659,6 @@ NoConn ~ 5200 3100
 NoConn ~ 5200 3000
 NoConn ~ 5200 2900
 NoConn ~ 5200 2800
-NoConn ~ 5200 2700
 Text Label 9150 1200 2    50   ~ 0
 XA.0
 Text Label 9850 1200 0    50   ~ 0
@@ -878,4 +877,35 @@ Wire Wire Line
 	2700 1000 3050 1000
 Wire Wire Line
 	2600 1100 3050 1100
+Text Label 9150 5750 2    50   ~ 0
+XA.0
+Text Label 9850 5750 0    50   ~ 0
+XA.2
+Text Label 9850 5850 0    50   ~ 0
+XA.1
+Text Label 9150 5850 2    50   ~ 0
+VCC
+Text Label 9150 5950 2    50   ~ 0
+HV
+Text Label 9150 6150 2    50   ~ 0
+XB.1
+Text Label 9850 6150 0    50   ~ 0
+XB.0
+Text Label 9850 6050 0    50   ~ 0
+XDAT
+Text Label 9850 5950 0    50   ~ 0
+GND
+Text Label 9150 6050 2    50   ~ 0
+XEN6
+$Comp
+L Eigene~Bauteile:UFP2810 CNX6
+U 1 1 5BE8A718
+P 9500 5950
+F 0 "CNX6" H 9500 5483 50  0000 C CNN
+F 1 "UFP2810" H 9500 5574 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_2x05_Pitch2.54mm" H 9500 5950 50  0001 C CNN
+F 3 "" H 9500 5950 50  0001 C CNN
+	1    9500 5950
+	1    0    0    1   
+$EndComp
 $EndSCHEMATC
