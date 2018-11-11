@@ -333,45 +333,45 @@ SY19
 Text Label 9700 3150 3    50   ~ 0
 SY20
 Text Label 2450 3050 3    50   ~ 0
-RY1
+~RY1
 Text Label 2350 3050 3    50   ~ 0
-RY2
+~RY2
 Text Label 2250 3050 3    50   ~ 0
-RY3
+~RY3
 Text Label 2150 3050 3    50   ~ 0
-RY4
+~RY4
 Text Label 2050 3050 3    50   ~ 0
-RY5
+~RY5
 Text Label 1950 3050 3    50   ~ 0
-RY6
+~RY6
 Text Label 1850 3050 3    50   ~ 0
-RY7
+~RY7
 Text Label 1650 3050 3    50   ~ 0
-RY8
+~RY8
 Text Label 1550 3050 3    50   ~ 0
-RY9
+~RY9
 Text Label 1450 3050 3    50   ~ 0
-RY10
+~RY10
 Text Label 1350 3050 3    50   ~ 0
-RY11
+~RY11
 Text Label 1250 3050 3    50   ~ 0
-RY12
+~RY12
 Text Label 1150 3050 3    50   ~ 0
-RY13
+~RY13
 Text Label 1050 3050 3    50   ~ 0
-RY14
+~RY14
 Text Label 8600 3150 3    50   ~ 0
-RY15
+~RY15
 Text Label 8500 3150 3    50   ~ 0
-RY16
+~RY16
 Text Label 8400 3150 3    50   ~ 0
-RY17
+~RY17
 Text Label 8300 3150 3    50   ~ 0
-RY18
+~RY18
 Text Label 8200 3150 3    50   ~ 0
-RY19
+~RY19
 Text Label 8100 3150 3    50   ~ 0
-RY20
+~RY20
 Text Label 6050 3500 0    50   ~ 0
 SY1
 Text Label 5550 3500 2    50   ~ 0
@@ -413,45 +413,45 @@ SY19
 Text Label 5550 2600 2    50   ~ 0
 SY20
 Text Label 6050 2500 0    50   ~ 0
-RY1
+~RY1
 Text Label 5550 2500 2    50   ~ 0
-RY2
+~RY2
 Text Label 6050 2400 0    50   ~ 0
-RY3
+~RY3
 Text Label 5550 2400 2    50   ~ 0
-RY4
+~RY4
 Text Label 6050 2300 0    50   ~ 0
-RY5
+~RY5
 Text Label 5550 2300 2    50   ~ 0
-RY6
+~RY6
 Text Label 6050 2200 0    50   ~ 0
-RY7
+~RY7
 Text Label 5550 2200 2    50   ~ 0
-RY8
+~RY8
 Text Label 6050 2100 0    50   ~ 0
-RY9
+~RY9
 Text Label 5550 2100 2    50   ~ 0
-RY10
+~RY10
 Text Label 6050 2000 0    50   ~ 0
-RY11
+~RY11
 Text Label 5550 2000 2    50   ~ 0
-RY12
+~RY12
 Text Label 6050 1900 0    50   ~ 0
-RY13
+~RY13
 Text Label 5550 1900 2    50   ~ 0
-RY14
+~RY14
 Text Label 6050 1800 0    50   ~ 0
-RY15
+~RY15
 Text Label 5550 1800 2    50   ~ 0
-RY16
+~RY16
 Text Label 6050 1700 0    50   ~ 0
-RY17
+~RY17
 Text Label 5550 1700 2    50   ~ 0
-RY18
+~RY18
 Text Label 6050 1600 0    50   ~ 0
-RY19
+~RY19
 Text Label 5550 1600 2    50   ~ 0
-RY20
+~RY20
 NoConn ~ 4650 6600
 $Comp
 L Eigene~Bauteile:UFP2810 CNX1
@@ -705,62 +705,62 @@ NoConn ~ 7700 5400
 $Comp
 L Connector_Generic:Conn_02x17_Odd_Even BRDA2
 U 1 1 5BE3715E
-P 7250 4350
-F 0 "BRDA2" V 7254 5229 50  0000 L CNN
-F 1 "Conn_02x17_Odd_Even" V 7345 5229 50  0000 L CNN
-F 2 "Own:Pin_Header_Angle_Shrouded_2x17_Pitch2.54mm_ConvNumbering" H 7250 4350 50  0001 C CNN
-F 3 "~" H 7250 4350 50  0001 C CNN
-	1    7250 4350
-	0    -1   1    0   
+P 7250 4450
+F 0 "BRDA2" V 7254 5329 50  0000 L CNN
+F 1 "Conn_02x17_Odd_Even" V 7345 5329 50  0000 L CNN
+F 2 "Own:Pin_Header_Angle_Shrouded_2x17_Pitch2.54mm_ConvNumbering" H 7250 4450 50  0001 C CNN
+F 3 "~" H 7250 4450 50  0001 C CNN
+	1    7250 4450
+	0    -1   -1   0   
 $EndComp
-Text Label 6550 4150 1    50   ~ 0
+Text Label 7350 4650 3    50   ~ 0
 SY1
-Text Label 6750 4150 1    50   ~ 0
+Text Label 7550 4650 3    50   ~ 0
 SY3
-Text Label 7150 4150 1    50   ~ 0
+Text Label 7950 4650 3    50   ~ 0
 SY7
-Text Label 6650 4150 1    50   ~ 0
+Text Label 7450 4650 3    50   ~ 0
 SY2
-Text Label 6850 4150 1    50   ~ 0
+Text Label 7650 4650 3    50   ~ 0
 SY4
-Text Label 6550 4650 3    50   ~ 0
-RY1
-Text Label 6650 4650 3    50   ~ 0
-RY2
-Text Label 6850 4650 3    50   ~ 0
-RY4
-Text Label 7050 4650 3    50   ~ 0
-RY6
-Text Label 6950 4150 1    50   ~ 0
+Text Label 7350 4150 1    50   ~ 0
+~RY1
+Text Label 7450 4150 1    50   ~ 0
+~RY2
+Text Label 7650 4150 1    50   ~ 0
+~RY4
+Text Label 7850 4150 1    50   ~ 0
+~RY6
+Text Label 7750 4650 3    50   ~ 0
 SY5
-Text Label 7050 4150 1    50   ~ 0
+Text Label 7850 4650 3    50   ~ 0
 SY6
-Text Label 6750 4650 3    50   ~ 0
-RY3
-Text Label 6950 4650 3    50   ~ 0
-RY5
-Text Label 7150 4650 3    50   ~ 0
-RY7
+Text Label 7550 4150 1    50   ~ 0
+~RY3
+Text Label 7750 4150 1    50   ~ 0
+~RY5
+Text Label 7950 4150 1    50   ~ 0
+~RY7
 NoConn ~ 6450 4150
 NoConn ~ 6450 4650
+NoConn ~ 6550 4650
+NoConn ~ 6650 4650
+NoConn ~ 6750 4650
+NoConn ~ 6850 4650
+NoConn ~ 6950 4650
+NoConn ~ 7050 4650
+NoConn ~ 7150 4650
 NoConn ~ 7250 4650
-NoConn ~ 7350 4650
-NoConn ~ 7450 4650
-NoConn ~ 7550 4650
-NoConn ~ 7650 4650
-NoConn ~ 7750 4650
-NoConn ~ 7850 4650
-NoConn ~ 7950 4650
 NoConn ~ 8050 4650
 NoConn ~ 8050 4150
-NoConn ~ 7950 4150
-NoConn ~ 7850 4150
-NoConn ~ 7750 4150
-NoConn ~ 7650 4150
-NoConn ~ 7550 4150
-NoConn ~ 7450 4150
-NoConn ~ 7350 4150
 NoConn ~ 7250 4150
+NoConn ~ 7150 4150
+NoConn ~ 7050 4150
+NoConn ~ 6950 4150
+NoConn ~ 6850 4150
+NoConn ~ 6750 4150
+NoConn ~ 6650 4150
+NoConn ~ 6550 4150
 $Comp
 L Connector_Generic:Conn_02x30_Odd_Even BRDA1
 U 1 1 5B82C747
