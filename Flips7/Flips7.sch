@@ -49,7 +49,7 @@ U 1 1 5BDC60AA
 P 5150 1050
 F 0 "CNY1" H 5150 1517 50  0000 C CNN
 F 1 "UFP2810" H 5150 1426 50  0000 C CNN
-F 2 "Own:Pin_Header_Angle_Shrouded_2x05_Pitch2.54mm" H 5150 1050 50  0001 C CNN
+F 2 "Own:Pin_Header_Angle_Shrouded_2x05_Pitch2.54mm_ConvNumbering" H 5150 1050 50  0001 C CNN
 F 3 "" H 5150 1050 50  0001 C CNN
 	1    5150 1050
 	1    0    0    -1  
@@ -60,7 +60,7 @@ U 1 1 5BDC60FA
 P 8200 1050
 F 0 "CNY2" H 8200 1517 50  0000 C CNN
 F 1 "UFP2810" H 8200 1426 50  0000 C CNN
-F 2 "Own:Pin_Header_Angle_Shrouded_2x05_Pitch2.54mm" H 8200 1050 50  0001 C CNN
+F 2 "Own:Pin_Header_Angle_Shrouded_2x05_Pitch2.54mm_ConvNumbering" H 8200 1050 50  0001 C CNN
 F 3 "" H 8200 1050 50  0001 C CNN
 	1    8200 1050
 	1    0    0    -1  
@@ -350,7 +350,7 @@ U 1 1 5BE4BE22
 P 2250 5200
 F 0 "CNX1" H 2250 5667 50  0000 C CNN
 F 1 "UFP2810" H 2250 5576 50  0000 C CNN
-F 2 "Own:Pin_Header_Angle_Shrouded_2x05_Pitch2.54mm" H 2250 5200 50  0001 C CNN
+F 2 "Own:Pin_Header_Angle_Shrouded_2x05_Pitch2.54mm_ConvNumbering" H 2250 5200 50  0001 C CNN
 F 3 "" H 2250 5200 50  0001 C CNN
 	1    2250 5200
 	1    0    0    -1  
@@ -527,7 +527,7 @@ U 1 1 5BE4D1FF
 P 6000 4200
 F 0 "BOARD1" H 6050 5817 50  0000 C CNN
 F 1 "Conn_02x30_Top_Bottom" H 6050 5726 50  0000 C CNN
-F 2 "IDC_Numbering_Pin_Header_Straight_2x30_Pitch2.54mm" H 6000 4200 50  0001 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_2x30_Pitch2.54mm_AltNumbering" H 6000 4200 50  0001 C CNN
 F 3 "~" H 6000 4200 50  0001 C CNN
 	1    6000 4200
 	0    -1   1    0   
@@ -679,61 +679,61 @@ Text Label 8300 4300 2    50   ~ 0
 ~SY03
 Text Label 8300 4400 2    50   ~ 0
 ~SY04
-Text Label 8300 4500 2    50   ~ 0
-~SY05
 Text Label 8300 4600 2    50   ~ 0
+~SY05
+Text Label 8300 4500 2    50   ~ 0
 ~SY06
 Text Label 8300 4700 2    50   ~ 0
 ~SY07
-Text Label 8300 4800 2    50   ~ 0
-~SY08
-Text Label 8300 4900 2    50   ~ 0
-~SY09
-Text Label 8300 5000 2    50   ~ 0
-~SY10
 Text Label 8300 5100 2    50   ~ 0
-~SY11
+~SY08
 Text Label 8300 5200 2    50   ~ 0
-~SY12
+~SY09
 Text Label 8300 5300 2    50   ~ 0
-~SY13
-Text Label 8300 5400 2    50   ~ 0
-~SY14
-Text Label 8800 4100 0    50   ~ 0
-RY01
-Text Label 8800 4200 0    50   ~ 0
-RY02
-Text Label 8800 4300 0    50   ~ 0
-RY03
-Text Label 8800 4400 0    50   ~ 0
-RY04
-Text Label 8800 4500 0    50   ~ 0
-RY05
-Text Label 8800 4600 0    50   ~ 0
-RY06
-Text Label 8800 4700 0    50   ~ 0
-RY07
-Text Label 8800 4800 0    50   ~ 0
-RY08
-Text Label 8800 4900 0    50   ~ 0
-RY09
-Text Label 8800 5000 0    50   ~ 0
-RY10
-Text Label 8800 5100 0    50   ~ 0
-RY11
-Text Label 8800 5200 0    50   ~ 0
-RY12
-Text Label 8800 5300 0    50   ~ 0
-RY13
-Text Label 8800 5400 0    50   ~ 0
-RY14
+~SY10
 Text Label 8300 5500 2    50   ~ 0
-~SY15
-Text Label 8300 5600 2    50   ~ 0
-~SY16
+~SY11
+Text Label 8300 4900 2    50   ~ 0
+~SY12
+Text Label 8300 5400 2    50   ~ 0
+~SY13
+Text Label 8300 4800 2    50   ~ 0
+~SY14
+Text Label 10000 5100 0    50   ~ 0
+RY01
+Text Label 10000 5200 0    50   ~ 0
+RY02
+Text Label 10000 5300 0    50   ~ 0
+RY03
 Text Label 8800 5500 0    50   ~ 0
+RY04
+Text Label 8800 4900 0    50   ~ 0
+RY05
+Text Label 8800 5400 0    50   ~ 0
+RY06
+Text Label 10000 4800 0    50   ~ 0
+RY07
+Text Label 10000 4100 0    50   ~ 0
+RY08
+Text Label 10000 4200 0    50   ~ 0
+RY09
+Text Label 10000 4300 0    50   ~ 0
+RY10
+Text Label 10000 4400 0    50   ~ 0
+RY11
+Text Label 8800 4600 0    50   ~ 0
+RY12
+Text Label 10000 4500 0    50   ~ 0
+RY13
+Text Label 10000 4700 0    50   ~ 0
+RY14
+Text Label 8300 5600 2    50   ~ 0
+~SY15
+Text Label 8300 5700 2    50   ~ 0
+~SY16
+Text Label 10000 5600 0    50   ~ 0
 RY15
-Text Label 8800 5600 0    50   ~ 0
+Text Label 10000 5700 0    50   ~ 0
 RY16
 Text Label 9500 4100 2    50   ~ 0
 ~SY01
@@ -743,82 +743,86 @@ Text Label 9500 4300 2    50   ~ 0
 ~SY03
 Text Label 9500 4400 2    50   ~ 0
 ~SY04
-Text Label 9500 4500 2    50   ~ 0
-~SY05
 Text Label 9500 4600 2    50   ~ 0
+~SY05
+Text Label 9500 4500 2    50   ~ 0
 ~SY06
 Text Label 9500 4700 2    50   ~ 0
 ~SY07
-Text Label 9500 4800 2    50   ~ 0
-~SY08
-Text Label 9500 4900 2    50   ~ 0
-~SY09
-Text Label 9500 5000 2    50   ~ 0
-~SY10
 Text Label 9500 5100 2    50   ~ 0
-~SY11
+~SY08
 Text Label 9500 5200 2    50   ~ 0
-~SY12
+~SY09
 Text Label 9500 5300 2    50   ~ 0
-~SY13
-Text Label 9500 5400 2    50   ~ 0
-~SY14
-Text Label 10000 4100 0    50   ~ 0
-RY01
-Text Label 10000 4200 0    50   ~ 0
-RY02
-Text Label 10000 4300 0    50   ~ 0
-RY03
-Text Label 10000 4400 0    50   ~ 0
-RY04
-Text Label 10000 4500 0    50   ~ 0
-RY05
-Text Label 10000 4600 0    50   ~ 0
-RY06
-Text Label 10000 4700 0    50   ~ 0
-RY07
-Text Label 10000 4800 0    50   ~ 0
-RY08
-Text Label 10000 4900 0    50   ~ 0
-RY09
-Text Label 10000 5000 0    50   ~ 0
-RY10
-Text Label 10000 5100 0    50   ~ 0
-RY11
-Text Label 10000 5200 0    50   ~ 0
-RY12
-Text Label 10000 5300 0    50   ~ 0
-RY13
-Text Label 10000 5400 0    50   ~ 0
-RY14
+~SY10
 Text Label 9500 5500 2    50   ~ 0
-~SY15
-Text Label 9500 5600 2    50   ~ 0
-~SY16
+~SY11
+Text Label 9500 4900 2    50   ~ 0
+~SY12
+Text Label 9500 5400 2    50   ~ 0
+~SY13
+Text Label 9500 4800 2    50   ~ 0
+~SY14
+Text Label 8800 5100 0    50   ~ 0
+RY01
+Text Label 8800 5200 0    50   ~ 0
+RY02
+Text Label 8800 5300 0    50   ~ 0
+RY03
 Text Label 10000 5500 0    50   ~ 0
+RY04
+Text Label 10000 4900 0    50   ~ 0
+RY05
+Text Label 10000 5400 0    50   ~ 0
+RY06
+Text Label 8800 4800 0    50   ~ 0
+RY07
+Text Label 8800 4100 0    50   ~ 0
+RY08
+Text Label 8800 4200 0    50   ~ 0
+RY09
+Text Label 8800 4300 0    50   ~ 0
+RY10
+Text Label 8800 4400 0    50   ~ 0
+RY11
+Text Label 10000 4600 0    50   ~ 0
+RY12
+Text Label 8800 4500 0    50   ~ 0
+RY13
+Text Label 8800 4700 0    50   ~ 0
+RY14
+Text Label 9500 5600 2    50   ~ 0
+~SY15
+Text Label 9500 5700 2    50   ~ 0
+~SY16
+Text Label 8800 5600 0    50   ~ 0
 RY15
-Text Label 10000 5600 0    50   ~ 0
+Text Label 8800 5700 0    50   ~ 0
 RY16
 $Comp
-L Connector_Generic:Conn_02x16_Odd_Even CN1
-U 1 1 5BE0CD77
-P 8500 4800
-F 0 "CN1" H 8550 5717 50  0000 C CNN
-F 1 "Conn_02x16_Odd_Even" H 8550 5626 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x16_Pitch2.54mm" H 8500 4800 50  0001 C CNN
-F 3 "~" H 8500 4800 50  0001 C CNN
-	1    8500 4800
+L Connector_Generic:Conn_02x17_Odd_Even CN1
+U 1 1 5BEB5E2C
+P 8500 4900
+F 0 "CN1" H 8550 5917 50  0000 C CNN
+F 1 "Conn_02x17_Odd_Even" H 8550 5826 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_2x17_Pitch2.54mm_ConvNumbering" H 8500 4900 50  0001 C CNN
+F 3 "~" H 8500 4900 50  0001 C CNN
+	1    8500 4900
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x16_Odd_Even CN2
-U 1 1 5BE0CDEE
-P 9700 4800
-F 0 "CN2" H 9750 5717 50  0000 C CNN
-F 1 "Conn_02x16_Odd_Even" H 9750 5626 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Straight_2x16_Pitch2.54mm" H 9700 4800 50  0001 C CNN
-F 3 "~" H 9700 4800 50  0001 C CNN
-	1    9700 4800
+L Connector_Generic:Conn_02x17_Odd_Even CN2
+U 1 1 5BEB679A
+P 9700 4900
+F 0 "CN2" H 9750 5917 50  0000 C CNN
+F 1 "Conn_02x17_Odd_Even" H 9750 5826 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_2x17_Pitch2.54mm_ConvNumbering" H 9700 4900 50  0001 C CNN
+F 3 "~" H 9700 4900 50  0001 C CNN
+	1    9700 4900
 	1    0    0    -1  
 $EndComp
+NoConn ~ 8300 5000
+NoConn ~ 8800 5000
+NoConn ~ 9500 5000
+NoConn ~ 10000 5000
 $EndSCHEMATC
