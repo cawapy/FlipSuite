@@ -743,8 +743,12 @@ F 3 "~" H 9700 4900 50  0001 C CNN
 	1    9700 4900
 	1    0    0    -1  
 $EndComp
-NoConn ~ 8300 5000
-NoConn ~ 8800 5000
-NoConn ~ 9500 5000
-NoConn ~ 10000 5000
+Text Label 8300 5000 2    50   ~ 0
+GND
+Text Label 9500 5000 2    50   ~ 0
+GND
+Text Label 8800 5000 0    50   ~ 0
+GND
+Text Label 10000 5000 0    50   ~ 0
+GND
 $EndSCHEMATC
