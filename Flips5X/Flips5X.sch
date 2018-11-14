@@ -101,9 +101,9 @@ Y1.B1
 Text Label 4200 850  2    50   ~ 0
 Y1.EN
 Text Label 4200 950  2    50   ~ 0
-Y1.HV
+HV
 Text Label 4200 1050 2    50   ~ 0
-Y1.VCC
+VCC
 Text Label 4200 1150 2    50   ~ 0
 Y1.A0
 Text Label 4900 750  0    50   ~ 0
@@ -111,7 +111,7 @@ Y1.B0
 Text Label 4900 850  0    50   ~ 0
 Y1.POL
 Text Label 4900 950  0    50   ~ 0
-Y1.GND
+GND
 Text Label 4900 1050 0    50   ~ 0
 Y1.A1
 Text Label 4900 1150 0    50   ~ 0
@@ -145,19 +145,19 @@ Y2.A1
 Text Label 10100 1500 1    50   ~ 0
 Y2.A0
 Text Label 600  2000 1    50   ~ 0
-Y1.GND
+GND
 Text Label 600  2450 1    50   ~ 0
-Y1.GND
+GND
 Text Label 4600 1950 0    50   ~ 0
-Y1.VCC
+VCC
 Text Label 4600 2350 0    50   ~ 0
-Y1.HV
+HV
 Text Label 8550 850  0    50   ~ 0
 Y2.B0
 Text Label 8550 950  0    50   ~ 0
 Y2.POL
 Text Label 8550 1050 0    50   ~ 0
-Y2.GND
+GND
 Text Label 8550 1150 0    50   ~ 0
 Y2.A1
 Text Label 8550 1250 0    50   ~ 0
@@ -167,19 +167,19 @@ Y2.B1
 Text Label 7850 950  2    50   ~ 0
 Y2.EN
 Text Label 7850 1050 2    50   ~ 0
-Y2.HV
+HV
 Text Label 7850 1150 2    50   ~ 0
-Y2.VCC
+VCC
 Text Label 7850 1250 2    50   ~ 0
 Y2.A0
 Text Label 6750 2100 2    50   ~ 0
-Y2.GND
+GND
 Text Label 6750 2550 2    50   ~ 0
-Y2.GND
+GND
 Text Label 10750 2450 0    50   ~ 0
-Y2.HV
+HV
 Text Label 10750 2050 0    50   ~ 0
-Y2.VCC
+VCC
 $Comp
 L power:PWR_FLAG #FLG0101
 U 1 1 5BDFAC1B
@@ -213,51 +213,12 @@ F 3 "~" H 1500 950 50  0001 C CNN
 	1    1500 950 
 	0    -1   -1   0   
 $EndComp
-$Comp
-L power:PWR_FLAG #FLG0104
-U 1 1 5BDFAC70
-P 2450 750
-F 0 "#FLG0104" H 2450 825 50  0001 C CNN
-F 1 "PWR_FLAG" V 2450 878 50  0000 L CNN
-F 2 "" H 2450 750 50  0001 C CNN
-F 3 "~" H 2450 750 50  0001 C CNN
-	1    2450 750 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0105
-U 1 1 5BDFAC85
-P 2450 850
-F 0 "#FLG0105" H 2450 925 50  0001 C CNN
-F 1 "PWR_FLAG" V 2450 978 50  0000 L CNN
-F 2 "" H 2450 850 50  0001 C CNN
-F 3 "~" H 2450 850 50  0001 C CNN
-	1    2450 850 
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0106
-U 1 1 5BDFAC9A
-P 2450 950
-F 0 "#FLG0106" H 2450 1025 50  0001 C CNN
-F 1 "PWR_FLAG" V 2450 1078 50  0000 L CNN
-F 2 "" H 2450 950 50  0001 C CNN
-F 3 "~" H 2450 950 50  0001 C CNN
-	1    2450 950 
-	0    -1   -1   0   
-$EndComp
 Text Label 1500 750  0    50   ~ 0
-Y1.GND
+GND
 Text Label 1500 850  0    50   ~ 0
-Y1.VCC
+VCC
 Text Label 1500 950  0    50   ~ 0
-Y1.HV
-Text Label 2450 750  0    50   ~ 0
-Y2.GND
-Text Label 2450 850  0    50   ~ 0
-Y2.VCC
-Text Label 2450 950  0    50   ~ 0
-Y2.HV
+HV
 $Comp
 L Device:C_Small C1
 U 1 1 5BDFBE59
@@ -289,9 +250,9 @@ Wire Wire Line
 Wire Wire Line
 	4600 1600 4600 1650
 Text Label 4600 1600 0    50   ~ 0
-Y1.GND
+GND
 Text Label 10750 1700 0    50   ~ 0
-Y2.GND
+GND
 Text Label 4050 3050 3    50   ~ 0
 SY1
 Text Label 3950 3050 3    50   ~ 0
@@ -480,7 +441,7 @@ X.B0
 Text Label 2800 4400 0    50   ~ 0
 X.POL
 Text Label 2800 4500 0    50   ~ 0
-X.GND
+GND
 Text Label 2800 4600 0    50   ~ 0
 X.A1
 Text Label 2800 4700 0    50   ~ 0
@@ -490,9 +451,9 @@ X.B1
 Text Label 2100 4400 2    50   ~ 0
 X.EN
 Text Label 2100 4500 2    50   ~ 0
-X.HV
+HV
 Text Label 2100 4600 2    50   ~ 0
-X.VCC
+VCC
 Text Label 2100 4700 2    50   ~ 0
 X.A0
 $Comp
@@ -525,15 +486,15 @@ X.A1
 Text Label 4350 4950 1    50   ~ 0
 X.A0
 Text Label 5000 5150 0    50   ~ 0
-X.GND
+GND
 Text Label 1000 5550 2    50   ~ 0
-X.GND
+GND
 Text Label 1000 6000 2    50   ~ 0
-X.GND
+GND
 Text Label 5000 5900 0    50   ~ 0
-X.HV
+HV
 Text Label 5000 5500 0    50   ~ 0
-X.VCC
+VCC
 Text Label 4450 6600 3    50   ~ 0
 X1
 Text Label 4350 6600 3    50   ~ 0
@@ -649,45 +610,6 @@ X28
 NoConn ~ 6600 5400
 NoConn ~ 7600 5400
 NoConn ~ 6700 5900
-$Comp
-L power:PWR_FLAG #FLG0107
-U 1 1 5BED2164
-P 4050 4250
-F 0 "#FLG0107" H 4050 4325 50  0001 C CNN
-F 1 "PWR_FLAG" V 4050 4378 50  0000 L CNN
-F 2 "" H 4050 4250 50  0001 C CNN
-F 3 "~" H 4050 4250 50  0001 C CNN
-	1    4050 4250
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0108
-U 1 1 5BED216A
-P 4050 4350
-F 0 "#FLG0108" H 4050 4425 50  0001 C CNN
-F 1 "PWR_FLAG" V 4050 4478 50  0000 L CNN
-F 2 "" H 4050 4350 50  0001 C CNN
-F 3 "~" H 4050 4350 50  0001 C CNN
-	1    4050 4350
-	0    -1   -1   0   
-$EndComp
-$Comp
-L power:PWR_FLAG #FLG0109
-U 1 1 5BED2170
-P 4050 4450
-F 0 "#FLG0109" H 4050 4525 50  0001 C CNN
-F 1 "PWR_FLAG" V 4050 4578 50  0000 L CNN
-F 2 "" H 4050 4450 50  0001 C CNN
-F 3 "~" H 4050 4450 50  0001 C CNN
-	1    4050 4450
-	0    -1   -1   0   
-$EndComp
-Text Label 4050 4250 0    50   ~ 0
-X.GND
-Text Label 4050 4350 0    50   ~ 0
-X.VCC
-Text Label 4050 4450 0    50   ~ 0
-X.HV
 NoConn ~ 6100 5900
 $Comp
 L Connector_Generic:Conn_02x17_Odd_Even BRDB1
@@ -786,7 +708,7 @@ $EndComp
 Text Label 1150 4500 2    50   ~ 0
 X.EN
 Text Label 1350 4500 0    50   ~ 0
-X.GND
+GND
 $Comp
 L Device:R_Small R1
 U 1 1 5BE6D68F
@@ -801,7 +723,7 @@ $EndComp
 Text Label 3250 900  2    50   ~ 0
 Y1.EN
 Text Label 3450 900  0    50   ~ 0
-Y1.GND
+GND
 $Comp
 L Device:R_Small R2
 U 1 1 5BE6D847
@@ -816,5 +738,5 @@ $EndComp
 Text Label 9650 900  2    50   ~ 0
 Y2.EN
 Text Label 9850 900  0    50   ~ 0
-Y2.GND
+GND
 $EndSCHEMATC
