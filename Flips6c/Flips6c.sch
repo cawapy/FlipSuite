@@ -125,10 +125,10 @@ F 3 "" H 3850 1250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Device:R_Small R1
+L Device:R_Small R2
 U 1 1 5BD84E68
 P 2500 800
-F 0 "R1" V 2400 850 50  0000 L CNN
+F 0 "R2" V 2400 850 50  0000 L CNN
 F 1 "10k" V 2400 650 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 2500 800 50  0001 C CNN
 F 3 "~" H 2500 800 50  0001 C CNN
@@ -136,10 +136,10 @@ F 3 "~" H 2500 800 50  0001 C CNN
 	0    1    1    0   
 $EndComp
 $Comp
-L Device:R_Small R2
+L Device:R_Small R1
 U 1 1 5BD85A57
 P 2500 1100
-F 0 "R2" V 2400 1150 50  0000 L CNN
+F 0 "R1" V 2400 1150 50  0000 L CNN
 F 1 "10k" V 2400 950 50  0000 L CNN
 F 2 "Resistors_SMD:R_0805_HandSoldering" H 2500 1100 50  0001 C CNN
 F 3 "~" H 2500 1100 50  0001 C CNN
@@ -189,8 +189,8 @@ AR Path="/5BD82AEC/5BDBE76F" Ref="U?"  Part="1"
 AR Path="/5BD82AF4/5BDBE76F" Ref="U?"  Part="1" 
 AR Path="/5BD82AFC/5BDBE76F" Ref="U?"  Part="1" 
 AR Path="/5BD82B04/5BDBE76F" Ref="U?"  Part="1" 
-AR Path="/5BDBE76F" Ref="U1"  Part="1" 
-F 0 "U1" H 1800 3500 50  0000 C CNN
+AR Path="/5BDBE76F" Ref="IC1"  Part="1" 
+F 0 "IC1" H 1800 3500 50  0000 C CNN
 F 1 "74595" H 1950 3400 50  0000 C CNN
 F 2 "SMD_Packages:SO-16-N" H 1700 2800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf" H 1700 2800 50  0001 C CNN
@@ -370,8 +370,8 @@ AR Path="/5BD82AEC/5BDAE606" Ref="U?"  Part="1"
 AR Path="/5BD82AF4/5BDAE606" Ref="U?"  Part="1" 
 AR Path="/5BD82AFC/5BDAE606" Ref="U?"  Part="1" 
 AR Path="/5BD82B04/5BDAE606" Ref="U?"  Part="1" 
-AR Path="/5BDAE606" Ref="U2"  Part="1" 
-F 0 "U2" H 3350 3500 50  0000 C CNN
+AR Path="/5BDAE606" Ref="IC2"  Part="1" 
+F 0 "IC2" H 3350 3500 50  0000 C CNN
 F 1 "74595" H 3500 3400 50  0000 C CNN
 F 2 "SMD_Packages:SO-16-N" H 3250 2800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf" H 3250 2800 50  0001 C CNN
@@ -511,8 +511,8 @@ AR Path="/5BD82AEC/5BDAEBE9" Ref="U?"  Part="1"
 AR Path="/5BD82AF4/5BDAEBE9" Ref="U?"  Part="1" 
 AR Path="/5BD82AFC/5BDAEBE9" Ref="U?"  Part="1" 
 AR Path="/5BD82B04/5BDAEBE9" Ref="U?"  Part="1" 
-AR Path="/5BDAEBE9" Ref="U3"  Part="1" 
-F 0 "U3" H 4900 3500 50  0000 C CNN
+AR Path="/5BDAEBE9" Ref="IC3"  Part="1" 
+F 0 "IC3" H 4900 3500 50  0000 C CNN
 F 1 "74595" H 5050 3400 50  0000 C CNN
 F 2 "SMD_Packages:SO-16-N" H 4800 2800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf" H 4800 2800 50  0001 C CNN
