@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Flips 6"
 Date "2018-11-16"
-Rev "V1.0"
+Rev "V0.9"
 Comp "SRT"
 Comment1 "Serial 2+6 FP2800A Port Controller"
 Comment2 "SRT Flips M FPC16828"

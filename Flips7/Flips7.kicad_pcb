@@ -13,7 +13,7 @@
   (title_block
     (title "Flips 7")
     (date 2018-11-16)
-    (rev V1.0)
+    (rev V0.9)
     (company SRT)
     (comment 1 "FlipDot Matrix Driver for Transit Media Interface 60P")
     (comment 2 "SRT Flips M F100-TM")
@@ -2465,7 +2465,7 @@
   (gr_text FLIPS (at 99.06 28.575) (layer F.Cu) (tstamp 5BDE80B5)
     (effects (font (size 3 3) (thickness 0.75) italic) (justify left))
   )
-  (gr_text "SRT Flips 7 V1.0 2018-11-16\ngithub.com/cawapy/FlipSuite\nFlipDot Matrix Driver for Transit Media Interface (60P)" (at 75.4 30.4) (layer F.SilkS) (tstamp 5BEEEAA2)
+  (gr_text "SRT Flips 7 V0.9 2018-11-16\ngithub.com/cawapy/FlipSuite\nFlipDot Matrix Driver for Transit Media Interface (60P)" (at 75.4 30.4) (layer F.SilkS) (tstamp 5BEEEAA2)
     (effects (font (size 1.5 1.5) (thickness 0.3)))
   )
   (gr_text "Rows 1-14 (shared)" (at 55.245 101.6 90) (layer F.SilkS) (tstamp 5B85C338)

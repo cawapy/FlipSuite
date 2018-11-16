@@ -7,7 +7,7 @@ encoding utf-8
 Sheet 1 1
 Title "Flips 7"
 Date "2018-11-16"
-Rev "V1.0"
+Rev "V0.9"
 Comp "SRT"
 Comment1 "FlipDot Matrix Driver for Transit Media Interface 60P"
 Comment2 "SRT Flips M F100-TM"

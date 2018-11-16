@@ -13,7 +13,7 @@
   (title_block
     (title "Flips 5")
     (date 2018-11-16)
-    (rev V1.0)
+    (rev V0.9)
     (company SRT)
     (comment 1 "FlipDot Matrix Driver for Brose Interfaces (60P, 34P)")
     (comment 2 "SRT Flips M F100-BR")
@@ -2574,7 +2574,7 @@
   (gr_line (start 106.68 62.865) (end 106.68 62.23) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 88.9 62.865) (end 88.9 60.96) (angle 90) (layer F.SilkS) (width 0.2))
   (gr_line (start 81.28 62.865) (end 81.28 62.23) (angle 90) (layer F.SilkS) (width 0.2))
-  (gr_text "SRT Flips 5 V1.0 2018-11-16\ngithub.com/cawapy/FlipSuite" (at 64.135 78.105) (layer F.SilkS) (tstamp 5B85BEF9)
+  (gr_text "SRT Flips 5 V0.9 2018-11-16\ngithub.com/cawapy/FlipSuite" (at 64.135 78.105) (layer F.SilkS) (tstamp 5B85BEF9)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
   (gr_text 40 (at 113.03 61.595) (layer F.SilkS)
