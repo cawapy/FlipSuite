@@ -15,10 +15,10 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L Eigene~Bauteile:FP2800A U1
+L Eigene~Bauteile:FP2800A IC1
 U 1 1 5B82C6BE
 P 2350 2250
-F 0 "U1" V 2200 4500 60  0000 L CNN
+F 0 "IC1" V 2200 4500 60  0000 L CNN
 F 1 "FP2800A" V 2300 4500 60  0000 L CNN
 F 2 "Housings_DIP:DIP-40_W15.24mm_Socket" H 2300 2350 60  0001 C CNN
 F 3 "" H 2300 2350 60  0001 C CNN
@@ -66,10 +66,10 @@ F 3 "" H 8200 1050 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Eigene~Bauteile:FP2800A U2
+L Eigene~Bauteile:FP2800A IC2
 U 1 1 5B82C7AE
 P 8500 2350
-F 0 "U2" V 8350 4650 60  0000 L CNN
+F 0 "IC2" V 8350 4650 60  0000 L CNN
 F 1 "FP2800A" V 8450 4650 60  0000 L CNN
 F 2 "Housings_DIP:DIP-40_W15.24mm_Socket" H 8450 2450 60  0001 C CNN
 F 3 "" H 8450 2450 60  0001 C CNN
@@ -77,53 +77,53 @@ F 3 "" H 8450 2450 60  0001 C CNN
 	0    1    1    0   
 $EndComp
 Text Label 4800 850  2    50   ~ 0
-L.B1
+Y1.B1
 Text Label 4800 950  2    50   ~ 0
-L.EN
+Y1.EN
 Text Label 4800 1050 2    50   ~ 0
 HV
 Text Label 4800 1150 2    50   ~ 0
 VCC
 Text Label 4800 1250 2    50   ~ 0
-L.A0
+Y1.A0
 Text Label 5500 850  0    50   ~ 0
-L.B0
+Y1.B0
 Text Label 5500 950  0    50   ~ 0
-L.POL
+Y1.POL
 Text Label 5500 1050 0    50   ~ 0
 GND
 Text Label 5500 1150 0    50   ~ 0
-L.A1
+Y1.A1
 Text Label 5500 1250 0    50   ~ 0
-L.A2
+Y1.A2
 Text Label 3050 1400 1    50   ~ 0
-L.EN
+Y1.EN
 Text Label 3250 1400 1    50   ~ 0
-L.POL
+Y1.POL
 Text Label 3450 1400 1    50   ~ 0
-L.B1
+Y1.B1
 Text Label 3550 1400 1    50   ~ 0
-L.B0
+Y1.B0
 Text Label 3750 1400 1    50   ~ 0
-L.A2
+Y1.A2
 Text Label 3850 1400 1    50   ~ 0
-L.A1
+Y1.A1
 Text Label 3950 1400 1    50   ~ 0
-L.A0
+Y1.A0
 Text Label 9200 1500 1    50   ~ 0
-R.EN
+Y2.EN
 Text Label 9400 1500 1    50   ~ 0
-R.POL
+Y2.POL
 Text Label 9600 1500 1    50   ~ 0
-R.B1
+Y2.B1
 Text Label 9700 1500 1    50   ~ 0
-R.B0
+Y2.B0
 Text Label 9900 1500 1    50   ~ 0
-R.A2
+Y2.A2
 Text Label 10000 1500 1    50   ~ 0
-R.A1
+Y2.A1
 Text Label 10100 1500 1    50   ~ 0
-R.A0
+Y2.A0
 Text Label 600  2000 1    50   ~ 0
 GND
 Text Label 600  2450 1    50   ~ 0
@@ -133,25 +133,25 @@ VCC
 Text Label 4600 2350 0    50   ~ 0
 HV
 Text Label 8550 850  0    50   ~ 0
-R.B0
+Y2.B0
 Text Label 8550 950  0    50   ~ 0
-R.POL
+Y2.POL
 Text Label 8550 1050 0    50   ~ 0
 GND
 Text Label 8550 1150 0    50   ~ 0
-R.A1
+Y2.A1
 Text Label 8550 1250 0    50   ~ 0
-R.A2
+Y2.A2
 Text Label 7850 850  2    50   ~ 0
-R.B1
+Y2.B1
 Text Label 7850 950  2    50   ~ 0
-R.EN
+Y2.EN
 Text Label 7850 1050 2    50   ~ 0
 HV
 Text Label 7850 1150 2    50   ~ 0
 VCC
 Text Label 7850 1250 2    50   ~ 0
-R.A0
+Y2.A0
 Text Label 6750 2100 2    50   ~ 0
 GND
 Text Label 6750 2550 2    50   ~ 0
@@ -317,10 +317,10 @@ F 3 "" H 2250 5200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Eigene~Bauteile:FP2800A U3
+L Eigene~Bauteile:FP2800A IC3
 U 1 1 5BE4BE29
 P 2550 6500
-F 0 "U3" V 2400 8800 60  0000 L CNN
+F 0 "IC3" V 2400 8800 60  0000 L CNN
 F 1 "FP2800A" V 2500 8800 60  0000 L CNN
 F 2 "Housings_DIP:DIP-40_W15.24mm_Socket" H 2500 6600 60  0001 C CNN
 F 3 "" H 2500 6600 60  0001 C CNN
@@ -722,10 +722,10 @@ RY15
 Text Label 8800 5700 0    50   ~ 0
 RY16
 $Comp
-L Connector_Generic:Conn_02x17_Odd_Even CN1
+L Connector_Generic:Conn_02x17_Odd_Even SHR1
 U 1 1 5BEB5E2C
 P 8500 4900
-F 0 "CN1" H 8550 5917 50  0000 C CNN
+F 0 "SHR1" H 8550 5917 50  0000 C CNN
 F 1 "Conn_02x17_Odd_Even" H 8550 5826 50  0000 C CNN
 F 2 "Own:Pin_Header_Straight_Shrouded_2x17_Pitch2.54mm_ConvNumbering" H 8500 4900 50  0001 C CNN
 F 3 "~" H 8500 4900 50  0001 C CNN
@@ -733,10 +733,10 @@ F 3 "~" H 8500 4900 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_02x17_Odd_Even CN2
+L Connector_Generic:Conn_02x17_Odd_Even SHR2
 U 1 1 5BEB679A
 P 9700 4900
-F 0 "CN2" H 9750 5917 50  0000 C CNN
+F 0 "SHR2" H 9750 5917 50  0000 C CNN
 F 1 "Conn_02x17_Odd_Even" H 9750 5826 50  0000 C CNN
 F 2 "Own:Pin_Header_Straight_Shrouded_2x17_Pitch2.54mm_ConvNumbering" H 9700 4900 50  0001 C CNN
 F 3 "~" H 9700 4900 50  0001 C CNN
@@ -798,7 +798,7 @@ F 3 "" H 2600 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 2600 900  0    50   ~ 0
-L.EN
+Y1.EN
 $Comp
 L Device:R_Small R2
 U 1 1 5BEF202A
@@ -822,5 +822,5 @@ F 3 "" H 10450 1100 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 10450 900  0    50   ~ 0
-R.EN
+Y2.EN
 $EndSCHEMATC
