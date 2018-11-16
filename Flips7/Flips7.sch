@@ -6,11 +6,11 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Flips 7"
-Date "2018-08-28"
-Rev "0.1"
+Date "2018-11-16"
+Rev "V1.0"
 Comp "SRT"
-Comment1 "A-2UFP2832-FDMBR60"
-Comment2 "Zeilentreiber-Adapter für Brose 60 Pin Port und FP2800A-Ausgänge"
+Comment1 "FlipDot Matrix Driver for Transit Media Interface 60P"
+Comment2 "SRT Flips M F100-TM"
 Comment3 ""
 Comment4 ""
 $EndDescr

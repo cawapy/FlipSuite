@@ -10,6 +10,15 @@
   )
 
   (page A4)
+  (title_block
+    (title "Flips 6")
+    (date 2018-11-16)
+    (rev V1.0)
+    (company SRT)
+    (comment 1 "Serial 2+6 FP2800A Port Controller")
+    (comment 2 "SRT Flips M FPC16828")
+  )
+
   (layers
     (0 F.Cu signal hide)
     (31 B.Cu signal)

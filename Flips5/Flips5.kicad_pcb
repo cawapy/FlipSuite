@@ -12,10 +12,11 @@
   (page A4)
   (title_block
     (title "Flips 5")
-    (date 2018-11-10)
-    (rev 1.0)
+    (date 2018-11-16)
+    (rev V1.0)
     (company SRT)
-    (comment 1 "Row Driver for Brose 60 Pin Port + 34 Pin Port; Column Driver for FP2800 extension")
+    (comment 1 "FlipDot Matrix Driver for Brose Interfaces (60P, 34P)")
+    (comment 2 "SRT Flips M F100-BR")
   )
 
   (layers

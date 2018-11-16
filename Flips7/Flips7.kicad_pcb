@@ -12,10 +12,11 @@
   (page A4)
   (title_block
     (title "Flips 7")
-    (date 2018-08-28)
-    (rev 0.1)
+    (date 2018-11-16)
+    (rev V1.0)
     (company SRT)
-    (comment 2 "Treiber-Adapter für TransitMedia FlipDisplays")
+    (comment 1 "FlipDot Matrix Driver for Transit Media Interface 60P")
+    (comment 2 "SRT Flips M F100-TM")
   )
 
   (layers
