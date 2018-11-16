@@ -1,8 +1,8 @@
-# Flips6c
+# Flips6
 
 * View online with [cho45.stfuawsc.com KiCad viewer](https://cho45.stfuawsc.com/kicad-utils/static/viewer.html):
-    * [PCB](https://cho45.stfuawsc.com/kicad-utils/static/viewer.html?url=https%3A%2F%2Fgithub.com%2Fcawapy%2FFlipSuite%2Fblob%2Fmaster%2FFlips6c%2FFlips6c.kicad_pcb)
-    * [Schematics](https://cho45.stfuawsc.com/kicad-utils/static/viewer.html?url=https%3A%2F%2Fgithub.com%2Fcawapy%2FFlipSuite%2Fblob%2Fmaster%2FFlips6c%2FFlips6c.sch)
+    * [PCB](https://cho45.stfuawsc.com/kicad-utils/static/viewer.html?url=https%3A%2F%2Fgithub.com%2Fcawapy%2FFlipSuite%2Fblob%2Fmaster%2FFlips6%2FFlips6.kicad_pcb)
+    * [Schematics](https://cho45.stfuawsc.com/kicad-utils/static/viewer.html?url=https%3A%2F%2Fgithub.com%2Fcawapy%2FFlipSuite%2Fblob%2Fmaster%2FFlips6%2FFlips6.sch)
 
 * 2 independent groups of dependent ports for rows vs. columns
 * controlled by 2-3 cascaded 595 shift registers
