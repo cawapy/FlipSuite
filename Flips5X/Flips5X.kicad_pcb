@@ -2670,7 +2670,7 @@
   (gr_text "FP2800A Y-2: Rows 15-20 (optional)" (at 91.44 136.525 90) (layer F.SilkS) (tstamp 5BDD01FE)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
-  (gr_text "Brose 60 Pin FlipDot Matrix Interface Row Driver\nwith Column Driver Port" (at 55.88 135.255 90) (layer F.SilkS)
+  (gr_text "Brose 60 and 34 Pin FlipDot Matrix Interface Adaptor" (at 53.34 135.255 90) (layer F.SilkS)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify left))
   )
 
