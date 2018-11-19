@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Flips6-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -192,7 +191,7 @@ AR Path="/5BD82B04/5BDBE76F" Ref="U?"  Part="1"
 AR Path="/5BDBE76F" Ref="IC1"  Part="1" 
 F 0 "IC1" H 1800 3500 50  0000 C CNN
 F 1 "74595" H 1950 3400 50  0000 C CNN
-F 2 "SMD_Packages:SO-16-N" H 1700 2800 50  0001 C CNN
+F 2 "SOIC-16_3.9x9.9mm_Pitch1.27mm" H 1700 2800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf" H 1700 2800 50  0001 C CNN
 	1    1700 2800
 	1    0    0    -1  
@@ -373,7 +372,7 @@ AR Path="/5BD82B04/5BDAE606" Ref="U?"  Part="1"
 AR Path="/5BDAE606" Ref="IC2"  Part="1" 
 F 0 "IC2" H 3350 3500 50  0000 C CNN
 F 1 "74595" H 3500 3400 50  0000 C CNN
-F 2 "SMD_Packages:SO-16-N" H 3250 2800 50  0001 C CNN
+F 2 "SOIC-16_3.9x9.9mm_Pitch1.27mm" H 3250 2800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf" H 3250 2800 50  0001 C CNN
 	1    3250 2800
 	1    0    0    -1  
@@ -514,7 +513,7 @@ AR Path="/5BD82B04/5BDAEBE9" Ref="U?"  Part="1"
 AR Path="/5BDAEBE9" Ref="IC3"  Part="1" 
 F 0 "IC3" H 4900 3500 50  0000 C CNN
 F 1 "74595" H 5050 3400 50  0000 C CNN
-F 2 "SMD_Packages:SO-16-N" H 4800 2800 50  0001 C CNN
+F 2 "SOIC-16_3.9x9.9mm_Pitch1.27mm" H 4800 2800 50  0001 C CNN
 F 3 "https://assets.nexperia.com/documents/data-sheet/74HC_HCT595.pdf" H 4800 2800 50  0001 C CNN
 	1    4800 2800
 	1    0    0    -1  
