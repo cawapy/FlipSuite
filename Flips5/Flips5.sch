@@ -1,5 +1,4 @@
 EESchema Schematic File Version 4
-LIBS:Flips5-cache
 EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
@@ -46,22 +45,6 @@ NoConn ~ 5550 1300
 NoConn ~ 5550 1400
 NoConn ~ 5550 1500
 NoConn ~ 4250 3050
-NoConn ~ 7200 3150
-NoConn ~ 7300 3150
-NoConn ~ 7400 3150
-NoConn ~ 7500 3150
-NoConn ~ 7600 3150
-NoConn ~ 7700 3150
-NoConn ~ 7800 3150
-NoConn ~ 8000 3150
-NoConn ~ 8800 3150
-NoConn ~ 8900 3150
-NoConn ~ 9000 3150
-NoConn ~ 9100 3150
-NoConn ~ 9200 3150
-NoConn ~ 9300 3150
-NoConn ~ 9400 3150
-NoConn ~ 9600 3150
 NoConn ~ 10400 3150
 $Comp
 L Eigene~Bauteile:UFP2810 CNY1
@@ -739,4 +722,83 @@ Text Label 9650 900  2    50   ~ 0
 Y2.EN
 Text Label 9850 900  0    50   ~ 0
 GND
+$Comp
+L Connector_Generic:Conn_02x10_Odd_Even BRDA3
+U 1 1 5BF467D4
+P 4750 4000
+F 0 "BRDA3" H 4800 3275 50  0000 C CNN
+F 1 "Conn_02x10_Odd_Even" H 4800 3366 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_2x10_Pitch2.54mm_ConvNumbering" H 4750 4000 50  0001 C CNN
+F 3 "~" H 4750 4000 50  0001 C CNN
+	1    4750 4000
+	-1   0    0    1   
+$EndComp
+Text Label 4950 4400 0    50   ~ 0
+SY21
+Text Label 4450 4400 2    50   ~ 0
+SY22
+Text Label 4950 4300 0    50   ~ 0
+SY23
+Text Label 4950 4200 0    50   ~ 0
+SY25
+Text Label 4950 4100 0    50   ~ 0
+SY27
+Text Label 4450 4300 2    50   ~ 0
+SY24
+Text Label 4450 4200 2    50   ~ 0
+SY26
+Text Label 4450 4100 2    50   ~ 0
+SY28
+Text Label 4950 4000 0    50   ~ 0
+~RY21
+Text Label 4450 4000 2    50   ~ 0
+~RY22
+Text Label 4450 3900 2    50   ~ 0
+~RY24
+Text Label 4450 3800 2    50   ~ 0
+~RY26
+Text Label 4450 3700 2    50   ~ 0
+~RY28
+Text Label 4950 3900 0    50   ~ 0
+~RY23
+Text Label 4950 3800 0    50   ~ 0
+~RY25
+Text Label 4950 3700 0    50   ~ 0
+~RY27
+NoConn ~ 4950 3600
+NoConn ~ 4950 3500
+NoConn ~ 4450 3600
+NoConn ~ 4450 3500
+Text Label 9600 3150 3    50   ~ 0
+SY21
+Text Label 9400 3150 3    50   ~ 0
+SY22
+Text Label 9300 3150 3    50   ~ 0
+SY23
+Text Label 9200 3150 3    50   ~ 0
+SY24
+Text Label 9100 3150 3    50   ~ 0
+SY25
+Text Label 9000 3150 3    50   ~ 0
+SY26
+Text Label 8900 3150 3    50   ~ 0
+SY27
+Text Label 8800 3150 3    50   ~ 0
+SY28
+Text Label 8000 3150 3    50   ~ 0
+~RY21
+Text Label 7800 3150 3    50   ~ 0
+~RY22
+Text Label 7700 3150 3    50   ~ 0
+~RY23
+Text Label 7600 3150 3    50   ~ 0
+~RY24
+Text Label 7500 3150 3    50   ~ 0
+~RY25
+Text Label 7400 3150 3    50   ~ 0
+~RY26
+Text Label 7300 3150 3    50   ~ 0
+~RY27
+Text Label 7200 3150 3    50   ~ 0
+~RY28
 $EndSCHEMATC
