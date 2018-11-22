@@ -595,10 +595,10 @@ NoConn ~ 7600 5400
 NoConn ~ 6700 5900
 NoConn ~ 6100 5900
 $Comp
-L Connector_Generic:Conn_02x17_Odd_Even BRDB1
+L Connector_Generic:Conn_02x17_Odd_Even BRDIC1
 U 1 1 5BE36D58
 P 6900 5600
-F 0 "BRDB1" V 6996 6479 50  0000 L CNN
+F 0 "BRDIC1" V 6996 6479 50  0000 L CNN
 F 1 "Conn_02x17_Odd_Even" V 6905 6479 50  0000 L CNN
 F 2 "Own:Pin_Header_Angle_Shrouded_2x17_Pitch2.54mm_ConvNumbering" H 6900 5600 50  0001 C CNN
 F 3 "~" H 6900 5600 50  0001 C CNN
@@ -608,10 +608,10 @@ $EndComp
 NoConn ~ 7700 5900
 NoConn ~ 7700 5400
 $Comp
-L Connector_Generic:Conn_02x17_Odd_Even BRDA2
+L Connector_Generic:Conn_02x17_Odd_Even BROSE34
 U 1 1 5BE3715E
 P 7250 4450
-F 0 "BRDA2" V 7254 5329 50  0000 L CNN
+F 0 "BROSE34" V 7254 5329 50  0000 L CNN
 F 1 "Conn_02x17_Odd_Even" V 7345 5329 50  0000 L CNN
 F 2 "Own:Pin_Header_Angle_Shrouded_2x17_Pitch2.54mm_ConvNumbering" H 7250 4450 50  0001 C CNN
 F 3 "~" H 7250 4450 50  0001 C CNN
@@ -667,10 +667,10 @@ NoConn ~ 6750 4150
 NoConn ~ 6650 4150
 NoConn ~ 6550 4150
 $Comp
-L Connector_Generic:Conn_02x30_Odd_Even BRDA1
+L Connector_Generic:Conn_02x30_Odd_Even BROSE60
 U 1 1 5B82C747
 P 5850 2100
-F 0 "BRDA1" V 5500 1300 50  0000 C CNN
+F 0 "BROSE60" V 5500 1300 50  0000 C CNN
 F 1 "Conn_02x30_Odd_Even" V 6300 1050 50  0000 C CNN
 F 2 "Own:Pin_Header_Straight_Shrouded_2x30_Pitch2.54mm_ConvNumbering" H 5850 2100 50  0001 C CNN
 F 3 "~" H 5850 2100 50  0001 C CNN
@@ -723,10 +723,10 @@ Y2.EN
 Text Label 9850 900  0    50   ~ 0
 GND
 $Comp
-L Connector_Generic:Conn_02x10_Odd_Even BRDA3
+L Connector_Generic:Conn_02x10_Odd_Even BROSE20
 U 1 1 5BF467D4
 P 4750 4000
-F 0 "BRDA3" H 4800 3275 50  0000 C CNN
+F 0 "BROSE20" H 4800 3275 50  0000 C CNN
 F 1 "Conn_02x10_Odd_Even" H 4800 3366 50  0000 C CNN
 F 2 "Own:Pin_Header_Straight_Shrouded_2x10_Pitch2.54mm_ConvNumbering" H 4750 4000 50  0001 C CNN
 F 3 "~" H 4750 4000 50  0001 C CNN
