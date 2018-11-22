@@ -21,13 +21,13 @@
 
   (layers
     (0 F.Cu signal)
-    (31 B.Cu signal)
+    (31 B.Cu signal hide)
     (32 B.Adhes user)
     (33 F.Adhes user)
     (34 B.Paste user)
     (35 F.Paste user)
     (36 B.SilkS user)
-    (37 F.SilkS user hide)
+    (37 F.SilkS user)
     (38 B.Mask user)
     (39 F.Mask user)
     (40 Dwgs.User user)
@@ -1399,7 +1399,7 @@
   )
 
   (module Symbols:Symbol_KiCAD-Logo_CopperAndSilkScreenTop (layer F.Cu) (tedit 0) (tstamp 5BFA3656)
-    (at 115.2144 95.2246 90)
+    (at 115.189 98.806 90)
     (descr "Symbol, KiCAD-Logo, Silk & Copper Top,")
     (tags "Symbol, KiCAD-Logo, Silk & Copper Top,")
     (fp_text reference REF** (at 0 0 90) (layer F.SilkS) hide
@@ -1625,7 +1625,7 @@
   )
 
   (module Symbols:OSHW-Logo2_7.3x6mm_SilkScreen (layer F.Cu) (tedit 0) (tstamp 5BDEEC4B)
-    (at 115.57 109.22 90)
+    (at 115.824 87.884 90)
     (descr "Open Source Hardware Symbol")
     (tags "Logo Symbol OSHW")
     (attr virtual)
