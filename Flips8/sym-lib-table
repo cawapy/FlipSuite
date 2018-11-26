@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "Eigene Bauteile")(type Legacy)(uri "${KIPRJMOD}/../external/KiCadLib/Own/Eigene Bauteile.lib")(options "")(descr ""))
+  (lib (name Flips8-rescue)(type Legacy)(uri ${KIPRJMOD}/Flips8-rescue.lib)(options "")(descr ""))
 )
