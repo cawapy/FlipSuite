@@ -26,11 +26,11 @@ and only its control lines are included in the 60 Pin connector.
 Unfortunately, often 24V are used as logic level, which cannot be easily provided by a micro controller.
 For this reason, the column driver FP2800A is supposed to be put into Flips5, and the column driver lines
 are injected via DIP40 adapter, fed from Flips5.
-This allows to controll the column driver by its native control lines using 5V logic.
+This allows to control the column driver by its native control lines using 5V logic.
 
 Furthermore, each Flips5 and Flips7 board has **two** slots for **0 up to 2** FP2800As, acting as row driver(s).
 Row driver outputs for the high and low side need to be separated;
-for driving a single rows, a source and another sink driver is required, which cannot be connected.
+for driving a single row, a source and another sink driver is required, which cannot be connected.
 So while the FP2800A has 28 source and 28 sink drivers, only half of them can be used as row driver,
 as they all are pairwise connected.
 However, for scalability and saving FP2800As, the two FP2800As have not been split into 28 high and 28 low side drivers,
@@ -48,16 +48,16 @@ and the other one can be used to feed the succeeding display panels row drivers.
 In contrast, the transit media displays lack of such multiple connectors, so each Flips7 has two
 more connectors for sharing the row driver lines with previous and next.
 
-So each Flips5 and Flips7 can contain 0-2 row driver FP2800As, depending on number of rows and sharing
-the row driver between display panels, and 1 column driver FP2800A.
+So each Flips5 and Flips7 can contain 0-2 row driver FP2800As, depending on the number of rows and sharing or not sharing
+the row driver(s) between display panels, and 1 column driver FP2800A.
 
-All FP2800As on the Flip5 and Flips6 are controlled directly using the FP2800A interface consisting of
+All FP2800As on the Flip5 and Flips7 are controlled directly using the FP2800A interface consisting of
 A[2..0], B[1..0], DATA and ENABLE.
 For flexibility and scalability reasons, there is one 10 pin connector for each FP2800A, including the mentioned
 7 control lines and supply such as VCC, VS and GND.
 All those connectors have the same pin assignment.
 
-## Flips6
+## Controlling the FP2800A
 
 Given there is a set of Flips5 or Flips7 for driving a set of display panels,
 there is need to control each column driver and the shared row driver ICs.
@@ -66,14 +66,15 @@ Flips6 uses some 74595 shift registers to allow control words to be sent seriall
 controlling the connected row and column drivers.
 
 In FP2800A based displays with shared row drivers, only one dot can be driven at a time,
-by activating that dots column driver in parallel with that dots row driver.
+by activating that dots column driver in parallel to that dots row driver.
 This means that even in a multi panel setup, there is always just one column activated, and one row.
-This allows for sharing the control lines between all column drivers, and furthermore the control
+This allows for sharing the control lines between all column drivers, and again sharing the control
 lines between all row drivers.
-Each except their ENABLE pin, which must be controlled individually.
+Each except their ENABLE pins, which must be controlled individually.
 
 Flips6 has 2 of the 10 Pin control connectors for row drivers, sharing all but ENABLE,
 and 6 of that same connectors for column drivers, also sharing all but their ENABLE.
+All ENABLE pins can be controlled individually.
 
-This way, it allows for driving a matrix of width = 6 * 28 = 168, and height = 28 dots.
+This way, Flips6 allows for driving a matrix of width = 6 * 28 = 168, and height = 28 dots.
 
