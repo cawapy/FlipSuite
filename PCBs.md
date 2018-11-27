@@ -2,3 +2,5 @@
     * [Flips5](https://cho45.stfuawsc.com/kicad-utils/static/viewer.html?url=https%3A%2F%2Fgithub.com%2Fcawapy%2FFlipSuite%2Fblob%2Fmaster%2FFlips5%2FFlips5.kicad_pcb)
     * [Flips6](https://cho45.stfuawsc.com/kicad-utils/static/viewer.html?url=https%3A%2F%2Fgithub.com%2Fcawapy%2FFlipSuite%2Fblob%2Fmaster%2FFlips6%2FFlips6.kicad_pcb)
     * [Flips7](https://cho45.stfuawsc.com/kicad-utils/static/viewer.html?url=https%3A%2F%2Fgithub.com%2Fcawapy%2FFlipSuite%2Fblob%2Fmaster%2FFlips7%2FFlips7.kicad_pcb)
+    * [Flips8](https://cho45.stfuawsc.com/kicad-utils/static/viewer.html?url=https%3A%2F%2Fgithub.com%2Fcawapy%2FFlipSuite%2Fblob%2Fmaster%2FFlips8%2FFlips8.kicad_pcb)
+    * [All](https://cho45.stfuawsc.com/kicad-utils/static/viewer.html?url=https%3A%2F%2Fgithub.com%2Fcawapy%2FFlipSuite%2Fblob%2Fmaster%2FFlips5%2FFlips5.kicad_pcb%0Ahttps%3A%2F%2Fgithub.com%2Fcawapy%2FFlipSuite%2Fblob%2Fmaster%2FFlips6%2FFlips6.kicad_pcb%0Ahttps%3A%2F%2Fgithub.com%2Fcawapy%2FFlipSuite%2Fblob%2Fmaster%2FFlips7%2FFlips7.kicad_pcb%0Ahttps%3A%2F%2Fgithub.com%2Fcawapy%2FFlipSuite%2Fblob%2Fmaster%2FFlips8%2FFlips8.kicad_pcb)
