@@ -1157,7 +1157,6 @@ NoConn ~ 14400 3100
 NoConn ~ 14400 3200
 NoConn ~ 14400 3300
 NoConn ~ 14400 3400
-NoConn ~ 6950 3350
 Wire Wire Line
 	9050 1850 9100 1850
 Wire Wire Line
@@ -1423,17 +1422,17 @@ Connection ~ 7000 7150
 Wire Wire Line
 	7000 7150 7000 7200
 Wire Wire Line
-	6950 3050 7000 3050
+	6950 3350 7000 3350
 Wire Wire Line
-	7000 3150 6950 3150
+	7000 3450 6950 3450
 Wire Wire Line
-	7000 3050 7000 3100
+	7000 3350 7000 3400
 Wire Wire Line
-	7000 3100 7050 3100
-Connection ~ 7000 3100
+	7000 3400 7050 3400
+Connection ~ 7000 3400
 Wire Wire Line
-	7000 3100 7000 3150
-Text Label 7050 3100 0    50   ~ 0
+	7000 3400 7000 3450
+Text Label 7050 3400 0    50   ~ 0
 X1
 Text Label 9150 1900 0    50   ~ 0
 X2
@@ -1744,5 +1743,6 @@ F 3 "" H 10800 650 50  0001 C CNN
 $EndComp
 Text Label 10800 650  0    50   ~ 0
 VS
-NoConn ~ 6950 3450
+NoConn ~ 6950 3050
+NoConn ~ 6950 3150
 $EndSCHEMATC
