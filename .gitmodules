@@ -1,6 +1,6 @@
 [submodule "external/KiCadLib"]
 	path = external/KiCadLib
 	url = https://github.com/cawapy/KiCadLib.git
-[submodule "Software/libraries/tpluc"]
-	path = Software/libraries/tpluc
+[submodule "Software/Flips/tpluc"]
+	path = Software/Flips/tpluc
 	url = https://github.com/cawapy/tpluc

@@ -1,9 +1,9 @@
 #include <SPI.h>
 
-#include <Timespan.h>
-#include <DigitalOutput.h>
-#include <ArduinoApiSpi.h>
-#include <ShiftRegister595SpiConnected.h>
+#include "tpluc/Timespan.h"
+#include "tpluc/DigitalOutput.h"
+#include "tpluc/ArduinoApiSpi.h"
+#include "tpluc/ShiftRegister595SpiConnected.h"
 
 #include "Flips6.h"
 
