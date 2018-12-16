@@ -18,12 +18,18 @@ Flips5 is designed for
 |2|SY02|SY04|SY06|SY08|SY10|SY12 |SY14 |SY16 |SY18 |SY20 |/RY02|/RY04|/RY06|/RY08|/RY10|/RY12|/RY14|/RY16|/RY18|/RY20|     |     |     |     |     |     |     |     |     |     |
 |1|SY01|SY03|SY05|SY07|SY09|SY11 |SY13 |SY15 |SY17 |SY19 |/RY01|/RY03|/RY05|/RY07|/RY09|/RY11|/RY13|/RY15|/RY17|/RY19|     |     |     |     |     |     |     |     |     |     |
 
+* SY*nn* - Set dot in row *nn* by driving high (column to be driven low)
+* /RY*nn* - Reset dot in row *nn* by driving low (column to be driven high)
+
 ### Row Pins of Brose 20 Pin Extension Connector
 
 | |1/2 |3/4 |5/6 |7/8 |9/10 |11/12|13/14|15/16|17/18|19/20|
 |-|----|----|----|----|-----|-----|-----|-----|-----|-----|
 |2|SY22|SY24|SY26|SY28|/RY22|/RY24|/RY26|/RY28|     |     |
 |1|SY21|SY23|SY25|SY27|/RY21|/RY23|/RY25|/RY27|     |     |
+
+* SY*nn* - Set dot in row *nn* by driving high (column to be driven low)
+* /RY*nn* - Reset dot in row *nn* by driving low (column to be driven high)
 
 I have not seen a display with such connector, the above pin mapping has been reported to me.
 
@@ -33,6 +39,9 @@ I have not seen a display with such connector, the above pin mapping has been re
 |-|----|----|----|----|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |2|    |    |    |    |    |     |     |     |     |/RY01|/RY02|/RY03|/RY04|/RY05|/RY06|/RY07|     |
 |1|    |    |    |    |    |     |     |     |     |SY01 |SY02 |SY03 |SY04 |SY05 |SY06 |SY07 |     |
+
+* SY*nn* - Set dot in row *nn* by driving high (column to be driven low)
+* /RY*nn* - Reset dot in row *nn* by driving low (column to be driven high)
 
 ## Flips7
 
@@ -46,6 +55,9 @@ such as 28x13, 28x16 and 14x16 of different dot sizes.
 |31|/SY12|RY12 |X03 |X02 |X01  |X09 |RY13|/SY13|X08 |X07  |X06  |X05  |/SY10|X04\*|RY10 |X25  |X24  |X23  |/SY16|X22  |RY16 |RY15 |/SY15|X28  |X27\*|X26  |X21  |RY11 |X20  |/SY11|
 | 1|X11  |/SY07|RY07|X12 |/SY06|RY06|X13 |/SY03|RY03|X14  |/SY02|X10  |RY02 |RY14 |/SY14|X15  |/SY01|RY01 |X16  |/SY04|RY04 |X17  |/SY05|RY05 |X18  |/SY08|RY08 |X19  |/SY09|RY09 |
 
+* /SY*nn* - Set dot in row *nn* by driving low (column to be driven high)
+* RY*nn* - Reset dot in row *nn* by driving high (column to be driven low)
+* X*mm* - Set(Reset) dot in column *mm* by driving high(low)
 * \*) On 14 column board, X04 is on position 55
 
 Each Flips5/7 board is intended to drive **one** flip dot display panel.
