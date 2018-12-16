@@ -39,6 +39,13 @@ I have not seen a display with such connector, the above pin mapping has been re
 Flips7 is designed for the Transit Media 60 Pin connector, used in different Transit Media flip dot matrix panels,
 such as 28x13, 28x16 and 14x16 of different dot sizes.
 
+### Transit Media Connector
+
+|  |1/31 |2/32 |3/33|4/34|5/35 |6/36|7/37|8/38 |9/39|10/40|11/41|12/42|13/43|14/44|15/45|16/46|17/47|18/48|19/49|20/50|21/51|22/52|23/53|24/54|25/55|26/56|27/57|28/58|29/59|30/60|
+|--|-----|-----|----|----|-----|----|----|-----|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
+|31|/SY12|RY12 |X03 |X02 |X01  |X09 |RY13|/SY13|X08 |X07  |X06  |X05  |/SY10|X04/nc|RY10 |X25  |X24  |X23  |/SY16|X22  |RY16 |RY15 |/SY15|X28  |X27/4|X26  |X21  |RY11 |X20  |/SY11|
+| 1|X11  |/SY07|RY07|X12 |/SY06|RY06|X13 |/SY03|RY03|X14  |/SY02|X10  |RY02 |RY14 |/SY14|X15  |/SY01|RY01 |X16  |/SY04|RY04 |X17  |/SY05|RY05 |X18  |/SY08|RY08 |X19  |/SY09|RY09 |
+
 Each Flips5/7 board is intended to drive **one** flip dot display panel.
 It has a slot for **one** FP2800A, acting as the column driver for that panel.
 The corresponding display panel boards support up to 28 columns,
