@@ -4,19 +4,21 @@
 based on the FP2800A decoder/driver.
 The major difference between Flips5 and Flips7 are the connector types and so the supported display panel types.
 
+## Flips5
+
 Flips5 is designed for
 * Brose 60 Pin connector, widely used in flip dot matrix displays with 28 x 13..24 dots
     * Including the Brose 20 Pin extension connector for n > 20 rows
 * Brose 34 Pin connector, such as 5 digits 5x7 flip dot display
 
-## Row Pins of Brose 60 Pin Connector
+### Row Pins of Brose 60 Pin Connector
 
 | |1/2 |3/4 |5/6 |7/8 |9/10|11/12|13/14|15/16|17/18|19/20|21/22|23/24|25/26|27/28|29/30|31/32|33/34|35/36|37/38|39/40|41/42|43/44|45/46|47/48|49/50|51/52|53/54|55/56|57/58|59/60|
 |-|----|----|----|----|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |2|SY02|SY04|SY06|SY08|SY10|SY12 |SY14 |SY16 |SY18 |SY20 |/RY2 |/RY4 |/RY6 |/RY8 |/RY10|/RY12|/RY14|/RY16|/RY18|/RY20|     |     |     |     |     |     |     |     |     |     |
 |1|SY01|SY03|SY05|SY07|SY09|SY11 |SY13 |SY15 |SY17 |SY19 |/RY1 |/RY3 |/RY5 |/RY7 |/RY9 |/RY11|/RY13|/RY15|/RY17|/RY19|     |     |     |     |     |     |     |     |     |     |
 
-## Row Pins of Brose 20 Pin Extension Connector
+### Row Pins of Brose 20 Pin Extension Connector
 
 | |1/2 |3/4 |5/6 |7/8 |9/10 |11/12|13/14|15/16|17/18|19/20|
 |-|----|----|----|----|-----|-----|-----|-----|-----|-----|
@@ -25,12 +27,14 @@ Flips5 is designed for
 
 I have not seen a display with such connector, the above pin mapping has been reported to me.
 
-## Row Pins of Brose 34 Pin Extension Connector
+### Row Pins of Brose 34 Pin Extension Connector
 
 | |1/2 |3/4 |5/6 |7/8 |9/10|11/12|13/14|15/16|17/18|19/20|21/22|23/24|25/26|27/28|29/30|31/32|33/34|
 |-|----|----|----|----|----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|-----|
 |2|    |    |    |    |    |     |     |     |     |/RY1 |/RY2 |/RY3 |/RY4 |/RY5 |/RY6 |/RY7 |     |
 |1|    |    |    |    |    |     |     |     |     |SY1  |SY2  |SY3  |SY4  |SY5  |SY6  |SY7  |     |
+
+## Flips7
 
 Flips7 is designed for the Transit Media 60 Pin connector, used in different Transit Media flip dot matrix panels,
 such as 28x13, 28x16 and 14x16 of different dot sizes.
