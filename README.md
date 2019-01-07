@@ -4,7 +4,7 @@ KiCad schematics and PCBs for building flip dot and flip segment display drivers
 
 ## USE AT YOUR OWN RISK
 
-The designs are not yet finalized and untested.
+The designs are not yet finalized or not fully tested.
 
 ## Status
 
@@ -14,7 +14,9 @@ PCBs of [Flips5](Flips5), [Flips6](Flips6) and [Flips7](Flips7),
 each in Version V1.0, have been manufactured and equiped.
 
 Successfully tested:
-* Flips5 with 25x7 display on ``BROSE34`` and ``BRDIC1``, connected to Flips6 on ``CNY1``+``CNX1``
+
+* Flips5 with 25x7 display on ``BROSE34`` and ``BRDIC1``, connected to Flips6 on ``CNY1`` and``CNX1``
+* Flips5 with 28x24 display on ``BROSE60``+``BROSE20`` and ``BRDIC1``, connected to Flips6 on ``CNY1``+``CNY2`` and ``CNX1``
 
 Tests of other boards and configurations still pending.
 
