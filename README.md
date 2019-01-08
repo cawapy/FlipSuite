@@ -42,6 +42,9 @@ View PCBs [online](PCBs.md).
     * Use sockets with slimmer frame (e.g. those with round pins); or pin rows, they are also slimmer than the standard socket frames
     * Use little solder for Rs and Cs, decenter Rs and Cs away from socket frame as much as possible
     * Mill small holes into socket to not collide with housings of Rs and Cs
+    * Do not equip the Flips5 PCB with those Rs and Cs
+      * The enable signals should have pull down resistors, but they can be provided externally; the Flips6 already provides the enable signals *with* pull down resistors
+      * The bypass capacitor can be omitted while the circuit will still work (but it *might* create more radio interferences then)
 
 ### Flips6
 
