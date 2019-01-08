@@ -15,8 +15,10 @@ each in Version V1.0, have been manufactured and equiped.
 
 Successfully tested:
 
-* Flips5 with 25x7 display on ``BROSE34`` and ``BRDIC1``, connected to Flips6 on ``CNY1`` and``CNX1``
-* Flips5 with 28x24 display on ``BROSE60``+``BROSE20`` and ``BRDIC1``, connected to Flips6 on ``CNY1``+``CNY2`` and ``CNX1``
+* Flips5 with Brose display of 5 digits a 5x7 = 25x7 on ``BROSE34`` and ``BRDIC1``, connected to Flips6 on ``CNY1`` and``CNX1``
+* Flips5 with Brose 28x24 display on ``BROSE60``+``BROSE20`` and ``BRDIC1``, connected to Flips6 on ``CNY1``+``CNY2`` and ``CNX1``
+  * This display uses the 24 rows 3-26
+* Flips5 with Brose 28x16 display on ``BROSE60`` and ``BRDIC1``, connected to Flips6 on ``CNY1``+``CNY2`` and ``CNX1``
 
 Tests of other boards and configurations still pending.
 
@@ -50,3 +52,7 @@ View PCBs [online](PCBs.md).
 
 Here is some [technical description](Description.md).
 
+## Flips Systems
+
+* [Minimal Brose Display Configuration](documentation/flips6-1flips5.pdf)
+* [Example Configuration with 3 Brose Displays](documentation/flips6-3flips5.pdf)
