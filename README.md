@@ -13,14 +13,16 @@ The designs are not yet finalized or not fully tested.
 PCBs of [Flips5](Flips5), [Flips6](Flips6) and [Flips7](Flips7),
 each in Version V1.0, have been manufactured and equiped.
 
-Successfully tested:
+Flips5 can be considered working, at least in single display configurations. Successfully tested:
 
-* Flips5 with Brose display of 5 digits a 5x7 = 25x7 on ``BROSE34`` and ``BRDIC1``, connected to Flips6 on ``CNY1`` and``CNX1``
-* Flips5 with Brose 28x24 display on ``BROSE60``+``BROSE20`` and ``BRDIC1``, connected to Flips6 on ``CNY1``+``CNY2`` and ``CNX1``
+* Flips5 with standard Brose displays on ``BROSE60`` and ``BRDIC1``, connected to Flips6 on ``CNY1``+``CNY2`` and ``CNX1``
+    * 28x16 (15 mm dots)
+    * 28x19 (10 mm dots)
+* Flips5 with extended 28x24 (10 mm dots) Brose display on ``BROSE60``+``BROSE20`` and ``BRDIC1``, connected to Flips6 on ``CNY1``+``CNY2`` and ``CNX1``
   * This display uses the 24 rows 3-26
-* Flips5 with Brose 28x16 display on ``BROSE60`` and ``BRDIC1``, connected to Flips6 on ``CNY1``+``CNY2`` and ``CNX1``
+* Flips5 with Brose display of 5 digits a 5x7 = 25x7 on ``BROSE34`` and ``BRDIC1``, connected to Flips6 on ``CNY1`` and``CNX1``
 
-Tests of other boards and configurations still pending.
+Tests of Flips7 and multi display configurations with Flips6 are still pending.
 
 ### Flips8
 
