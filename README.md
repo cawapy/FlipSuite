@@ -59,7 +59,9 @@ Here is some [technical description](Description.md).
 
 ## Flips Systems
 
+* [Minimal Brose Display Configuration](documentation/flips6-1flips5-minimal.pdf)
 * [Simple Brose Display Configuration](documentation/flips6-1flips5.pdf)
 * [Example Configuration with 3 Brose Displays](documentation/flips6-3flips5.pdf)
+* [Minimal Transit Media Display Configuration](documentation/flips6-1flips7-minimal.pdf)
 * [Simple Transit Media Display Configuration](documentation/flips6-1flips7.pdf)
 * [Example Configuration with 3 Transit Media Displays](documentation/flips6-3flips7.pdf)
