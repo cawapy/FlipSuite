@@ -59,9 +59,16 @@ Here is some [technical description](Description.md).
 
 ## Flips Systems
 
-* [Minimal Brose Display Configuration](documentation/flips6-1flips5-minimal.pdf)
-* [Simple Brose Display Configuration](documentation/flips6-1flips5.pdf)
-* [Example Configuration with 3 Brose Displays](documentation/flips6-3flips5.pdf)
-* [Minimal Transit Media Display Configuration](documentation/flips6-1flips7-minimal.pdf)
-* [Simple Transit Media Display Configuration](documentation/flips6-1flips7.pdf)
-* [Example Configuration with 3 Transit Media Displays](documentation/flips6-3flips7.pdf)
+* Brose
+    * Matrix
+        * Minimal:    [Display with ..-14 Rows (60P-Connector)](documentation/flips5-13rows.pdf)
+        * Typical:    [Display with 15-20 Rows (60P-Connector)](documentation/flips5-19rows.pdf)
+        * Extra:      [Display with 21-28 Rows (60P+20P-Connectors)](documentation/flips5-22rows.pdf)
+        * Multi:      [Multiple Display Panels](documentation/flips5-19rows-x3.pdf)
+    * Characters
+        * [5 Positions a 5x7 Dots Display with 34P-Connector](documentation/flips5-07rows.pdf)
+* Transit Media
+    * Small:   [Display with ..-14 Rows](documentation/flips6-1flips7-minimal.pdf)
+    * Typical: [Display with 14-16 Rows](documentation/flips6-1flips7.pdf)
+    * Multi:   [Multiple Display Panels](documentation/flips6-3flips7.pdf)
+
