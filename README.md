@@ -61,12 +61,12 @@ Here is some [technical description](Description.md).
 
 * Brose
     * Matrix
-        * Minimal:    [Display with ..-14 Rows (60P-Connector)](documentation/flips5-13rows.pdf)
-        * Typical:    [Display with 15-20 Rows (60P-Connector)](documentation/flips5-19rows.pdf)
-        * Extra:      [Display with 21-28 Rows (60P+20P-Connectors)](documentation/flips5-22rows.pdf)
-        * Multi:      [Multiple Display Panels](documentation/flips5-19rows-x3.pdf)
+        * Minimal:    [..-14 Rows (60P-Connector)](documentation/flips5-13rows.pdf)
+        * Typical:    [15-20 Rows (60P-Connector; +**CNY2**)](documentation/flips5-19rows.pdf)
+        * Extra:      [21-28 Rows (60P+**20P**-Connectors; +**CNY2**)](documentation/flips5-22rows.pdf)
+        * Multi:      [Multiple Display Panels (+**CNX2**, ...)](documentation/flips5-19rows-x3.pdf)
     * Characters
-        * [5 Positions a 5x7 Dots Display with 34P-Connector](documentation/flips5-07rows.pdf)
+        * [5 Positions a 5x7 Dots (34P-Connector)](documentation/flips5-07rows.pdf)
 * Transit Media
     * Small:   [Display with ..-14 Rows](documentation/flips6-1flips7-minimal.pdf)
     * Typical: [Display with 14-16 Rows](documentation/flips6-1flips7.pdf)
