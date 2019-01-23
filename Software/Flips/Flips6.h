@@ -1,10 +1,34 @@
 #pragma once
 
+void DivMod(uint8_t dividend, uint8_t divisor, uint8_t& quotient, uint8_t& remainder)
+{
+    quotient = dividend / divisor;
+    remainder = dividend - divisor * quotient;
+}
+
+template<uint8_t rowsPerPolarityGroup, bool negativePolarityFirst = false> struct RowMapper
+{
+    static const uint8_t outputsPerPolarityGroup = 2 * rowsPerPolarityGroup;
+
+    static uint8_t CalculateOutput(uint8_t row, bool polarity)
+    {
+        uint8_t polarityGroup;
+        uint8_t polarityGroupLocalRow;
+        DivMod(row, rowsPerPolarityGroup, polarityGroup, polarityGroupLocalRow);
+        return polarityGroup * outputsPerPolarityGroup
+                + (negativePolarityFirst ?
+                    (polarity ? rowsPerPolarityGroup : 0) :
+                    (polarity ? 0 : rowsPerPolarityGroup))
+                + polarityGroupLocalRow;
+    }
+};
+
 template<
     typename shiftRegister595,
     typename tPulse = tpluc::TimespanMs<1>,
     typename tEnable = tpluc::TimespanUs<5>,
-    bool useAllRegisters = true
+    bool useAllRegisters = true,
+    typename rowMapper = RowMapper<14>
 > class Flips6
 {
 public:
@@ -45,30 +69,33 @@ private:
 
     static void CalculateRowControl(uint8_t row, bool polarity, uint8_t& bank, uint8_t& a, uint8_t& b)
     {
-        // FP2800A has 28 outputs, organized in 4 groups (b=0..3) each with 7 outputs (a=1..7)
-        // for Y, the LO and HI drivers of each line are separated; outputs 0..13 are connected to HI,
-        // outputs 14..27 to LO side
-        uint8_t _bank = row / 14;
-        uint8_t bankLocalOutput = row - (14 * _bank) + (polarity ? 0 : 14);
-        uint8_t bankLocalGroup = bankLocalOutput / 7;
-        uint8_t groupLocalOutput = bankLocalOutput - (7 * bankLocalGroup);
-
-        a = groupLocalOutput + 1; // 1-7
-        b = bankLocalGroup;
-        bank = _bank;
+        // Each FP2800A has 28 outputs, organized in 4 groups (b=0..3) each with 7 outputs (a=1..7)
+        // For Y, the LO and HI drivers of each row are separated, so a single FP2800A can provide
+        // 14 LO and 14 HI drivers for 14 rows.
+        const uint8_t rowsPerBank = 14;
+        uint8_t bankLocalRow;
+        DivMod(row, rowsPerBank, bank, bankLocalRow);
+        uint8_t output = rowMapper::CalculateOutput(bankLocalRow, polarity);
+        CalculateAB(output, a, b);
     }
 
     static void CalculateColumnControl(uint8_t column, uint8_t& bank, uint8_t& a, uint8_t& b)
     {
-        // FP2800A has 28 outputs, organized in 4 groups (b=0..3) each with 7 outputs (a=1..7)
-        uint8_t _bank = column / 28;
-        uint8_t bankLocalOutput = column - (28 * _bank);
-        uint8_t bankLocalGroup = bankLocalOutput / 7;
-        uint8_t groupLocalOutput = bankLocalOutput - (7 * bankLocalGroup);
+        // Each FP2800A has 28 outputs, organized in 4 groups (b=0..3) each with 7 outputs (a=1..7)
+        // For X, the LO and HI drivers of each column are combined, so a single FP2800A can privde
+        // 28 combined LO and HI drivers for 28 columns.
+        const uint8_t columnsPerBank = 28;
+        bank = column / columnsPerBank;
+        uint8_t output = column % columnsPerBank;
+        CalculateAB(output, a, b);
+    }
 
-        a = groupLocalOutput + 1; // 1-7
-        b = bankLocalGroup;
-        bank = _bank;
+    static void CalculateAB(uint8_t output, uint8_t& a, uint8_t& b)
+    {
+        const uint8_t outputsPerGroup = 7;
+        uint8_t _a;
+        DivMod(output, outputsPerGroup, b, _a);
+        a = _a + 1;
     }
 
     static uint8_t ComposeRegister01(uint8_t a, uint8_t b, bool d)
