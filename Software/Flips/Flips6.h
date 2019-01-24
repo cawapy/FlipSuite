@@ -1,20 +1,13 @@
 #pragma once
 
-void DivMod(uint8_t dividend, uint8_t divisor, uint8_t& quotient, uint8_t& remainder)
-{
-    quotient = dividend / divisor;
-    remainder = dividend - divisor * quotient;
-}
-
 template<uint8_t rowsPerPolarityGroup, bool negativePolarityFirst = false> struct RowMapper
 {
     static const uint8_t outputsPerPolarityGroup = 2 * rowsPerPolarityGroup;
 
     static uint8_t CalculateOutput(uint8_t row, bool polarity)
     {
-        uint8_t polarityGroup;
-        uint8_t polarityGroupLocalRow;
-        DivMod(row, rowsPerPolarityGroup, polarityGroup, polarityGroupLocalRow);
+        uint8_t polarityGroup         = row / rowsPerPolarityGroup;
+        uint8_t polarityGroupLocalRow = row % rowsPerPolarityGroup;
         return polarityGroup * outputsPerPolarityGroup
                 + (negativePolarityFirst ?
                     (polarity ? rowsPerPolarityGroup : 0) :
@@ -73,8 +66,8 @@ private:
         // For Y, the LO and HI drivers of each row are separated, so a single FP2800A can provide
         // 14 LO and 14 HI drivers for 14 rows.
         const uint8_t rowsPerBank = 14;
-        uint8_t bankLocalRow;
-        DivMod(row, rowsPerBank, bank, bankLocalRow);
+        bank = row / rowsPerBank;
+        uint8_t bankLocalRow = row % rowsPerBank;
         uint8_t output = rowMapper::CalculateOutput(bankLocalRow, polarity);
         CalculateAB(output, a, b);
     }
@@ -93,9 +86,8 @@ private:
     static void CalculateAB(uint8_t output, uint8_t& a, uint8_t& b)
     {
         const uint8_t outputsPerGroup = 7;
-        uint8_t _a;
-        DivMod(output, outputsPerGroup, b, _a);
-        a = _a + 1;
+        b = output / outputsPerGroup;
+        a = output % outputsPerGroup + 1;
     }
 
     static uint8_t ComposeRegister01(uint8_t a, uint8_t b, bool d)
