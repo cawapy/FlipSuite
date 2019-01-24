@@ -19,6 +19,7 @@ template<uint8_t rowsPerPolarityGroup, bool negativePolarityFirst = false> struc
 template<
     typename shiftRegister595,
     typename tPulse = tpluc::TimespanMs<1>,
+    typename tRelax = tpluc::TimespanZero,
     typename tEnable = tpluc::TimespanUs<5>,
     bool useAllRegisters = true,
     typename rowMapper = RowMapper<14>
@@ -55,6 +56,12 @@ public:
         tEnable::Wait();
         SetRegisters(registersWithEnable + offset, numRegisters);
         tPulse::Wait();
+        const bool needRelax = !tRelax::IsZero;
+        if (needRelax)
+        {
+            SetRegisters(registersWithoutEnable + offset, numRegisters);
+            tRelax::Wait();
+        }
         DisableOutputs();
     }
 
