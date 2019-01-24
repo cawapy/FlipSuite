@@ -4,7 +4,7 @@
 #include "Flips6Skeleton.h"
 #include "RowMapper.h"
 
-typedef RowMapper<14> Flips7RowMapper;
+typedef RowMapper<14, true> Flips7RowMapper;
 
 template<typename shiftRegister595, bool useAllRegisters = true> class Flips67 :
 public Flips6Skeleton<
@@ -13,7 +13,8 @@ public Flips6Skeleton<
     tpluc::TimespanMs<1>, // tPulse
     tpluc::TimespanZero, // tRelax
     tpluc::TimespanUs<5>, // tEnable
-    Flips7RowMapper>
+    Flips7RowMapper,
+    false> // setRowPolarity
 {
 };
 

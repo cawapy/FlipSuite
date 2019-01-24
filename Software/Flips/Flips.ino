@@ -25,7 +25,7 @@ struct Adapter
 {
     void Set(uint8_t x, uint8_t y, bool value)
     {
-        flips::Pulse(y, x, value);
+        flips::DefineDot(y, x, value);
     }
 };
 

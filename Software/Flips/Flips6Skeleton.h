@@ -6,20 +6,24 @@ template<
     typename tPulse,
     typename tRelax,
     typename tEnable,
-    typename rowMapper
+    typename rowMapper,
+    bool setRowPolarity = true
 > class Flips6Skeleton
 {
 public:
 
-    static void Pulse(uint8_t row, uint8_t column, bool rowPolarity)
+    static void DefineDot(uint8_t row, uint8_t column, bool set)
     {
+        bool rowPolarity = setRowPolarity ? set : !set;
+        bool colPolarity = setRowPolarity ? !set : set;
+
         uint8_t rowBank, rowA, rowB;
         CalculateRowControl(row, rowPolarity, rowBank, rowA, rowB);
         bool rowD = rowPolarity;
 
         uint8_t colBank, colA, colB;
         CalculateColumnControl(column, colBank, colA, colB);
-        bool colD = !rowPolarity;
+        bool colD = colPolarity;
 
         uint8_t reg0 = ComposeRegister01(rowA, rowB, rowD);
         uint8_t reg1 = ComposeRegister01(colA, colB, colD);
