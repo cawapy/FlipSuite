@@ -1,29 +1,13 @@
 #pragma once
 
-template<uint8_t rowsPerPolarityGroup, bool negativePolarityFirst = false> struct RowMapper
-{
-    static const uint8_t outputsPerPolarityGroup = 2 * rowsPerPolarityGroup;
-
-    static uint8_t CalculateOutput(uint8_t row, bool polarity)
-    {
-        uint8_t polarityGroup         = row / rowsPerPolarityGroup;
-        uint8_t polarityGroupLocalRow = row % rowsPerPolarityGroup;
-        return polarityGroup * outputsPerPolarityGroup
-                + (negativePolarityFirst ?
-                    (polarity ? rowsPerPolarityGroup : 0) :
-                    (polarity ? 0 : rowsPerPolarityGroup))
-                + polarityGroupLocalRow;
-    }
-};
-
 template<
     typename shiftRegister595,
-    typename tPulse = tpluc::TimespanMs<1>,
-    typename tRelax = tpluc::TimespanZero,
-    typename tEnable = tpluc::TimespanUs<5>,
-    bool useAllRegisters = true,
-    typename rowMapper = RowMapper<14>
-> class Flips6
+    bool useAllRegisters,
+    typename tPulse,
+    typename tRelax,
+    typename tEnable,
+    typename rowMapper
+> class Flips6Skeleton
 {
 public:
 
@@ -132,3 +116,4 @@ private:
         shiftRegister595::DisableOutputs();
     }
 };
+

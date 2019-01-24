@@ -5,7 +5,7 @@
 #include "tpluc/ArduinoApiSpi.h"
 #include "tpluc/ShiftRegister595SpiConnected.h"
 
-#include "Flips6.h"
+#include "Flips65.h"
 
 typedef tpluc::Arduino::DigitalOutput<8> ShiftRegisterRsPin;
 typedef tpluc::Arduino::DigitalOutput<9> ShiftRegisterOePin;
@@ -14,13 +14,13 @@ typedef tpluc::Arduino::DigitalOutput<10> ShiftRegisterCsPin;
 typedef tpluc::ArduinoApi::Spi<> Spi;
 
 typedef ShiftRegister595SpiConnected<ShiftRegisterCsPin, ShiftRegisterOePin, ShiftRegisterRsPin, Spi> ShiftRegister;
-typedef Flips6<ShiftRegister> flips6;
+typedef Flips65<ShiftRegister> flips;
 
 struct Adapter
 {
     void Set(uint8_t x, uint8_t y, bool value)
     {
-        flips6::Pulse(y, x, value);
+        flips::Pulse(y, x, value);
     }
 };
 
