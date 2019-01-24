@@ -105,7 +105,6 @@ private:
 
     static void SetRegisters(uint8_t* registers, uint8_t numRegisters)
     {
-        shiftRegister595::Reset();
         shiftRegister595::ShiftOut(registers, numRegisters);
         shiftRegister595::Latch();
     }

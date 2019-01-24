@@ -9,13 +9,12 @@
 #include "Flips67.h"
 #include "Custom7x28Display.h"
 
-typedef tpluc::Arduino::DigitalOutput<8> ShiftRegisterRsPin;
 typedef tpluc::Arduino::DigitalOutput<9> ShiftRegisterOePin;
 typedef tpluc::Arduino::DigitalOutput<10> ShiftRegisterCsPin;
 
 typedef tpluc::ArduinoApi::Spi<> Spi;
 
-typedef ShiftRegister595SpiConnected<ShiftRegisterCsPin, ShiftRegisterOePin, ShiftRegisterRsPin, Spi> ShiftRegister;
+typedef ShiftRegister595SpiConnected<ShiftRegisterCsPin, ShiftRegisterOePin, Spi> ShiftRegister;
 
 // typedef Flips65<ShiftRegister> flips; // for Flips6 + Flips5
 // typedef Flips67<ShiftRegister> flips; // for Flips6 + Flips7
