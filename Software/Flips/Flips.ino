@@ -6,6 +6,8 @@
 #include "tpluc/ShiftRegister595SpiConnected.h"
 
 #include "Flips65.h"
+#include "Flips67.h"
+#include "Custom7x28Display.h"
 
 typedef tpluc::Arduino::DigitalOutput<8> ShiftRegisterRsPin;
 typedef tpluc::Arduino::DigitalOutput<9> ShiftRegisterOePin;
@@ -14,7 +16,10 @@ typedef tpluc::Arduino::DigitalOutput<10> ShiftRegisterCsPin;
 typedef tpluc::ArduinoApi::Spi<> Spi;
 
 typedef ShiftRegister595SpiConnected<ShiftRegisterCsPin, ShiftRegisterOePin, ShiftRegisterRsPin, Spi> ShiftRegister;
-typedef Flips65<ShiftRegister> flips;
+
+// typedef Flips65<ShiftRegister> flips; // for Flips6 + Flips5
+// typedef Flips67<ShiftRegister> flips; // for Flips6 + Flips7
+typedef Custom7x28Display<ShiftRegister> flips; // for Flips6/Flips5-alike custom 7x28 display
 
 struct Adapter
 {
