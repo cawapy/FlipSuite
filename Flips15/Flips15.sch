@@ -726,7 +726,7 @@ Text Label 7550 5400 2    50   ~ 0
 SY27
 Text Label 8150 4400 0    50   ~ 0
 ~RY21
-Text Label 8150 5000 0    50   ~ 0
+Text Label 9200 5000 2    50   ~ 0
 ~RY23
 Text Label 8150 5200 0    50   ~ 0
 ~RY25
@@ -740,7 +740,7 @@ Text Label 7550 5300 2    50   ~ 0
 SY26
 Text Label 7550 5500 2    50   ~ 0
 SY28
-Text Label 8150 4900 0    50   ~ 0
+Text Label 9200 4900 2    50   ~ 0
 ~RY22
 Text Label 8150 5100 0    50   ~ 0
 ~RY24
@@ -788,7 +788,7 @@ Text Label 7550 3100 2    50   ~ 0
 SY12
 Text Label 7550 3300 2    50   ~ 0
 SY14
-Text Label 8300 1700 2    50   ~ 0
+Text Label 9150 1700 2    50   ~ 0
 ~RY2
 Text Label 8300 1900 2    50   ~ 0
 ~RY4
@@ -802,9 +802,9 @@ Text Label 8350 3100 2    50   ~ 0
 ~RY12
 Text Label 8350 3300 2    50   ~ 0
 ~RY14
-Text Label 8300 1600 2    50   ~ 0
+Text Label 9150 1600 2    50   ~ 0
 ~RY1
-Text Label 8300 1800 2    50   ~ 0
+Text Label 9150 1800 2    50   ~ 0
 ~RY3
 Text Label 8300 2000 2    50   ~ 0
 ~RY5
@@ -1236,26 +1236,117 @@ F 3 "~" H 7900 4900 50  0001 C CNN
 	1    7900 4900
 	1    0    0    -1  
 $EndComp
-Text Label 10700 3200 0    50   ~ 0
+Text Label 10950 3200 0    50   ~ 0
 T8
-Text Label 10200 3100 2    50   ~ 0
+Text Label 9950 3100 2    50   ~ 0
 T5
-Text Label 10200 3200 2    50   ~ 0
+Text Label 9950 3200 2    50   ~ 0
 T7
-Text Label 1300 4200 2    50   ~ 0
-X23
-Text Label 1300 4300 2    50   ~ 0
-X22
 Text Label 1300 4400 2    50   ~ 0
 T5
 Text Label 1300 4500 2    50   ~ 0
 T7
-Text Label 1800 4200 0    50   ~ 0
-X3
-Text Label 1800 4300 0    50   ~ 0
-X2
-Text Label 1800 4400 0    50   ~ 0
-X1
 Text Label 1800 4500 0    50   ~ 0
 T8
+$Comp
+L Device:Jumper_NO_Small JP130
+U 1 1 5C5630B2
+P 9250 1800
+F 0 "JP130" H 9250 1893 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 9250 1894 50  0001 C CNN
+F 2 "Own:SolderJumper1.3mmNoSilk" H 9250 1800 50  0001 C CNN
+F 3 "~" H 9250 1800 50  0001 C CNN
+	1    9250 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP132
+U 1 1 5C56350E
+P 9250 1700
+F 0 "JP132" H 9250 1793 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 9250 1794 50  0001 C CNN
+F 2 "Own:SolderJumper1.3mmNoSilk" H 9250 1700 50  0001 C CNN
+F 3 "~" H 9250 1700 50  0001 C CNN
+	1    9250 1700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP133
+U 1 1 5C563564
+P 9250 1600
+F 0 "JP133" H 9250 1693 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 9250 1694 50  0001 C CNN
+F 2 "Own:SolderJumper1.3mmNoSilk" H 9250 1600 50  0001 C CNN
+F 3 "~" H 9250 1600 50  0001 C CNN
+	1    9250 1600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP129
+U 1 1 5C5635BC
+P 9300 5000
+F 0 "JP129" H 9300 5093 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 9300 5094 50  0001 C CNN
+F 2 "Own:SolderJumper1.3mmNoSilk" H 9300 5000 50  0001 C CNN
+F 3 "~" H 9300 5000 50  0001 C CNN
+	1    9300 5000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:Jumper_NO_Small JP131
+U 1 1 5C56362C
+P 9300 4900
+F 0 "JP131" H 9300 4993 50  0000 C CNN
+F 1 "Jumper_NO_Small" H 9300 4994 50  0001 C CNN
+F 2 "Own:SolderJumper1.3mmNoSilk" H 9300 4900 50  0001 C CNN
+F 3 "~" H 9300 4900 50  0001 C CNN
+	1    9300 4900
+	1    0    0    -1  
+$EndComp
+Text Label 1300 4300 2    50   ~ 0
+T3
+Text Label 1300 4200 2    50   ~ 0
+T1
+Text Label 1800 4200 0    50   ~ 0
+T2
+Text Label 1800 4300 0    50   ~ 0
+T4
+Text Label 1800 4400 0    50   ~ 0
+T6
+Text Label 9950 2900 2    50   ~ 0
+T1
+Text Label 9950 3000 2    50   ~ 0
+T3
+Text Label 10950 2900 0    50   ~ 0
+T2
+Text Label 10950 3000 0    50   ~ 0
+T4
+Text Label 10950 3100 0    50   ~ 0
+T6
+Wire Wire Line
+	10700 2900 10950 2900
+Wire Wire Line
+	10700 3000 10950 3000
+Wire Wire Line
+	10700 3100 10950 3100
+Wire Wire Line
+	9950 2900 10200 2900
+Wire Wire Line
+	9950 3000 10200 3000
+Wire Wire Line
+	10200 3100 9950 3100
+Wire Wire Line
+	9950 3200 10200 3200
+Wire Wire Line
+	10700 3200 10950 3200
+Text Label 9400 5000 0    50   ~ 0
+X23
+Text Label 9400 4900 0    50   ~ 0
+X22
+Text Label 9350 1800 0    50   ~ 0
+X3
+Text Label 9350 1700 0    50   ~ 0
+X2
+Text Label 9350 1600 0    50   ~ 0
+X1
 $EndSCHEMATC
