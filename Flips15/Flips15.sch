@@ -207,7 +207,6 @@ X27
 Text Label 10200 2400 2    50   ~ 0
 X28
 NoConn ~ 10200 2100
-NoConn ~ 10200 3100
 NoConn ~ 10700 2200
 NoConn ~ 10700 1600
 $Comp
@@ -221,8 +220,6 @@ F 3 "~" H 10400 2400 50  0001 C CNN
 	1    10400 2400
 	1    0    0    -1  
 $EndComp
-NoConn ~ 10700 3200
-NoConn ~ 10200 3200
 $Comp
 L Connector_Generic:Conn_02x17_Odd_Even BROSE34
 U 1 1 5C4D0068
@@ -262,11 +259,6 @@ Text Label 1800 5500 0    50   ~ 0
 ~RY5
 Text Label 1800 5700 0    50   ~ 0
 ~RY7
-NoConn ~ 1800 4200
-NoConn ~ 1300 4200
-NoConn ~ 1300 4300
-NoConn ~ 1300 4400
-NoConn ~ 1300 4500
 NoConn ~ 1300 4600
 NoConn ~ 1300 4700
 NoConn ~ 1300 4800
@@ -279,9 +271,6 @@ NoConn ~ 1800 4900
 NoConn ~ 1800 4800
 NoConn ~ 1800 4700
 NoConn ~ 1800 4600
-NoConn ~ 1800 4500
-NoConn ~ 1800 4400
-NoConn ~ 1800 4300
 $Comp
 L Connector_Generic:Conn_02x10_Odd_Even BROSE20
 U 1 1 5C4D019C
@@ -1247,4 +1236,26 @@ F 3 "~" H 7900 4900 50  0001 C CNN
 	1    7900 4900
 	1    0    0    -1  
 $EndComp
+Text Label 10700 3200 0    50   ~ 0
+T8
+Text Label 10200 3100 2    50   ~ 0
+T5
+Text Label 10200 3200 2    50   ~ 0
+T7
+Text Label 1300 4200 2    50   ~ 0
+X23
+Text Label 1300 4300 2    50   ~ 0
+X22
+Text Label 1300 4400 2    50   ~ 0
+T5
+Text Label 1300 4500 2    50   ~ 0
+T7
+Text Label 1800 4200 0    50   ~ 0
+X3
+Text Label 1800 4300 0    50   ~ 0
+X2
+Text Label 1800 4400 0    50   ~ 0
+X1
+Text Label 1800 4500 0    50   ~ 0
+T8
 $EndSCHEMATC
