@@ -1349,4 +1349,48 @@ Text Label 9350 1700 0    50   ~ 0
 X2
 Text Label 9350 1600 0    50   ~ 0
 X1
+$Comp
+L Mechanical:MountingHole H101
+U 1 1 5C564F22
+P 10450 5800
+F 0 "H101" H 10550 5846 50  0000 L CNN
+F 1 "MountingHole" H 10550 5755 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 10450 5800 50  0001 C CNN
+F 3 "~" H 10450 5800 50  0001 C CNN
+	1    10450 5800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H102
+U 1 1 5C565189
+P 10450 5950
+F 0 "H102" H 10550 5996 50  0000 L CNN
+F 1 "MountingHole" H 10550 5905 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 10450 5950 50  0001 C CNN
+F 3 "~" H 10450 5950 50  0001 C CNN
+	1    10450 5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H103
+U 1 1 5C5651EF
+P 10450 6100
+F 0 "H103" H 10550 6146 50  0000 L CNN
+F 1 "MountingHole" H 10550 6055 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 10450 6100 50  0001 C CNN
+F 3 "~" H 10450 6100 50  0001 C CNN
+	1    10450 6100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H104
+U 1 1 5C565255
+P 10450 6250
+F 0 "H104" H 10550 6296 50  0000 L CNN
+F 1 "MountingHole" H 10550 6205 50  0000 L CNN
+F 2 "Mounting_Holes:MountingHole_3.2mm_M3_ISO14580_Pad" H 10450 6250 50  0001 C CNN
+F 3 "~" H 10450 6250 50  0001 C CNN
+	1    10450 6250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
