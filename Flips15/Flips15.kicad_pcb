@@ -57,7 +57,7 @@
     (solder_mask_min_width 0.25)
     (aux_axis_origin 0 0)
     (grid_origin 50.8 50.8)
-    (visible_elements 7FFF7F7F)
+    (visible_elements 7FFFFF7F)
     (pcbplotparams
       (layerselection 0x010fc_ffffffff)
       (usegerberextensions false)
@@ -2063,11 +2063,6 @@
       (net 174 /T7))
     (pad 34 thru_hole oval (at 2.54 40.64 270) (size 1.6 1.6) (drill 1) (layers *.Cu *.Mask)
       (net 175 /T8))
-    (model ${KISYS3DMOD}/Connector_IDC.3dshapes/IDC-Header_2x17_P2.54mm_Vertical.step
-      (at (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
   )
 
   (module Capacitors_SMD:C_0805_HandSoldering (layer F.Cu) (tedit 5C5A208C) (tstamp 5C4D2EAE)
