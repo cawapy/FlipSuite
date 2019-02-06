@@ -208,7 +208,6 @@ Text Label 10200 2400 2    50   ~ 0
 X28
 NoConn ~ 10200 2100
 NoConn ~ 10700 2200
-NoConn ~ 10700 1600
 $Comp
 L Connector_Generic:Conn_02x17_Odd_Even BRDIC1
 U 1 1 5C4D005F
@@ -601,8 +600,6 @@ NoConn ~ 3400 1750
 NoConn ~ 3400 2600
 NoConn ~ 3400 3450
 NoConn ~ 3400 4300
-NoConn ~ 2850 1750
-NoConn ~ 2850 2600
 NoConn ~ 2850 3450
 NoConn ~ 2850 4300
 $Comp
@@ -1393,4 +1390,10 @@ F 3 "~" H 10450 6250 50  0001 C CNN
 	1    10450 6250
 	1    0    0    -1  
 $EndComp
+Text Label 10700 1600 0    50   ~ 0
+COM
+Text Label 2850 1750 2    50   ~ 0
+COM
+Text Label 2850 2600 2    50   ~ 0
+COM
 $EndSCHEMATC
