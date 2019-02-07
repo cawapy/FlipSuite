@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 51)
+    (drawings 52)
     (tracks 4149)
     (zones 0)
     (modules 70)
@@ -11,8 +11,8 @@
 
   (page A4)
   (layers
-    (0 F.Cu signal hide)
-    (31 B.Cu signal hide)
+    (0 F.Cu signal)
+    (31 B.Cu signal)
     (36 B.SilkS user)
     (37 F.SilkS user)
     (38 B.Mask user)
@@ -4550,9 +4550,12 @@
     )
   )
 
+  (gr_text 8 (at 104.8766 104.394) (layer B.SilkS) (tstamp 5C5C9F33)
+    (effects (font (size 1 1) (thickness 0.25)) (justify mirror))
+  )
   (gr_line (start 113.792 105.283) (end 102.489 105.283) (layer B.SilkS) (width 0.11))
-  (gr_text "needs 2803" (at 107.95 104.394) (layer B.SilkS)
-    (effects (font (size 1.2 1.2) (thickness 0.2)) (justify mirror))
+  (gr_text "+ needs 2803" (at 107.95 104.394) (layer B.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
   (gr_line (start 113.03 109.347) (end 113.538 110.617) (layer B.SilkS) (width 0.11))
   (gr_line (start 113.538 110.617) (end 114.046 109.347) (layer B.SilkS) (width 0.11))
