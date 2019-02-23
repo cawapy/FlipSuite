@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "Eigene Bauteile")(type Legacy)(uri "${KIPRJMOD}/../external/KiCadLib/Own/Eigene Bauteile.lib")(options "")(descr ""))
-)

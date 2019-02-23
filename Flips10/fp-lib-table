@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name Own)(type KiCad)(uri ${KIPRJMOD}/../external/KiCadLib/Own.pretty)(options "")(descr ""))
-)
