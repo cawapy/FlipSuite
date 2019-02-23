@@ -1,0 +1,463 @@
+EESchema Schematic File Version 4
+LIBS:Flips10-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Sheet
+S 3700 2750 575  950 
+U 5C4DAA7A
+F0 "Group0" 50
+F1 "Group.sch" 50
+F2 "A0" I L 3700 2825 50 
+F3 "A1" I L 3700 2925 50 
+F4 "A2" I L 3700 3025 50 
+F5 "DATA" I L 3700 3225 50 
+F6 "~ENGR" I L 3700 3575 50 
+F7 "OA" O R 4275 2825 50 
+F8 "OB" O R 4275 2925 50 
+F9 "OC" O R 4275 3025 50 
+F10 "OD" O R 4275 3125 50 
+F11 "OE" O R 4275 3225 50 
+F12 "OF" O R 4275 3325 50 
+F13 "OG" O R 4275 3425 50 
+F14 "O0" O R 4275 3575 50 
+$EndSheet
+Wire Wire Line
+	9400 2200 9400 2825
+Wire Wire Line
+	9400 2825 9550 2825
+Wire Wire Line
+	9550 2925 9350 2925
+Wire Wire Line
+	9350 2925 9350 2300
+Wire Wire Line
+	9350 2300 7400 2300
+Wire Wire Line
+	9300 2400 9300 3025
+Wire Wire Line
+	9300 3025 9550 3025
+Wire Wire Line
+	7600 2825 7450 2825
+Wire Wire Line
+	7450 2825 7450 2200
+Connection ~ 7450 2200
+Wire Wire Line
+	7450 2200 9400 2200
+Wire Wire Line
+	7400 2300 7400 2925
+Wire Wire Line
+	7400 2925 7600 2925
+Connection ~ 7400 2300
+Wire Wire Line
+	7400 2300 5450 2300
+Wire Wire Line
+	7600 3025 7350 3025
+Wire Wire Line
+	7350 3025 7350 2400
+Connection ~ 7350 2400
+Wire Wire Line
+	7350 2400 9300 2400
+Wire Wire Line
+	5500 2200 5500 2825
+Wire Wire Line
+	5500 2825 5650 2825
+Connection ~ 5500 2200
+Wire Wire Line
+	5500 2200 7450 2200
+Wire Wire Line
+	5650 2925 5450 2925
+Wire Wire Line
+	5450 2925 5450 2300
+Connection ~ 5450 2300
+Wire Wire Line
+	5450 2300 3500 2300
+Wire Wire Line
+	5400 2400 5400 3025
+Wire Wire Line
+	5400 3025 5650 3025
+Connection ~ 5400 2400
+Wire Wire Line
+	5400 2400 7350 2400
+Wire Wire Line
+	3700 2825 3550 2825
+Wire Wire Line
+	3550 2825 3550 2200
+Wire Wire Line
+	3550 2200 5500 2200
+Wire Wire Line
+	3500 2300 3500 2925
+Wire Wire Line
+	3500 2925 3700 2925
+Wire Wire Line
+	3700 3025 3450 3025
+Wire Wire Line
+	3450 3025 3450 2400
+Wire Wire Line
+	3450 2400 5400 2400
+Wire Wire Line
+	2150 5000 2025 5000
+Connection ~ 3450 2400
+Connection ~ 3500 2300
+Connection ~ 3550 2200
+Wire Wire Line
+	1300 2300 3500 2300
+Wire Wire Line
+	1300 2200 3550 2200
+Wire Wire Line
+	1300 2400 3450 2400
+Wire Wire Line
+	2150 5100 1300 5100
+$Comp
+L power:GND #PWR?
+U 1 1 5C4DAB2E
+P 2700 6150
+AR Path="/5C4DAB2E" Ref="#PWR?"  Part="1" 
+AR Path="/5C4DA950/5C4DAB2E" Ref="#PWR?"  Part="1" 
+AR Path="/5C4DA960/5C4DAB2E" Ref="#PWR02"  Part="1" 
+F 0 "#PWR02" H 2700 5900 50  0001 C CNN
+F 1 "GND" H 2705 5977 50  0000 C CNN
+F 2 "" H 2700 6150 50  0001 C CNN
+F 3 "" H 2700 6150 50  0001 C CNN
+	1    2700 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR?
+U 1 1 5C4DAB34
+P 2700 4150
+AR Path="/5C4DAB34" Ref="#PWR?"  Part="1" 
+AR Path="/5C4DA950/5C4DAB34" Ref="#PWR?"  Part="1" 
+AR Path="/5C4DA960/5C4DAB34" Ref="#PWR01"  Part="1" 
+F 0 "#PWR01" H 2700 4000 50  0001 C CNN
+F 1 "VCC" H 2717 4323 50  0000 C CNN
+F 2 "" H 2700 4150 50  0001 C CNN
+F 3 "" H 2700 4150 50  0001 C CNN
+	1    2700 4150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C4DAB40
+P 2325 4350
+AR Path="/5C4CE2B0/5C4DAB40" Ref="C?"  Part="1" 
+AR Path="/5C5018C5/5C4DAB40" Ref="C?"  Part="1" 
+AR Path="/5C4DAB40" Ref="C?"  Part="1" 
+AR Path="/5C4DA950/5C4DAB40" Ref="C?"  Part="1" 
+AR Path="/5C4DA960/5C4DAB40" Ref="C1"  Part="1" 
+F 0 "C1" V 2096 4350 50  0000 C CNN
+F 1 "0μ1" V 2187 4350 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2325 4350 50  0001 C CNN
+F 3 "~" H 2325 4350 50  0001 C CNN
+	1    2325 4350
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2425 4350 2700 4350
+Wire Wire Line
+	2700 4150 2700 4350
+Wire Wire Line
+	2700 4350 2700 4800
+Connection ~ 2700 4350
+Wire Wire Line
+	2700 5700 2700 5850
+Text HLabel 1300 2600 0    50   Input ~ 0
+DATA
+Text HLabel 1300 2200 0    50   Input ~ 0
+A0
+Text HLabel 1300 2300 0    50   Input ~ 0
+A1
+Text HLabel 1300 2400 0    50   Input ~ 0
+A2
+Text HLabel 1300 5100 0    50   Input ~ 0
+EN
+Text HLabel 1300 5350 0    50   Input ~ 0
+B0
+Text HLabel 1300 5450 0    50   Input ~ 0
+B1
+Wire Wire Line
+	2025 4900 2150 4900
+Text Label 3350 3575 2    50   ~ 0
+~ENGR0
+Text Label 5300 3575 2    50   ~ 0
+~ENGR1
+Text Label 7250 3575 2    50   ~ 0
+~ENGR2
+Text Label 9200 3575 2    50   ~ 0
+~ENGR3
+$Comp
+L 74xx_IEEE:74LS138 U1
+U 1 1 5C7A2CD8
+P 2700 5100
+F 0 "U1" H 2550 5500 50  0000 C CNN
+F 1 "74138" H 2850 5500 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 2700 5100 50  0001 C CNN
+F 3 "" H 2700 5100 50  0001 C CNN
+	1    2700 5100
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1300 2600 3350 2600
+Wire Wire Line
+	3350 2600 3350 3225
+Wire Wire Line
+	3350 3225 3700 3225
+Connection ~ 3350 2600
+Wire Wire Line
+	3350 2600 5300 2600
+$Sheet
+S 5650 2750 575  950 
+U 5C7C3667
+F0 "Group1" 50
+F1 "Group.sch" 50
+F2 "A0" I L 5650 2825 50 
+F3 "A1" I L 5650 2925 50 
+F4 "A2" I L 5650 3025 50 
+F5 "DATA" I L 5650 3225 50 
+F6 "~ENGR" I L 5650 3575 50 
+F7 "OA" O R 6225 2825 50 
+F8 "OB" O R 6225 2925 50 
+F9 "OC" O R 6225 3025 50 
+F10 "OD" O R 6225 3125 50 
+F11 "OE" O R 6225 3225 50 
+F12 "OF" O R 6225 3325 50 
+F13 "OG" O R 6225 3425 50 
+F14 "O0" O R 6225 3575 50 
+$EndSheet
+$Sheet
+S 7600 2750 575  950 
+U 5C7C541F
+F0 "Group2" 50
+F1 "Group.sch" 50
+F2 "A0" I L 7600 2825 50 
+F3 "A1" I L 7600 2925 50 
+F4 "A2" I L 7600 3025 50 
+F5 "DATA" I L 7600 3225 50 
+F6 "~ENGR" I L 7600 3575 50 
+F7 "OA" O R 8175 2825 50 
+F8 "OB" O R 8175 2925 50 
+F9 "OC" O R 8175 3025 50 
+F10 "OD" O R 8175 3125 50 
+F11 "OE" O R 8175 3225 50 
+F12 "OF" O R 8175 3325 50 
+F13 "OG" O R 8175 3425 50 
+F14 "O0" O R 8175 3575 50 
+$EndSheet
+$Sheet
+S 9550 2750 575  950 
+U 5C7C71D1
+F0 "Group3" 50
+F1 "Group.sch" 50
+F2 "A0" I L 9550 2825 50 
+F3 "A1" I L 9550 2925 50 
+F4 "A2" I L 9550 3025 50 
+F5 "DATA" I L 9550 3225 50 
+F6 "~ENGR" I L 9550 3575 50 
+F7 "OA" O R 10125 2825 50 
+F8 "OB" O R 10125 2925 50 
+F9 "OC" O R 10125 3025 50 
+F10 "OD" O R 10125 3125 50 
+F11 "OE" O R 10125 3225 50 
+F12 "OF" O R 10125 3325 50 
+F13 "OG" O R 10125 3425 50 
+F14 "O0" O R 10125 3575 50 
+$EndSheet
+Wire Wire Line
+	9200 3225 9550 3225
+Wire Wire Line
+	9200 2600 9200 3225
+Wire Wire Line
+	7600 3225 7250 3225
+Wire Wire Line
+	7250 3225 7250 2600
+Connection ~ 7250 2600
+Wire Wire Line
+	7250 2600 9200 2600
+Wire Wire Line
+	5650 3225 5300 3225
+Wire Wire Line
+	5300 3225 5300 2600
+Connection ~ 5300 2600
+Wire Wire Line
+	5300 2600 7250 2600
+Wire Wire Line
+	2025 4900 2025 5000
+Connection ~ 2025 4900
+Wire Wire Line
+	1300 5350 2150 5350
+Wire Wire Line
+	1300 5450 2150 5450
+Wire Wire Line
+	3350 4900 3350 3575
+Wire Wire Line
+	3350 3575 3700 3575
+Wire Wire Line
+	3250 4900 3350 4900
+Wire Wire Line
+	5300 5000 5300 3575
+Wire Wire Line
+	5300 3575 5650 3575
+Wire Wire Line
+	3250 5000 5300 5000
+Wire Wire Line
+	3250 5100 7250 5100
+Wire Wire Line
+	7250 5100 7250 3575
+Wire Wire Line
+	7250 3575 7600 3575
+Wire Wire Line
+	9550 3575 9200 3575
+Wire Wire Line
+	9200 3575 9200 5200
+Wire Wire Line
+	9200 5200 3250 5200
+NoConn ~ 3250 5300
+NoConn ~ 3250 5400
+NoConn ~ 3250 5500
+NoConn ~ 3250 5600
+Wire Wire Line
+	2025 5000 2025 5550
+Wire Wire Line
+	2025 5550 2150 5550
+Connection ~ 2025 5000
+Wire Wire Line
+	2025 4900 2025 4350
+Wire Wire Line
+	2025 4350 2225 4350
+Wire Wire Line
+	2025 5550 2025 5850
+Wire Wire Line
+	2025 5850 2700 5850
+Connection ~ 2025 5550
+Connection ~ 2700 5850
+Wire Wire Line
+	2700 5850 2700 6150
+Text HLabel 4400 3575 2    50   Output ~ 0
+COM
+Text HLabel 4400 2825 2    50   Output ~ 0
+0A
+Text HLabel 4400 2925 2    50   Output ~ 0
+0B
+Text HLabel 4400 3025 2    50   Output ~ 0
+0C
+Text HLabel 4400 3125 2    50   Output ~ 0
+0D
+Text HLabel 4400 3225 2    50   Output ~ 0
+0E
+Text HLabel 4400 3325 2    50   Output ~ 0
+0F
+Text HLabel 4400 3425 2    50   Output ~ 0
+0G
+Text HLabel 6350 2825 2    50   Output ~ 0
+1A
+Text HLabel 6350 2925 2    50   Output ~ 0
+1B
+Text HLabel 6350 3025 2    50   Output ~ 0
+1C
+Text HLabel 6350 3125 2    50   Output ~ 0
+1D
+Text HLabel 6350 3225 2    50   Output ~ 0
+1E
+Text HLabel 6350 3325 2    50   Output ~ 0
+1F
+Text HLabel 6350 3425 2    50   Output ~ 0
+1G
+Text HLabel 8300 2825 2    50   Output ~ 0
+2A
+Text HLabel 8300 2925 2    50   Output ~ 0
+2B
+Text HLabel 8300 3025 2    50   Output ~ 0
+2C
+Text HLabel 8300 3125 2    50   Output ~ 0
+2D
+Text HLabel 8300 3325 2    50   Output ~ 0
+2F
+Text HLabel 8300 3225 2    50   Output ~ 0
+2E
+Text HLabel 8300 3425 2    50   Output ~ 0
+2G
+Text HLabel 10250 2825 2    50   Output ~ 0
+3A
+Text HLabel 10250 3425 2    50   Output ~ 0
+3G
+Text HLabel 10250 2925 2    50   Output ~ 0
+3B
+Text HLabel 10250 3025 2    50   Output ~ 0
+3C
+Text HLabel 10250 3125 2    50   Output ~ 0
+3D
+Text HLabel 10250 3225 2    50   Output ~ 0
+3E
+Text HLabel 10250 3325 2    50   Output ~ 0
+3F
+Wire Wire Line
+	4275 2825 4400 2825
+Wire Wire Line
+	4275 2925 4400 2925
+Wire Wire Line
+	4275 3025 4400 3025
+Wire Wire Line
+	4275 3125 4400 3125
+Wire Wire Line
+	4275 3225 4400 3225
+Wire Wire Line
+	4275 3325 4400 3325
+Wire Wire Line
+	4275 3425 4400 3425
+Wire Wire Line
+	4275 3575 4400 3575
+Wire Wire Line
+	6225 2825 6350 2825
+Wire Wire Line
+	6225 2925 6350 2925
+Wire Wire Line
+	6225 3025 6350 3025
+Wire Wire Line
+	6225 3125 6350 3125
+Wire Wire Line
+	6225 3225 6350 3225
+Wire Wire Line
+	6225 3325 6350 3325
+Wire Wire Line
+	6225 3425 6350 3425
+Wire Wire Line
+	8175 2825 8300 2825
+Wire Wire Line
+	8175 2925 8300 2925
+Wire Wire Line
+	8175 3025 8300 3025
+Wire Wire Line
+	8175 3125 8300 3125
+Wire Wire Line
+	8175 3225 8300 3225
+Wire Wire Line
+	8175 3325 8300 3325
+Wire Wire Line
+	10125 2825 10250 2825
+Wire Wire Line
+	10125 2925 10250 2925
+Wire Wire Line
+	10125 3025 10250 3025
+Wire Wire Line
+	10125 3125 10250 3125
+Wire Wire Line
+	10125 3225 10250 3225
+Wire Wire Line
+	10125 3325 10250 3325
+Wire Wire Line
+	10125 3425 10250 3425
+Wire Wire Line
+	8175 3425 8300 3425
+Wire Wire Line
+	8175 3575 8300 3575
+$EndSCHEMATC
