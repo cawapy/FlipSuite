@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 1 6
+Sheet 1 1
 Title ""
 Date ""
 Rev ""
@@ -14,22 +14,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text Label 2900 3250 2    50   ~ 0
-COM
-Text Label 2900 3475 2    50   ~ 0
-A1
-Text Label 2900 3375 2    50   ~ 0
-A2
-Text Label 2900 3575 2    50   ~ 0
-A0
-Text Label 3450 3275 0    50   ~ 0
-DATA
-Text Label 3450 3575 0    50   ~ 0
-B0
-Text Label 3450 3475 0    50   ~ 0
-B1
-Text Label 3450 3375 0    50   ~ 0
-EN
 Text Label 4675 1775 2    50   ~ 0
 A0
 Text Label 4675 1875 2    50   ~ 0
@@ -44,62 +28,6 @@ Text Label 4675 2475 2    50   ~ 0
 DATA
 Text Label 4675 2675 2    50   ~ 0
 EN
-Text Label 3450 1800 0    50   ~ 0
-0A
-Text Label 3450 1900 0    50   ~ 0
-0B
-Text Label 3450 2000 0    50   ~ 0
-0C
-Text Label 3450 2100 0    50   ~ 0
-0D
-Text Label 3450 2200 0    50   ~ 0
-0E
-Text Label 3450 2300 0    50   ~ 0
-0F
-Text Label 3450 2400 0    50   ~ 0
-0G
-Text Label 3450 2525 0    50   ~ 0
-1A
-Text Label 3450 2625 0    50   ~ 0
-1B
-Text Label 3450 2725 0    50   ~ 0
-1C
-Text Label 3450 2825 0    50   ~ 0
-1D
-Text Label 3450 2925 0    50   ~ 0
-1E
-Text Label 3450 3025 0    50   ~ 0
-1F
-Text Label 3450 3125 0    50   ~ 0
-1G
-Text Label 2900 1800 2    50   ~ 0
-2A
-Text Label 2900 1900 2    50   ~ 0
-2B
-Text Label 2900 2000 2    50   ~ 0
-2C
-Text Label 2900 2100 2    50   ~ 0
-2D
-Text Label 2900 2200 2    50   ~ 0
-2E
-Text Label 2900 2300 2    50   ~ 0
-2F
-Text Label 2900 2400 2    50   ~ 0
-2G
-Text Label 2900 2525 2    50   ~ 0
-3A
-Text Label 2900 2625 2    50   ~ 0
-3B
-Text Label 2900 2725 2    50   ~ 0
-3C
-Text Label 2900 2825 2    50   ~ 0
-3D
-Text Label 2900 2925 2    50   ~ 0
-3E
-Text Label 2900 3025 2    50   ~ 0
-3F
-Text Label 2900 3125 2    50   ~ 0
-3G
 Text Label 6325 1675 0    50   ~ 0
 0A
 Text Label 6325 1775 0    50   ~ 0
@@ -191,48 +119,6 @@ F 3 "" H 5275 5300 50  0001 C CNN
 	1    5275 5300
 	1    0    0    -1  
 $EndComp
-$Sheet
-S 2900 1750 550  1925
-U 5C4DA960
-F0 "UnitY" 50
-F1 "Unit.sch" 50
-F2 "DATA" I R 3450 3275 50 
-F3 "A0" I L 2900 3575 50 
-F4 "A1" I L 2900 3475 50 
-F5 "A2" I L 2900 3375 50 
-F6 "EN" I R 3450 3375 50 
-F7 "B0" I R 3450 3575 50 
-F8 "B1" I R 3450 3475 50 
-F9 "COM" O L 2900 3250 50 
-F10 "0A" O R 3450 1800 50 
-F11 "0B" O R 3450 1900 50 
-F12 "0C" O R 3450 2000 50 
-F13 "0D" O R 3450 2100 50 
-F14 "0E" O R 3450 2200 50 
-F15 "0F" O R 3450 2300 50 
-F16 "0G" O R 3450 2400 50 
-F17 "1A" O R 3450 2525 50 
-F18 "1B" O R 3450 2625 50 
-F19 "1C" O R 3450 2725 50 
-F20 "1D" O R 3450 2825 50 
-F21 "1E" O R 3450 2925 50 
-F22 "1F" O R 3450 3025 50 
-F23 "1G" O R 3450 3125 50 
-F24 "2B" O L 2900 1900 50 
-F25 "2C" O L 2900 2000 50 
-F26 "2D" O L 2900 2100 50 
-F27 "2F" O L 2900 2300 50 
-F28 "2E" O L 2900 2200 50 
-F29 "2G" O L 2900 2400 50 
-F30 "3A" O L 2900 2525 50 
-F31 "3G" O L 2900 3125 50 
-F32 "3B" O L 2900 2625 50 
-F33 "3C" O L 2900 2725 50 
-F34 "3D" O L 2900 2825 50 
-F35 "3E" O L 2900 2925 50 
-F36 "3F" O L 2900 3025 50 
-F37 "2A" O L 2900 1800 50 
-$EndSheet
 $Comp
 L Eigene~Bauteile:FP2800A-Interface S1
 U 1 1 5C716655
@@ -307,4 +193,399 @@ Wire Wire Line
 Wire Wire Line
 	5725 5300 5725 5225
 Connection ~ 5725 5225
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even CN0
+U 1 1 5C7174D4
+P 7325 1975
+F 0 "CN0" H 7375 1350 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 7375 1441 50  0000 C CNN
+F 2 "" H 7325 1975 50  0001 C CNN
+F 3 "~" H 7325 1975 50  0001 C CNN
+	1    7325 1975
+	1    0    0    1   
+$EndComp
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even CN1
+U 1 1 5C71756E
+P 8375 2775
+F 0 "CN1" H 8425 2150 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 8425 2241 50  0000 C CNN
+F 2 "" H 8375 2775 50  0001 C CNN
+F 3 "~" H 8375 2775 50  0001 C CNN
+	1    8375 2775
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6325 2275 7125 2275
+Wire Wire Line
+	6325 2175 7125 2175
+Wire Wire Line
+	6325 2075 7125 2075
+Wire Wire Line
+	6325 1975 7125 1975
+Wire Wire Line
+	6325 1875 7125 1875
+Wire Wire Line
+	6325 1775 7125 1775
+Wire Wire Line
+	6325 1675 7125 1675
+Wire Wire Line
+	6325 1475 6575 1475
+Wire Wire Line
+	6325 3075 8175 3075
+Wire Wire Line
+	8175 2975 6325 2975
+Wire Wire Line
+	6325 2875 8175 2875
+Wire Wire Line
+	8175 2775 6325 2775
+Wire Wire Line
+	6325 2675 8175 2675
+Wire Wire Line
+	6325 2575 8175 2575
+Wire Wire Line
+	6325 2475 8175 2475
+NoConn ~ 7125 1575
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even CN2
+U 1 1 5C719D30
+P 7325 3575
+F 0 "CN2" H 7375 2950 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 7375 3041 50  0000 C CNN
+F 2 "" H 7325 3575 50  0001 C CNN
+F 3 "~" H 7325 3575 50  0001 C CNN
+	1    7325 3575
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6325 3875 7125 3875
+Wire Wire Line
+	7125 3775 6325 3775
+Wire Wire Line
+	6325 3675 7125 3675
+Wire Wire Line
+	7125 3575 6325 3575
+Wire Wire Line
+	6325 3475 7125 3475
+Wire Wire Line
+	7125 3375 6325 3375
+Wire Wire Line
+	6325 3275 7125 3275
+NoConn ~ 7125 3175
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even CN3
+U 1 1 5C71CA26
+P 8375 4375
+F 0 "CN3" H 8425 3750 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 8425 3841 50  0000 C CNN
+F 2 "" H 8375 4375 50  0001 C CNN
+F 3 "~" H 8375 4375 50  0001 C CNN
+	1    8375 4375
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6325 4075 8175 4075
+Wire Wire Line
+	8175 4175 6325 4175
+Wire Wire Line
+	6325 4275 8175 4275
+Wire Wire Line
+	8175 4375 6325 4375
+Wire Wire Line
+	6325 4475 8175 4475
+Wire Wire Line
+	8175 4575 6325 4575
+Wire Wire Line
+	6325 4675 8175 4675
+NoConn ~ 8175 3975
+$Comp
+L power:GND #PWR0101
+U 1 1 5C7205F0
+P 7625 1675
+F 0 "#PWR0101" H 7625 1425 50  0001 C CNN
+F 1 "GND" V 7625 1450 50  0000 C CNN
+F 2 "" H 7625 1675 50  0001 C CNN
+F 3 "" H 7625 1675 50  0001 C CNN
+	1    7625 1675
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+24V #PWR0102
+U 1 1 5C720669
+P 7625 1575
+F 0 "#PWR0102" H 7625 1425 50  0001 C CNN
+F 1 "+24V" V 7625 1800 50  0000 C CNN
+F 2 "" H 7625 1575 50  0001 C CNN
+F 3 "" H 7625 1575 50  0001 C CNN
+	1    7625 1575
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0103
+U 1 1 5C720697
+P 7625 1775
+F 0 "#PWR0103" H 7625 1625 50  0001 C CNN
+F 1 "VCC" V 7625 2000 50  0000 C CNN
+F 2 "" H 7625 1775 50  0001 C CNN
+F 3 "" H 7625 1775 50  0001 C CNN
+	1    7625 1775
+	0    1    1    0   
+$EndComp
+Text Label 7625 1875 0    50   ~ 0
+A0
+Text Label 7625 1975 0    50   ~ 0
+A1
+Text Label 7625 2075 0    50   ~ 0
+A2
+Text Label 7625 2175 0    50   ~ 0
+DATA
+Text Label 7625 2275 0    50   ~ 0
+~ENGR0
+$Comp
+L power:GND #PWR0107
+U 1 1 5C7223D4
+P 8675 2475
+F 0 "#PWR0107" H 8675 2225 50  0001 C CNN
+F 1 "GND" V 8675 2250 50  0000 C CNN
+F 2 "" H 8675 2475 50  0001 C CNN
+F 3 "" H 8675 2475 50  0001 C CNN
+	1    8675 2475
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+24V #PWR0108
+U 1 1 5C7223DA
+P 8675 2375
+F 0 "#PWR0108" H 8675 2225 50  0001 C CNN
+F 1 "+24V" V 8675 2600 50  0000 C CNN
+F 2 "" H 8675 2375 50  0001 C CNN
+F 3 "" H 8675 2375 50  0001 C CNN
+	1    8675 2375
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0109
+U 1 1 5C7223E0
+P 8675 2575
+F 0 "#PWR0109" H 8675 2425 50  0001 C CNN
+F 1 "VCC" V 8675 2800 50  0000 C CNN
+F 2 "" H 8675 2575 50  0001 C CNN
+F 3 "" H 8675 2575 50  0001 C CNN
+	1    8675 2575
+	0    1    1    0   
+$EndComp
+Text Label 8675 2675 0    50   ~ 0
+A0
+Text Label 8675 2775 0    50   ~ 0
+A1
+Text Label 8675 2875 0    50   ~ 0
+A2
+Text Label 8675 2975 0    50   ~ 0
+DATA
+Text Label 8675 3075 0    50   ~ 0
+~ENGR1
+$Comp
+L power:GND #PWR0110
+U 1 1 5C722C38
+P 7625 3275
+F 0 "#PWR0110" H 7625 3025 50  0001 C CNN
+F 1 "GND" V 7625 3050 50  0000 C CNN
+F 2 "" H 7625 3275 50  0001 C CNN
+F 3 "" H 7625 3275 50  0001 C CNN
+	1    7625 3275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+24V #PWR0111
+U 1 1 5C722C3E
+P 7625 3175
+F 0 "#PWR0111" H 7625 3025 50  0001 C CNN
+F 1 "+24V" V 7625 3400 50  0000 C CNN
+F 2 "" H 7625 3175 50  0001 C CNN
+F 3 "" H 7625 3175 50  0001 C CNN
+	1    7625 3175
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0112
+U 1 1 5C722C44
+P 7625 3375
+F 0 "#PWR0112" H 7625 3225 50  0001 C CNN
+F 1 "VCC" V 7625 3600 50  0000 C CNN
+F 2 "" H 7625 3375 50  0001 C CNN
+F 3 "" H 7625 3375 50  0001 C CNN
+	1    7625 3375
+	0    1    1    0   
+$EndComp
+Text Label 7625 3475 0    50   ~ 0
+A0
+Text Label 7625 3575 0    50   ~ 0
+A1
+Text Label 7625 3675 0    50   ~ 0
+A2
+Text Label 7625 3775 0    50   ~ 0
+DATA
+Text Label 7625 3875 0    50   ~ 0
+~ENGR2
+$Comp
+L power:GND #PWR0113
+U 1 1 5C7234B0
+P 8675 4075
+F 0 "#PWR0113" H 8675 3825 50  0001 C CNN
+F 1 "GND" V 8675 3850 50  0000 C CNN
+F 2 "" H 8675 4075 50  0001 C CNN
+F 3 "" H 8675 4075 50  0001 C CNN
+	1    8675 4075
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:+24V #PWR0114
+U 1 1 5C7234B6
+P 8675 3975
+F 0 "#PWR0114" H 8675 3825 50  0001 C CNN
+F 1 "+24V" V 8675 4200 50  0000 C CNN
+F 2 "" H 8675 3975 50  0001 C CNN
+F 3 "" H 8675 3975 50  0001 C CNN
+	1    8675 3975
+	0    1    1    0   
+$EndComp
+$Comp
+L power:VCC #PWR0115
+U 1 1 5C7234BC
+P 8675 4175
+F 0 "#PWR0115" H 8675 4025 50  0001 C CNN
+F 1 "VCC" V 8675 4400 50  0000 C CNN
+F 2 "" H 8675 4175 50  0001 C CNN
+F 3 "" H 8675 4175 50  0001 C CNN
+	1    8675 4175
+	0    1    1    0   
+$EndComp
+Text Label 8675 4275 0    50   ~ 0
+A0
+Text Label 8675 4375 0    50   ~ 0
+A1
+Text Label 8675 4475 0    50   ~ 0
+A2
+Text Label 8675 4575 0    50   ~ 0
+DATA
+Text Label 8675 4675 0    50   ~ 0
+~ENGR3
+Wire Wire Line
+	2675 3325 2550 3325
+Wire Wire Line
+	2675 3425 1825 3425
+$Comp
+L power:GND #PWR0116
+U 1 1 5C72D4F8
+P 3225 4475
+AR Path="/5C72D4F8" Ref="#PWR0116"  Part="1" 
+AR Path="/5C4DA950/5C72D4F8" Ref="#PWR?"  Part="1" 
+AR Path="/5C4DA960/5C72D4F8" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0116" H 3225 4225 50  0001 C CNN
+F 1 "GND" H 3230 4302 50  0000 C CNN
+F 2 "" H 3225 4475 50  0001 C CNN
+F 3 "" H 3225 4475 50  0001 C CNN
+	1    3225 4475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0117
+U 1 1 5C72D4FE
+P 3225 2475
+AR Path="/5C72D4FE" Ref="#PWR0117"  Part="1" 
+AR Path="/5C4DA950/5C72D4FE" Ref="#PWR?"  Part="1" 
+AR Path="/5C4DA960/5C72D4FE" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0117" H 3225 2325 50  0001 C CNN
+F 1 "VCC" H 3242 2648 50  0000 C CNN
+F 2 "" H 3225 2475 50  0001 C CNN
+F 3 "" H 3225 2475 50  0001 C CNN
+	1    3225 2475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C?
+U 1 1 5C72D504
+P 2850 2675
+AR Path="/5C4CE2B0/5C72D504" Ref="C?"  Part="1" 
+AR Path="/5C5018C5/5C72D504" Ref="C?"  Part="1" 
+AR Path="/5C72D504" Ref="C1"  Part="1" 
+AR Path="/5C4DA950/5C72D504" Ref="C?"  Part="1" 
+AR Path="/5C4DA960/5C72D504" Ref="C?"  Part="1" 
+F 0 "C1" V 2621 2675 50  0000 C CNN
+F 1 "0μ1" V 2712 2675 50  0000 C CNN
+F 2 "Capacitors_SMD:C_0805_HandSoldering" H 2850 2675 50  0001 C CNN
+F 3 "~" H 2850 2675 50  0001 C CNN
+	1    2850 2675
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2950 2675 3225 2675
+Wire Wire Line
+	3225 2475 3225 2675
+Wire Wire Line
+	3225 2675 3225 3125
+Connection ~ 3225 2675
+Wire Wire Line
+	3225 4025 3225 4175
+Wire Wire Line
+	2550 3225 2675 3225
+Text Label 3775 3225 0    50   ~ 0
+~ENGR0
+Text Label 3775 3325 0    50   ~ 0
+~ENGR1
+Text Label 3775 3425 0    50   ~ 0
+~ENGR2
+Text Label 3775 3525 0    50   ~ 0
+~ENGR3
+$Comp
+L 74xx_IEEE:74LS138 U?
+U 1 1 5C72D518
+P 3225 3425
+AR Path="/5C4DA960/5C72D518" Ref="U?"  Part="1" 
+AR Path="/5C72D518" Ref="IC1"  Part="1" 
+F 0 "IC1" H 3075 3825 50  0000 C CNN
+F 1 "74138" H 3375 3825 50  0000 C CNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 3225 3425 50  0001 C CNN
+F 3 "" H 3225 3425 50  0001 C CNN
+	1    3225 3425
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2550 3225 2550 3325
+Connection ~ 2550 3225
+Wire Wire Line
+	1825 3675 2675 3675
+Wire Wire Line
+	1825 3775 2675 3775
+NoConn ~ 3775 3625
+NoConn ~ 3775 3725
+NoConn ~ 3775 3825
+NoConn ~ 3775 3925
+Wire Wire Line
+	2550 3325 2550 3875
+Wire Wire Line
+	2550 3875 2675 3875
+Connection ~ 2550 3325
+Wire Wire Line
+	2550 3225 2550 2675
+Wire Wire Line
+	2550 2675 2750 2675
+Wire Wire Line
+	2550 3875 2550 4175
+Wire Wire Line
+	2550 4175 3225 4175
+Connection ~ 2550 3875
+Connection ~ 3225 4175
+Wire Wire Line
+	3225 4175 3225 4475
+Text Label 1825 3425 2    50   ~ 0
+EN
+Text Label 1825 3675 2    50   ~ 0
+B0
+Text Label 1825 3775 2    50   ~ 0
+B1
+Wire Wire Line
+	6575 2375 8175 2375
+Wire Wire Line
+	6575 1475 6575 2375
 $EndSCHEMATC
