@@ -927,17 +927,6 @@ Wire Wire Line
 Connection ~ 4300 4275
 Wire Wire Line
 	4300 4275 4300 6200
-$Comp
-L Connector_Generic:Conn_02x08_Odd_Even CN1
-U 1 1 5C735E7C
-P 8325 3325
-F 0 "CN1" H 8375 2700 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 8375 2791 50  0000 C CNN
-F 2 "" H 8325 3325 50  0001 C CNN
-F 3 "~" H 8325 3325 50  0001 C CNN
-	1    8325 3325
-	1    0    0    1   
-$EndComp
 Text Label 925  6200 2    50   ~ 0
 ~ENGR
 Text Label 925  6500 2    50   ~ 0
@@ -964,36 +953,36 @@ Text Label 7600 2075 0    50   ~ 0
 OF
 Text Label 7600 2175 0    50   ~ 0
 OG
-Text Label 8625 3625 0    50   ~ 0
+Text Label 10100 3175 0    50   ~ 0
 ~ENGR
-Text Label 8625 3525 0    50   ~ 0
+Text Label 10100 3075 0    50   ~ 0
 DATA
-Text Label 8625 3225 0    50   ~ 0
+Text Label 10100 2775 0    50   ~ 0
 A0
-Text Label 8625 3325 0    50   ~ 0
+Text Label 10100 2875 0    50   ~ 0
 A1
-Text Label 8625 3425 0    50   ~ 0
+Text Label 10100 2975 0    50   ~ 0
 A2
-Text Label 8125 2925 2    50   ~ 0
+Text Label 9350 3175 2    50   ~ 0
 O0
-Text Label 8125 3025 2    50   ~ 0
+Text Label 9350 2475 2    50   ~ 0
 OA
-Text Label 8125 3125 2    50   ~ 0
+Text Label 9350 2575 2    50   ~ 0
 OB
-Text Label 8125 3225 2    50   ~ 0
+Text Label 9350 2675 2    50   ~ 0
 OC
-Text Label 8125 3325 2    50   ~ 0
+Text Label 9350 2775 2    50   ~ 0
 OD
-Text Label 8125 3425 2    50   ~ 0
+Text Label 9350 2875 2    50   ~ 0
 OE
-Text Label 8125 3525 2    50   ~ 0
+Text Label 9350 2975 2    50   ~ 0
 OF
-Text Label 8125 3625 2    50   ~ 0
+Text Label 9350 3075 2    50   ~ 0
 OG
 $Comp
 L power:VCC #PWR?
 U 1 1 5C767792
-P 8625 3125
+P 10100 2675
 AR Path="/5C4CE2B0/5C767792" Ref="#PWR?"  Part="1" 
 AR Path="/5C5018C5/5C767792" Ref="#PWR?"  Part="1" 
 AR Path="/5C50183D/5C767792" Ref="#PWR?"  Part="1" 
@@ -1010,17 +999,17 @@ AR Path="/5C4DA960/5C7C3667/5C767792" Ref="#PWR?"  Part="1"
 AR Path="/5C4DA960/5C7C541F/5C767792" Ref="#PWR?"  Part="1" 
 AR Path="/5C4DA960/5C7C71D1/5C767792" Ref="#PWR?"  Part="1" 
 AR Path="/5C767792" Ref="#PWR0115"  Part="1" 
-F 0 "#PWR0115" H 8625 2975 50  0001 C CNN
-F 1 "VCC" V 8625 3375 50  0000 C CNN
-F 2 "" H 8625 3125 50  0001 C CNN
-F 3 "" H 8625 3125 50  0001 C CNN
-	1    8625 3125
+F 0 "#PWR0115" H 10100 2525 50  0001 C CNN
+F 1 "VCC" V 10100 2925 50  0000 C CNN
+F 2 "" H 10100 2675 50  0001 C CNN
+F 3 "" H 10100 2675 50  0001 C CNN
+	1    10100 2675
 	0    1    1    0   
 $EndComp
 $Comp
 L power:+24V #PWR?
 U 1 1 5C76782C
-P 8625 2925
+P 10100 2475
 AR Path="/5C4CE2B0/5C76782C" Ref="#PWR?"  Part="1" 
 AR Path="/5C5018C5/5C76782C" Ref="#PWR?"  Part="1" 
 AR Path="/5C50183D/5C76782C" Ref="#PWR?"  Part="1" 
@@ -1037,17 +1026,17 @@ AR Path="/5C4DA960/5C7C3667/5C76782C" Ref="#PWR?"  Part="1"
 AR Path="/5C4DA960/5C7C541F/5C76782C" Ref="#PWR?"  Part="1" 
 AR Path="/5C4DA960/5C7C71D1/5C76782C" Ref="#PWR?"  Part="1" 
 AR Path="/5C76782C" Ref="#PWR0116"  Part="1" 
-F 0 "#PWR0116" H 8625 2775 50  0001 C CNN
-F 1 "+24V" V 8625 3150 50  0000 C CNN
-F 2 "" H 8625 2925 50  0001 C CNN
-F 3 "" H 8625 2925 50  0001 C CNN
-	1    8625 2925
+F 0 "#PWR0116" H 10100 2325 50  0001 C CNN
+F 1 "+24V" V 10100 2700 50  0000 C CNN
+F 2 "" H 10100 2475 50  0001 C CNN
+F 3 "" H 10100 2475 50  0001 C CNN
+	1    10100 2475
 	0    1    1    0   
 $EndComp
 $Comp
 L power:GND #PWR?
 U 1 1 5C7678E7
-P 8625 3025
+P 10100 2575
 AR Path="/5C4CE2B0/5C7678E7" Ref="#PWR?"  Part="1" 
 AR Path="/5C5018C5/5C7678E7" Ref="#PWR?"  Part="1" 
 AR Path="/5C50183D/5C7678E7" Ref="#PWR?"  Part="1" 
@@ -1064,11 +1053,22 @@ AR Path="/5C4DA960/5C7C3667/5C7678E7" Ref="#PWR?"  Part="1"
 AR Path="/5C4DA960/5C7C541F/5C7678E7" Ref="#PWR?"  Part="1" 
 AR Path="/5C4DA960/5C7C71D1/5C7678E7" Ref="#PWR?"  Part="1" 
 AR Path="/5C7678E7" Ref="#PWR0117"  Part="1" 
-F 0 "#PWR0117" H 8625 2775 50  0001 C CNN
-F 1 "GND" V 8625 2775 50  0000 C CNN
-F 2 "" H 8625 3025 50  0001 C CNN
-F 3 "" H 8625 3025 50  0001 C CNN
-	1    8625 3025
+F 0 "#PWR0117" H 10100 2325 50  0001 C CNN
+F 1 "GND" V 10100 2325 50  0000 C CNN
+F 2 "" H 10100 2575 50  0001 C CNN
+F 3 "" H 10100 2575 50  0001 C CNN
+	1    10100 2575
 	0    -1   -1   0   
+$EndComp
+$Comp
+L Eigene~Bauteile:SR28GR CN1
+U 1 1 5C774E6C
+P 9650 2875
+F 0 "CN1" H 9725 2258 50  0000 C CNN
+F 1 "SR28GR" H 9725 2349 50  0000 C CNN
+F 2 "" H 9650 2875 50  0001 C CNN
+F 3 "~" H 9650 2875 50  0001 C CNN
+	1    9650 2875
+	1    0    0    1   
 $EndComp
 $EndSCHEMATC
