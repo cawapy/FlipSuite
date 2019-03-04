@@ -710,150 +710,193 @@ Y17
 Text Label 3325 2925 0    50   ~ 0
 Y19
 $Comp
-L Connector_Generic:Conn_02x13_Odd_Even CND0
+L Connector_Generic:Conn_02x13_Odd_Even CND-24
 U 1 1 5C811587
-P 6650 1625
-F 0 "CND0" H 6700 2442 50  0000 C CNN
-F 1 "Conn_02x13_Odd_Even" H 6700 2351 50  0000 C CNN
-F 2 "Own:Pin_Header_Straight_Shrouded_Locks_2x13_Pitch2.54mm_ConvNumbering" H 6650 1625 50  0001 C CNN
-F 3 "~" H 6650 1625 50  0001 C CNN
-	1    6650 1625
+P 8825 1600
+F 0 "CND-24" H 8875 2417 50  0000 C CNN
+F 1 "Conn_02x13_Odd_Even" H 8875 2326 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_Locks_2x13_Pitch2.54mm_ConvNumbering" H 8825 1600 50  0001 C CNN
+F 3 "~" H 8825 1600 50  0001 C CNN
+	1    8825 1600
 	1    0    0    -1  
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even CND1
 U 1 1 5C8116D8
-P 7750 1425
-F 0 "CND1" H 7800 1942 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 7800 1851 50  0000 C CNN
-F 2 "Own:Pin_Header_Straight_Shrouded_Locks_2x08_Pitch2.54mm_ConvNumbering" H 7750 1425 50  0001 C CNN
-F 3 "~" H 7750 1425 50  0001 C CNN
-	1    7750 1425
+P 6625 1425
+F 0 "CND1" H 6675 1942 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 6675 1851 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_Locks_2x08_Pitch2.54mm_ConvNumbering" H 6625 1425 50  0001 C CNN
+F 3 "~" H 6625 1425 50  0001 C CNN
+	1    6625 1425
 	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even CND2
 U 1 1 5C81172E
-P 8800 1425
-F 0 "CND2" H 8850 1942 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 8850 1851 50  0000 C CNN
-F 2 "Own:Pin_Header_Straight_Shrouded_Locks_2x08_Pitch2.54mm_ConvNumbering" H 8800 1425 50  0001 C CNN
-F 3 "~" H 8800 1425 50  0001 C CNN
-	1    8800 1425
+P 7675 1425
+F 0 "CND2" H 7725 1942 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 7725 1851 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_Locks_2x08_Pitch2.54mm_ConvNumbering" H 7675 1425 50  0001 C CNN
+F 3 "~" H 7675 1425 50  0001 C CNN
+	1    7675 1425
 	-1   0    0    1   
 $EndComp
-Text Label 6450 1025 2    50   ~ 0
+Text Label 8625 1000 2    50   ~ 0
 Y1
-Text Label 6950 1025 0    50   ~ 0
+Text Label 9125 1000 0    50   ~ 0
 Y2
-Text Label 6450 1125 2    50   ~ 0
+Text Label 8625 1100 2    50   ~ 0
 Y3
-Text Label 6950 1125 0    50   ~ 0
+Text Label 9125 1100 0    50   ~ 0
 Y4
-Text Label 6450 1225 2    50   ~ 0
+Text Label 8625 1200 2    50   ~ 0
 Y5
-Text Label 6950 1225 0    50   ~ 0
+Text Label 9125 1200 0    50   ~ 0
 Y6
-Text Label 6450 1325 2    50   ~ 0
+Text Label 8625 1300 2    50   ~ 0
 Y7
-Text Label 6950 1325 0    50   ~ 0
+Text Label 9125 1300 0    50   ~ 0
 Y8
-Text Label 6450 1425 2    50   ~ 0
+Text Label 8625 1400 2    50   ~ 0
 Y9
-Text Label 6950 1425 0    50   ~ 0
+Text Label 9125 1400 0    50   ~ 0
 Y10
-Text Label 6450 1525 2    50   ~ 0
+Text Label 8625 1500 2    50   ~ 0
 Y11
-Text Label 6950 1525 0    50   ~ 0
+Text Label 9125 1500 0    50   ~ 0
 Y12
-Text Label 6450 1625 2    50   ~ 0
+Text Label 8625 1600 2    50   ~ 0
 Y13
-Text Label 6950 1625 0    50   ~ 0
+Text Label 9125 1600 0    50   ~ 0
 Y14
-Text Label 6450 1725 2    50   ~ 0
+Text Label 8625 1700 2    50   ~ 0
 Y15
-Text Label 6950 1725 0    50   ~ 0
+Text Label 9125 1700 0    50   ~ 0
 Y16
-Text Label 6950 2025 0    50   ~ 0
+Text Label 9125 2000 0    50   ~ 0
 Y22
-Text Label 6950 2125 0    50   ~ 0
+Text Label 9125 2100 0    50   ~ 0
 Y24
-Text Label 6950 1825 0    50   ~ 0
+Text Label 9125 1800 0    50   ~ 0
 Y18
-Text Label 6950 1925 0    50   ~ 0
+Text Label 9125 1900 0    50   ~ 0
 Y20
-Text Label 6450 2025 2    50   ~ 0
+Text Label 8625 2000 2    50   ~ 0
 Y21
-Text Label 6450 2125 2    50   ~ 0
+Text Label 8625 2100 2    50   ~ 0
 Y23
-Text Label 6450 1825 2    50   ~ 0
+Text Label 8625 1800 2    50   ~ 0
 Y17
-Text Label 6450 1925 2    50   ~ 0
+Text Label 8625 1900 2    50   ~ 0
 Y19
-NoConn ~ 6450 2225
-NoConn ~ 6950 2225
-Text Label 7450 1025 2    50   ~ 0
+NoConn ~ 8625 2200
+NoConn ~ 9125 2200
+Text Label 6325 1025 2    50   ~ 0
 SX1
-Text Label 7450 1225 2    50   ~ 0
+Text Label 6325 1225 2    50   ~ 0
 SX3
-Text Label 7450 1425 2    50   ~ 0
+Text Label 6325 1425 2    50   ~ 0
 SX5
-Text Label 7450 1625 2    50   ~ 0
+Text Label 6325 1625 2    50   ~ 0
 SX7
-Text Label 7450 1125 2    50   ~ 0
+Text Label 6325 1125 2    50   ~ 0
 SX2
-Text Label 7450 1325 2    50   ~ 0
+Text Label 6325 1325 2    50   ~ 0
 SX4
-Text Label 7450 1525 2    50   ~ 0
+Text Label 6325 1525 2    50   ~ 0
 SX6
-Text Label 7450 1725 2    50   ~ 0
+Text Label 6325 1725 2    50   ~ 0
 SX8
-Text Label 8500 1625 2    50   ~ 0
+Text Label 7375 1625 2    50   ~ 0
 SX15
-Text Label 8500 1725 2    50   ~ 0
+Text Label 7375 1725 2    50   ~ 0
 SX16
-Text Label 8500 1025 2    50   ~ 0
+Text Label 7375 1025 2    50   ~ 0
 SX9
-Text Label 8500 1225 2    50   ~ 0
+Text Label 7375 1225 2    50   ~ 0
 SX11
-Text Label 8500 1425 2    50   ~ 0
+Text Label 7375 1425 2    50   ~ 0
 SX13
-Text Label 8500 1125 2    50   ~ 0
+Text Label 7375 1125 2    50   ~ 0
 SX10
-Text Label 8500 1325 2    50   ~ 0
+Text Label 7375 1325 2    50   ~ 0
 SX12
-Text Label 8500 1525 2    50   ~ 0
+Text Label 7375 1525 2    50   ~ 0
 SX14
-Text Label 9000 1725 0    50   ~ 0
+Text Label 7875 1725 0    50   ~ 0
 ~RX16
-Text Label 9000 1625 0    50   ~ 0
+Text Label 7875 1625 0    50   ~ 0
 ~RX15
-Text Label 7950 1125 0    50   ~ 0
+Text Label 6825 1125 0    50   ~ 0
 ~RX2
-Text Label 7950 1325 0    50   ~ 0
+Text Label 6825 1325 0    50   ~ 0
 ~RX4
-Text Label 7950 1525 0    50   ~ 0
+Text Label 6825 1525 0    50   ~ 0
 ~RX6
-Text Label 7950 1725 0    50   ~ 0
+Text Label 6825 1725 0    50   ~ 0
 ~RX8
-Text Label 9000 1125 0    50   ~ 0
+Text Label 7875 1125 0    50   ~ 0
 ~RX10
-Text Label 9000 1325 0    50   ~ 0
+Text Label 7875 1325 0    50   ~ 0
 ~RX12
-Text Label 9000 1525 0    50   ~ 0
+Text Label 7875 1525 0    50   ~ 0
 ~RX14
-Text Label 7950 1025 0    50   ~ 0
+Text Label 6825 1025 0    50   ~ 0
 ~RX1
-Text Label 7950 1225 0    50   ~ 0
+Text Label 6825 1225 0    50   ~ 0
 ~RX3
-Text Label 7950 1425 0    50   ~ 0
+Text Label 6825 1425 0    50   ~ 0
 ~RX5
-Text Label 7950 1625 0    50   ~ 0
+Text Label 6825 1625 0    50   ~ 0
 ~RX7
-Text Label 9000 1025 0    50   ~ 0
+Text Label 7875 1025 0    50   ~ 0
 ~RX9
-Text Label 9000 1225 0    50   ~ 0
+Text Label 7875 1225 0    50   ~ 0
 ~RX11
-Text Label 9000 1425 0    50   ~ 0
+Text Label 7875 1425 0    50   ~ 0
 ~RX13
+$Comp
+L Connector_Generic:Conn_02x08_Odd_Even CND-16
+U 1 1 5C7D9732
+P 9800 1300
+F 0 "CND-16" H 9850 1817 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 9850 1726 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_Locks_2x08_Pitch2.54mm_ConvNumbering" H 9800 1300 50  0001 C CNN
+F 3 "~" H 9800 1300 50  0001 C CNN
+	1    9800 1300
+	1    0    0    -1  
+$EndComp
+Text Label 9600 1000 2    50   ~ 0
+Y1
+Text Label 9600 1100 2    50   ~ 0
+Y3
+Text Label 9600 1200 2    50   ~ 0
+Y5
+Text Label 9600 1300 2    50   ~ 0
+Y7
+Text Label 9600 1400 2    50   ~ 0
+Y9
+Text Label 9600 1500 2    50   ~ 0
+Y11
+Text Label 9600 1600 2    50   ~ 0
+Y13
+Text Label 9600 1700 2    50   ~ 0
+Y15
+Text Label 10100 1000 0    50   ~ 0
+Y2
+Text Label 10100 1100 0    50   ~ 0
+Y4
+Text Label 10100 1200 0    50   ~ 0
+Y6
+Text Label 10100 1300 0    50   ~ 0
+Y8
+Text Label 10100 1400 0    50   ~ 0
+Y10
+Text Label 10100 1500 0    50   ~ 0
+Y12
+Text Label 10100 1600 0    50   ~ 0
+Y14
+Text Label 10100 1700 0    50   ~ 0
+Y16
 $EndSCHEMATC
