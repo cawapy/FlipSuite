@@ -723,24 +723,24 @@ $EndComp
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even CND1
 U 1 1 5C8116D8
-P 7650 1325
-F 0 "CND1" H 7700 1842 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 7700 1751 50  0000 C CNN
-F 2 "Own:Pin_Header_Straight_Shrouded_Locks_2x08_Pitch2.54mm_ConvNumbering" H 7650 1325 50  0001 C CNN
-F 3 "~" H 7650 1325 50  0001 C CNN
-	1    7650 1325
-	1    0    0    -1  
+P 7750 1425
+F 0 "CND1" H 7800 1942 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 7800 1851 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_Locks_2x08_Pitch2.54mm_ConvNumbering" H 7750 1425 50  0001 C CNN
+F 3 "~" H 7750 1425 50  0001 C CNN
+	1    7750 1425
+	-1   0    0    1   
 $EndComp
 $Comp
 L Connector_Generic:Conn_02x08_Odd_Even CND2
 U 1 1 5C81172E
-P 8700 1325
-F 0 "CND2" H 8750 1842 50  0000 C CNN
-F 1 "Conn_02x08_Odd_Even" H 8750 1751 50  0000 C CNN
-F 2 "Own:Pin_Header_Straight_Shrouded_Locks_2x08_Pitch2.54mm_ConvNumbering" H 8700 1325 50  0001 C CNN
-F 3 "~" H 8700 1325 50  0001 C CNN
-	1    8700 1325
-	1    0    0    -1  
+P 8800 1425
+F 0 "CND2" H 8850 1942 50  0000 C CNN
+F 1 "Conn_02x08_Odd_Even" H 8850 1851 50  0000 C CNN
+F 2 "Own:Pin_Header_Straight_Shrouded_Locks_2x08_Pitch2.54mm_ConvNumbering" H 8800 1425 50  0001 C CNN
+F 3 "~" H 8800 1425 50  0001 C CNN
+	1    8800 1425
+	-1   0    0    1   
 $EndComp
 Text Label 6450 1025 2    50   ~ 0
 Y1
