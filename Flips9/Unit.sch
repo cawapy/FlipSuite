@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 2 5
+Sheet 2 6
 Title ""
 Date ""
 Rev ""
@@ -535,6 +535,128 @@ Text Label 3250 5500 0    50   ~ 0
 E3L
 Text Label 3250 5600 0    50   ~ 0
 E3H
-NoConn ~ 3250 5500
-NoConn ~ 3250 5600
+$Sheet
+S 9600 2750 550  1750
+U 5C8332F1
+F0 "Group3" 50
+F1 "Group.sch" 50
+F2 "A0" I L 9600 3150 50 
+F3 "A1" I L 9600 3250 50 
+F4 "A2" I L 9600 3350 50 
+F5 "AL" O R 10150 2950 50 
+F6 "BL" O R 10150 3050 50 
+F7 "CL" O R 10150 3150 50 
+F8 "DL" O R 10150 3250 50 
+F9 "EL" O R 10150 3350 50 
+F10 "FL" O R 10150 3450 50 
+F11 "GL" O R 10150 3550 50 
+F12 "AH" O R 10150 3800 50 
+F13 "BH" O R 10150 3900 50 
+F14 "CH" O R 10150 4000 50 
+F15 "DH" O R 10150 4100 50 
+F16 "EH" O R 10150 4200 50 
+F17 "FH" O R 10150 4300 50 
+F18 "GH" O R 10150 4400 50 
+F19 "0L" O R 10150 2850 50 
+F20 "0H" O R 10150 3700 50 
+F21 "ENH" I L 9600 4400 50 
+F22 "ENL" I L 9600 4300 50 
+$EndSheet
+Wire Wire Line
+	9600 3150 9100 3150
+Wire Wire Line
+	9050 3250 9600 3250
+Wire Wire Line
+	9600 3350 9000 3350
+Wire Wire Line
+	10150 2850 10350 2850
+Wire Wire Line
+	10350 2950 10150 2950
+Wire Wire Line
+	10150 3050 10350 3050
+Wire Wire Line
+	10150 3150 10350 3150
+Wire Wire Line
+	10150 3250 10350 3250
+Wire Wire Line
+	10150 3350 10350 3350
+Wire Wire Line
+	10150 3450 10350 3450
+Wire Wire Line
+	10150 3550 10350 3550
+Wire Wire Line
+	10150 3700 10350 3700
+Wire Wire Line
+	10150 3800 10350 3800
+Wire Wire Line
+	10150 3900 10350 3900
+Wire Wire Line
+	10150 4000 10350 4000
+Wire Wire Line
+	10150 4100 10350 4100
+Wire Wire Line
+	10150 4200 10350 4200
+Wire Wire Line
+	10150 4300 10350 4300
+Wire Wire Line
+	10150 4400 10350 4400
+Wire Wire Line
+	9200 4300 9600 4300
+Wire Wire Line
+	9300 4400 9600 4400
+Text HLabel 10350 2950 2    50   Output ~ 0
+3AL
+Text HLabel 10350 3050 2    50   Output ~ 0
+3BL
+Text HLabel 10350 3150 2    50   Output ~ 0
+3CL
+Text HLabel 10350 3250 2    50   Output ~ 0
+3DL
+Text HLabel 10350 3350 2    50   Output ~ 0
+3EL
+Text HLabel 10350 3450 2    50   Output ~ 0
+3FL
+Text HLabel 10350 3550 2    50   Output ~ 0
+3GL
+Text HLabel 10350 2850 2    50   Output ~ 0
+30L
+Text HLabel 10350 3800 2    50   Output ~ 0
+3AH
+Text HLabel 10350 3900 2    50   Output ~ 0
+3BH
+Text HLabel 10350 4000 2    50   Output ~ 0
+3CH
+Text HLabel 10350 4100 2    50   Output ~ 0
+3DH
+Text HLabel 10350 4200 2    50   Output ~ 0
+3EH
+Text HLabel 10350 4300 2    50   Output ~ 0
+3FH
+Text HLabel 10350 4400 2    50   Output ~ 0
+3GH
+Text HLabel 10350 3700 2    50   Output ~ 0
+30H
+Wire Wire Line
+	3250 5500 9200 5500
+Wire Wire Line
+	9200 5500 9200 4300
+Wire Wire Line
+	9300 4400 9300 5600
+Wire Wire Line
+	9300 5600 3250 5600
+Wire Wire Line
+	7100 2200 9100 2200
+Wire Wire Line
+	9100 2200 9100 3150
+Connection ~ 7100 2200
+Wire Wire Line
+	7050 2300 9050 2300
+Wire Wire Line
+	9050 2300 9050 3250
+Connection ~ 7050 2300
+Wire Wire Line
+	7000 2400 9000 2400
+Wire Wire Line
+	9000 2400 9000 3350
+Connection ~ 7000 2400
 $EndSCHEMATC
